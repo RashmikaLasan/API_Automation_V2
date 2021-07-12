@@ -4,7 +4,7 @@ import Utilities.Log;
 import io.restassured.response.ValidatableResponse;
 import org.apache.log4j.Logger;
 
-public class HotelCalendarAssertions {
+public class HotelCalendarAssertionAction {
 
     public static ValidatableResponse validatableResponse;
     final Logger logger = Log.getLogData(Log.class.getName());

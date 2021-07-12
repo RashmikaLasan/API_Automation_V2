@@ -2,6 +2,7 @@ package Steps.Tritium;
 
 import Actions.HotelCalendar.HotelCalendarActions;
 import Actions.Tritium.TritiumRequestAction;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 
 public class TritiumSearchSteps {
@@ -37,7 +38,6 @@ public class TritiumSearchSteps {
         tritiumRequestAction.getPriceFromResponse();
 
     }
-
 
 
 }
