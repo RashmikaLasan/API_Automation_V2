@@ -1,0 +1,32 @@
+
+N
+java:S1444"1Make this "public static checkInDate" field final(åœ­‹8Ï³€º©/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÅäæ8«Äú¹©/
+T	java:S106@"9Replace this use of System.out or System.err by a logger.(ê‰×8Çˆ¹º©/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œ³îŸùÿÿÿÿ
+X
+java:S2696>"6Make the enclosing method "static" or remove this set.(®É¼øşÿÿÿÿ8·»º©/
+T
+java:S1444"7Make this "public static HotelCalendarBody" field final(Çúúû8Áîº©/
+—
+java:S1845"zRename method "HotelCalendarBody" to prevent any misunderstanding/clash with field "HotelCalendarBody" defined on line 16.(ÜÅäæ8É•º©/
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÅäæ8«Äú¹©/
+K
+java:S1444".Make this "public static response" field final(Ó†ß8·»º©/
+z
+java:S1104"]Make HotelCalendarBody a static final constant or non-public and provide accessors if needed.(Çúúû8É•º©/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÅäæ8«Äú¹©/
+T
+java:S1444"2Make this "public static checkOutDate" field final(ÿÜÒøÿÿÿÿ8Ï³€º©/
+y
+java:S3008"\Rename this field "HotelCalendarBody" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çúúû8Áîº©/
+t
+java:S1104"WMake checkInDate a static final constant or non-public and provide accessors if needed.(åœ­‹8Ï³€º©/
+q
+java:S1104"TMake response a static final constant or non-public and provide accessors if needed.(Ó†ß8·»º©/
+z
+java:S1104"XMake checkOutDate a static final constant or non-public and provide accessors if needed.(ÿÜÒøÿÿÿÿ8Ï³€º©/
+W
+java:S1444":Make this "public static requestSpecification" field final(÷ø½¢8„’Šº©/
+}
+java:S1104"`Make requestSpecification a static final constant or non-public and provide accessors if needed.(÷ø½¢8„’Šº©/

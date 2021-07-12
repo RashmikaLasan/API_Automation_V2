@@ -1,0 +1,11 @@
+
+
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "endDate".(ÖñÅúÿÿÿÿ8¼Äõ³©/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û”…”øÿÿÿÿ8¼Äõ³©/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(³Ÿãÿÿÿÿÿ8û´ú³©/
+T	java:S106"9Replace this use of System.out or System.err by a logger.(×ùµy8û´ú³©/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ú’›úÿÿÿÿ8¼Äõ³©/
+ƒ
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "StartDate".(¥ú’›úÿÿÿÿ8¼Äõ³©/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¬ı¡ùÿÿÿÿ8¼Äõ³©/
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû8¼Äõ³©/
