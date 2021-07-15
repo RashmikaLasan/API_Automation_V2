@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60f0eb0161f0159314e5afa73a6ac0caa5e7a36a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdb884b8c2e9eda03b5d806c3d4339ca2ff28f5f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdb884b8c2e9eda03b5d806c3d4339ca2ff28f5f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d69f64b706f98755c22826d26450c8e1230e4d70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1f421a9c0089916fd627444e16cdc76dce83d62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed313b4450d75988965a7f8574c87a95cc00ccef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarAssertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarAssertionAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarAssertionSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Tritium/TritiumSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Tritium/TritiumSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,38 +30,17 @@
       <file leaf-file-name="HotelBookingFlow.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotelBookingAssertionSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java">
+      <file leaf-file-name="SearchSteps1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotelBookingAssertionActions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotelCalendarAssertionAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarAssertionAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="163">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +51,17 @@
       <file leaf-file-name="SearchActions1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="184">
+              <caret line="96" column="30" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HotelBookingAssertionActions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,14 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TritiumRequestAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Actions/Tritium/TritiumRequestAction.java">
+      <file leaf-file-name="EndPoints.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Constants/EndPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -136,20 +125,20 @@
         <option value="$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarAssertionSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/HotelCalendarActions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/Tritium/TritiumRequestAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/Tritium/TritiumAssertionAction.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Tritium/TritiumSearchSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingFlowAssertionSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/hotelcalendarassertionAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelcalendarassertionAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarAssertionAction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" />
+        <option value="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java" />
       </list>
     </option>
   </component>
@@ -187,6 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -344,11 +335,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -467,42 +457,50 @@
       <option name="presentableId" value="Default" />
       <updated>1625996188007</updated>
     </task>
+    <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
+      <created>1626122471605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626122471605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCuke - 2021.07.12 at 22h 07m 41s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 01h 31m 29s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 22h 10m 49s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 01h 34m 42s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 22h 15m 35s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 01h 37m 18s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 22h 33m 22s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 01h 38m 00s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 22h 45m 05s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 02h 12m 51s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 22h 51m 32s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 02h 32m 03s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 22h 52m 40s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 02h 34m 15s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 22h 57m 52s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 02h 34m 45s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 23h 07m 29s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 02h 38m 06s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCuke - 2021.07.12 at 23h 33m 43s.xml">
+    <history-entry file="RunCuke - 2021.07.16 at 02h 38m 53s.xml">
       <configuration name="RunCuke" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="746" y="0" width="801" height="832" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -514,14 +512,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32695138" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.13624161" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36552748" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33283803" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35787922" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22132254" />
-      <window_info anchor="bottom" id="SonarLint" order="7" weight="0.33136967" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11275168" />
+      <window_info anchor="bottom" id="SonarLint" order="7" weight="0.3343239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -533,14 +530,23 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="V2 Hotel Flow - Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="V2 Hotel Flow - Search" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -553,6 +559,20 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/TritiumSearch.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -574,9 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,9 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="86" column="27" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,9 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,20 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Constants/EndPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/TimeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,33 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarAssertionSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/TritiumSearch.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -720,23 +691,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/Extent_Reports/12072021_110719.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Tritium/TritiumSearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,26 +713,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarAssertionSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarAssertionAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="170">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Constants/EndPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,32 +793,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarAssertionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="163">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
