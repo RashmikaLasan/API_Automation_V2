@@ -5,7 +5,6 @@ import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.internal.RequestSpecificationImpl;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-
 import static Constants.EndPoints.BaseEnvironmet;
 import static Constants.EndPoints.HTLCalendar;
 import static io.restassured.RestAssured.given;
@@ -20,7 +19,7 @@ public class HotelCalendarActions {
     public static Response response;
 
 
-
+    //Create Hotel Calendar Body
     public void HotelCalendarBody(String HotelID, int startDatesCount, int endDatesCount,  String CityName) {
 
         checkInDate = TimeHandler.TravelDateOne(startDatesCount);
@@ -49,14 +48,17 @@ public class HotelCalendarActions {
         HotelCalendarBody = new JsonObject();
         HotelCalendarBody.add("keyControls", reqBody1);
         HotelCalendarBody.add("payload", reqBody2);
+
     }
 
+    //Send the Hotel Calendar Request
     public void sendHotelCalendarRequest(){
 
         requestSpecification = given().contentType("application/json").body(HotelCalendarBody.toString());
 
     }
 
+    //Print the Hotel Calendar Response
     public void getHotelCalendarResponse() {
 
         response = requestSpecification.
@@ -67,6 +69,7 @@ public class HotelCalendarActions {
 
     }
 
+    //Store the price of the Hotel Calendar
     public void hotelCalendarPriceExtract(){
 
         hotelCalendarPrice = response.jsonPath().getString("data.products[0].dates[0][0].rateInfo.price");

@@ -10,6 +10,7 @@ public class TritiumAssertionAction {
     public static ValidatableResponse validatableResponse;
     final Logger logger = Log.getLogData(Log.class.getName());
 
+    //Tritium Search Status Code Validation
     public void TritiumStatusCode(int statusCode){
 
         validatableResponse = TritiumRequestAction.response.then().statusCode(statusCode);
@@ -17,6 +18,7 @@ public class TritiumAssertionAction {
 
     }
 
+    //Tritium Response Hotel Code Validation
     public void VerifyHotelCode(String hotelID){
 
         validatableResponse.body("availability.hotels[0].code",equalTo(hotelID));

@@ -4,7 +4,6 @@ import com.cucumber.listener.ExtentCucumberFormatter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.BeforeClass;
-
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -10,6 +10,7 @@ public class HotelCalendarAssertionAction {
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
+    //Hotel Calendar Response Status Code Assertion
     public void HotelCalendarStatusCode(int statusCode) {
 
         validatableResponse = HotelCalendarActions.response.then().statusCode(statusCode);
