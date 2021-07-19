@@ -2,14 +2,11 @@ package Actions.HotelFlow;
 
 import Utilities.Log;
 import Utilities.TimeHandler;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.jayway.jsonpath.JsonPath;
 import gherkin.deps.com.google.gson.Gson;
 import gherkin.deps.com.google.gson.JsonElement;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Logger;
-
 import static Constants.EndPoints.BaseEnvironmet;
 import static Constants.EndPoints.SearchURLPara;
 import static io.restassured.RestAssured.given;
@@ -22,6 +19,17 @@ public class SearchActions1 {
     public static JsonElement payload;
     public static String hotelName;
     public static String hotelCode;
+    public static String serviceStartDate;
+    public static String serviceEndDate;
+    public static String nightCount;
+    public static String choiceKey;
+    public static String totalPrice;
+    public static String roomType;
+    public static String mealPlan;
+    public static String adultCount;
+    public static String childCount;
+    public static String infantCount;
+
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
@@ -52,7 +60,7 @@ public class SearchActions1 {
                 queryParam("hotelCode", hotelCode).
                 queryParam("city", city).
                 queryParam("startDate", checkinDate).
-                queryParam("nights", 3).
+                queryParam("nights", nightCount).
                 queryParam("adult", "2~30~1990-01-01~1");
 
         logger.info("Body Created");
@@ -98,6 +106,68 @@ public class SearchActions1 {
 
         hotelCode = response.path("data[0].detail.hotelCode").toString();
         logger.info("Hotel Code is: " + hotelCode);
+    }
+
+    //Store Start Date
+    public void storeStartDate() {
+
+        serviceStartDate = response.path("data[0].summary.serviceStartDate").toString();
+        logger.info("Start Date is: " + serviceStartDate);
+    }
+
+    //Store End Date
+    public void storeEndDate() {
+
+        serviceEndDate = response.path("data[0].summary.serviceEndDate").toString();
+        logger.info("End Date is: " + serviceEndDate);
+    }
+
+    //Store Night Count
+    public void storeNightsDate() {
+
+        nightCount = response.path("data[0].summary.duration").toString();
+        logger.info("Night Count is: " + nightCount);
+    }
+
+    //Store Choice Key
+    public void storeChoiceKey() {
+
+        choiceKey = response.path("data[0].roomSet.choiceKey").toString();
+        logger.info("Choice Key is: " + choiceKey);
+    }
+
+    //Store Total Price
+    public void storePrice() {
+
+        totalPrice = response.path("data[0].roomSet.rate.price").toString();
+        logger.info("Total Price is: " + totalPrice);
+    }
+
+    //Store Room Type
+    public void storeRoomType() {
+
+        roomType = response.path("data[0].roomSet.rooms[0].typeName").toString();
+        logger.info("Room Type is: " + roomType);
+    }
+
+    //Store Meal Plan
+    public void storeMealPlan() {
+
+        mealPlan = response.path("data[0].roomSet.rooms[0].mealPlanName").toString();
+        logger.info("Meal Plan is: " + mealPlan);
+    }
+
+    //Store Pax Combination
+    public void storePaxCombination() {
+
+        adultCount = response.path("data[0].roomSet.rooms[0].travellerInfo.adult").toString();
+        logger.info("Adult Count is: " + adultCount);
+
+        childCount = response.path("data[0].roomSet.rooms[0].travellerInfo.child").toString();
+        logger.info("Child Count is: " + childCount);
+
+        infantCount = response.path("data[0].roomSet.rooms[0].travellerInfo.infant").toString();
+        logger.info("Infant Count is: " + infantCount);
     }
 
 }

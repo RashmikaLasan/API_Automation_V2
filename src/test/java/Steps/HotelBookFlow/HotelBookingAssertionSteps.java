@@ -8,10 +8,9 @@ public class HotelBookingAssertionSteps {
 
     HotelBookingAssertionActions hotelBookingAssertionActions = new HotelBookingAssertionActions();
 
-    @Then("^I should get a successful response as status code (\\d+)$")
-    public void iShouldGetASuccessfulResponseAsStatusCode(int statusCode) throws Throwable {
+    @Then("I should get a successful response as status code {int} for Hotel Search")
+    public void iShouldGetASuccessfulResponseAsStatusCodeForHotelSearch(int statusCode) {
 
         hotelBookingAssertionActions.HotelSearchStatusCode(statusCode);
-
     }
 }

@@ -52,43 +52,52 @@ public class SearchSteps1 {
 
     @Then("^Store the Service Start Date$")
     public void storeTheServiceStartDate() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+        searchActions1.storeStartDate();
+
     }
 
     @Then("^Store the Service End Date$")
     public void storeTheServiceEndDate() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+        searchActions1.storeEndDate();
     }
 
     @Then("^Store the Nights Count$")
     public void storeTheNightsCount() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+        searchActions1.storeNightsDate();
     }
 
     @Then("^Store the Choice Key$")
     public void storeTheChoiceKey() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+        searchActions1.storeChoiceKey();
     }
 
     @Then("^Store the Price of the Booking$")
     public void storeThePriceOfTheBooking() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+        searchActions1.storePrice();
     }
 
     @Then("^Store the Room Type$")
     public void storeTheRoomType() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+        searchActions1.storeRoomType();
     }
 
     @Then("^Store the Meal Plan$")
     public void storeTheMealPlan() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+
+        searchActions1.storeMealPlan();
+
     }
+
+    @Then("Store the Pax Combination")
+    public void storeThePaxCombination() {
+
+        searchActions1.storePaxCombination();
+    }
+
 }
