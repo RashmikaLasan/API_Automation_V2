@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
 
 public class SearchActions1 {
     public static RequestSpecification requestSpecification;
-    public static Response response;
+    public static Response searchResponse;
     public static String checkinDate;
     public static JsonElement keyControls;
     public static JsonElement payload;
@@ -70,7 +70,7 @@ public class SearchActions1 {
     //Send the Get Search Request
     public void sendSearchRequest() {
 
-        response = requestSpecification.
+        searchResponse = requestSpecification.
                 when().get(BaseEnvironmet + SearchURLPara);
         logger.info("Search Request Send");
 //        response.prettyPrint();
@@ -81,7 +81,7 @@ public class SearchActions1 {
     public void storeKeyControls() {
 
         Gson gson = new Gson();
-        keyControls = gson.toJsonTree(response.jsonPath().getJsonObject("keyControls"));
+        keyControls = gson.toJsonTree(searchResponse.jsonPath().getJsonObject("keyControls"));
         logger.info("Key Controls are : ----->" + keyControls);
     }
 
@@ -89,7 +89,7 @@ public class SearchActions1 {
     public void storePayload() {
 
         Gson gson = new Gson();
-        payload = gson.toJsonTree(response.jsonPath().getJsonObject("data[0]"));
+        payload = gson.toJsonTree(searchResponse.jsonPath().getJsonObject("data[0]"));
         logger.info("Payload is : -----> " + payload);
 
     }
@@ -97,76 +97,76 @@ public class SearchActions1 {
     //Store Hotel Name
     public void storeHotelName() {
 
-        hotelName = response.path("data[0].summary.name").toString();
+        hotelName = searchResponse.path("data[0].summary.name").toString();
         logger.info("Hotel Name is: " + hotelName);
     }
 
     //Store Hotel Code
     public void storeHotelCode() {
 
-        hotelCode = response.path("data[0].detail.hotelCode").toString();
+        hotelCode = searchResponse.path("data[0].detail.hotelCode").toString();
         logger.info("Hotel Code is: " + hotelCode);
     }
 
     //Store Start Date
     public void storeStartDate() {
 
-        serviceStartDate = response.path("data[0].summary.serviceStartDate").toString();
+        serviceStartDate = searchResponse.path("data[0].summary.serviceStartDate").toString();
         logger.info("Start Date is: " + serviceStartDate);
     }
 
     //Store End Date
     public void storeEndDate() {
 
-        serviceEndDate = response.path("data[0].summary.serviceEndDate").toString();
+        serviceEndDate = searchResponse.path("data[0].summary.serviceEndDate").toString();
         logger.info("End Date is: " + serviceEndDate);
     }
 
     //Store Night Count
     public void storeNightsDate() {
 
-        nightCount = response.path("data[0].summary.duration").toString();
+        nightCount = searchResponse.path("data[0].summary.duration").toString();
         logger.info("Night Count is: " + nightCount);
     }
 
     //Store Choice Key
     public void storeChoiceKey() {
 
-        choiceKey = response.path("data[0].roomSet.choiceKey").toString();
+        choiceKey = searchResponse.path("data[0].roomSet.choiceKey").toString();
         logger.info("Choice Key is: " + choiceKey);
     }
 
     //Store Total Price
     public void storePrice() {
 
-        totalPrice = response.path("data[0].roomSet.rate.price").toString();
+        totalPrice = searchResponse.path("data[0].roomSet.rate.price").toString();
         logger.info("Total Price is: " + totalPrice);
     }
 
     //Store Room Type
     public void storeRoomType() {
 
-        roomType = response.path("data[0].roomSet.rooms[0].typeName").toString();
+        roomType = searchResponse.path("data[0].roomSet.rooms[0].typeName").toString();
         logger.info("Room Type is: " + roomType);
     }
 
     //Store Meal Plan
     public void storeMealPlan() {
 
-        mealPlan = response.path("data[0].roomSet.rooms[0].mealPlanName").toString();
+        mealPlan = searchResponse.path("data[0].roomSet.rooms[0].mealPlanName").toString();
         logger.info("Meal Plan is: " + mealPlan);
     }
 
     //Store Pax Combination
     public void storePaxCombination() {
 
-        adultCount = response.path("data[0].roomSet.rooms[0].travellerInfo.adult").toString();
+        adultCount = searchResponse.path("data[0].roomSet.rooms[0].travellerInfo.adult").toString();
         logger.info("Adult Count is: " + adultCount);
 
-        childCount = response.path("data[0].roomSet.rooms[0].travellerInfo.child").toString();
+        childCount = searchResponse.path("data[0].roomSet.rooms[0].travellerInfo.child").toString();
         logger.info("Child Count is: " + childCount);
 
-        infantCount = response.path("data[0].roomSet.rooms[0].travellerInfo.infant").toString();
+        infantCount = searchResponse.path("data[0].roomSet.rooms[0].travellerInfo.infant").toString();
         logger.info("Infant Count is: " + infantCount);
     }
 
