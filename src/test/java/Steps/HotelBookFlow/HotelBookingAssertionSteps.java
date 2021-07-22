@@ -50,30 +50,40 @@ public class HotelBookingAssertionSteps {
     @Then("check the Nights Count is correct")
     public void checkTheNightsCountIsCorrect() {
 
+        hotelBookingAssertionActions.createCartDurationAssertion();
     }
 
     @Then("check the Choice Key is correct")
     public void checkTheChoiceKeyIsCorrect() {
+
+        hotelBookingAssertionActions.createCartChoiceKeyAssertion();
 
     }
 
     @Then("check the Price of the Booking is correct")
     public void checkThePriceOfTheBookingIsCorrect() {
 
+        hotelBookingAssertionActions.createCartPriceAssertion();
+
     }
 
     @Then("check the Room Type is correct")
     public void checkTheRoomTypeIsCorrect() {
+
+        hotelBookingAssertionActions.createCartRoomTypeAssertion();
 
     }
 
     @Then("check the Meal Plan is correct")
     public void checkTheMealPlanIsCorrect() {
 
+        hotelBookingAssertionActions.createCartMealPlanAssertion();
+
     }
 
     @Then("check the Pax Combination is correct")
     public void checkThePaxCombinationIsCorrect() {
 
+        hotelBookingAssertionActions.createCartPaxCombinationAssertion();
     }
 }

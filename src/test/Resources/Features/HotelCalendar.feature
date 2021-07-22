@@ -10,5 +10,18 @@ Feature: Verify the Hotel Pricing Details
 
 
     Examples:
-      | HotelID     | StartDateCount    | EndDateCount    |CityName|
-      | EAN115066   |   5               |  120            | DXB    |
+      | HotelID   | StartDateCount | EndDateCount | CityName |
+      | EAN115066 | 5              | 120          | DXB      |
+
+
+#    ------------------------------------------------End------------------------------------------------------------
+
+  @Htl @all @htlcalexcel
+  Scenario Outline: Verifying price for Hotel Calendar Request by feeding the data from Excel Sheet
+    When I click create user ToDate as "<StartDateCount>" FromDate as "<EndDateCount>"
+    Then I should get a successful response with status code 200 for HTL Calendar Response
+
+
+    Examples:
+      | StartDateCount | EndDateCount |
+      | 5              | 100          |

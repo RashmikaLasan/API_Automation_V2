@@ -29,19 +29,19 @@ Feature: Verify the V2 Hotel Flow
     Then check the Hotel Code is correct
     Then check the Service Start Date is correct
     Then check the Service End Date is correct
-#    Then check the Nights Count is correct
-#    Then check the Choice Key is correct
-#    Then check the Price of the Booking is correct
-#    Then check the Room Type is correct
-#    Then check the Meal Plan is correct
-#    Then check the Pax Combination is correct
+    Then check the Nights Count is correct
+    Then check the Choice Key is correct
+    Then check the Price of the Booking is correct
+    Then check the Room Type is correct
+    Then check the Meal Plan is correct
+    Then check the Pax Combination is correct
 
 
 
 
     Examples:
       | FutureDateCount | NightCount | HotelCode | City | PromoCode |
-      | 60              | 3          | EAN449003 | HKG  | CTPromo   |
+      | 60              | 3          | EAN437034 | SFO  | CTPromo   |
 #
 #      | FutureDateCount    | NightCount | HotelCode | City |PromoCode|
 #      | 60                 | 3          | EAN311048 | DXB  | CTPromo |
