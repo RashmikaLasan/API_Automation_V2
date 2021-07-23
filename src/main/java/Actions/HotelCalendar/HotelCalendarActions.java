@@ -110,7 +110,7 @@ public class HotelCalendarActions {
         //Creating a Sheet object using the sheet Name
         HSSFSheet sheet = wb.getSheet("Cal_Codes");
 
-        for (int i = 1; i < 5; i++) {
+        for (int i = 1; i < 10; i++) {
             //Create a row object to retrieve row at index 1
             HSSFRow row2 = sheet.getRow(i);
 

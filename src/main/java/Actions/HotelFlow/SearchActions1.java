@@ -74,7 +74,7 @@ public class SearchActions1 {
                 when().get(BaseEnvironmet + SearchURLPara);
         logger.info(requestSpecification + BaseEnvironmet + SearchURLPara);
         logger.info("Search Request Send");
-        searchResponse.prettyPrint();
+//        searchResponse.prettyPrint();
 
     }
 

@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Create Cart Assertions">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Step Deifinition of Creaet Cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,7 +380,9 @@
       <workItem from="1626953436479" duration="2076000" />
       <workItem from="1626955833310" duration="417000" />
       <workItem from="1626963741546" duration="1701000" />
-      <workItem from="1626977668180" duration="324000" />
+      <workItem from="1626977668180" duration="6471000" />
+      <workItem from="1627039457198" duration="774000" />
+      <workItem from="1627056019921" duration="6548000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -422,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626813591457</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Step Deifinition of Creaet Cart">
+      <created>1626978032752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626978032752</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -501,7 +505,8 @@
     <MESSAGE value="Comments Added" />
     <MESSAGE value="Create Cart Steps" />
     <MESSAGE value="Create Cart Assertions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Cart Assertions" />
+    <MESSAGE value="Step Deifinition of Creaet Cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step Deifinition of Creaet Cart" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

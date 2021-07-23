@@ -4,7 +4,6 @@ import Utilities.Log;
 import io.restassured.response.ValidatableResponse;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-
 import static Actions.HotelFlow.CreateCartActions2.createCartResponse;
 import static Actions.HotelFlow.SearchActions1.*;
 import static org.hamcrest.Matchers.equalTo;
@@ -13,6 +12,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class HotelBookingAssertionActions {
 
     public static ValidatableResponse validatableResponse;
+    public static String totalPriceCreateCart;
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
@@ -67,10 +67,8 @@ public class HotelBookingAssertionActions {
     //Create Cart Duration Validation
     public void createCartDurationAssertion() {
 
-//        String CartNightCount = createCartResponse.then().body("data[0].products[0].summary.duration");
-        int cartNightCount = createCartResponse.path("data[0].products[0].summary.duration");
-        Assert.assertEquals(cartNightCount, nightCount);
-//        equalTo(nightCount));
+        String durationCreateCart = createCartResponse.path("data[0].products[0].summary.duration").toString();
+        Assert.assertEquals(durationCreateCart, nightCount);
         logger.info("Night Count Validation Success for Create Cart Response");
 
     }
@@ -86,7 +84,8 @@ public class HotelBookingAssertionActions {
     //Create Cart Price Validation
     public void createCartPriceAssertion() {
 
-        createCartResponse.then().body(("data[0].products[0].roomSet.rate.price"), equalTo(totalPrice));
+        totalPriceCreateCart = (createCartResponse.path(("data[0].products[0].roomSet.rate.price"))).toString();
+        Assert.assertEquals(totalPriceCreateCart, totalPrice);
         logger.info("Total Price Validation Success for Create Cart Response");
 
     }
@@ -101,20 +100,25 @@ public class HotelBookingAssertionActions {
     //Create Meal Plan Validation
     public void createCartMealPlanAssertion() {
 
-        createCartResponse.then().body(("data[0].products[0].roomSet.rooms[0].mealPlanName"), equalTo(roomType));
+        createCartResponse.then().body(("data[0].products[0].roomSet.rooms[0].mealPlanName"), equalTo(mealPlan));
         logger.info("Meal Plan Validation Success for Create Cart Response");
     }
 
     //Create Passenger Combination Validation
     public void createCartPaxCombinationAssertion() {
 
-        createCartResponse.then().body(("data[0].products[0].travellerInfo.adult"), equalTo(adultCount));
+        String adultCountCreateCart = Integer.toString((createCartResponse.path(("data[0].products[0].travellerInfo.adult"))));
+        Assert.assertEquals(adultCountCreateCart, adultCount);
         logger.info("Adult Count Validation Success for Create Cart Response");
 
-        createCartResponse.then().body(("data[0].products[0].travellerInfo.child"), equalTo(childCount));
+        int childCountCreateCart = createCartResponse.path(("data[0].products[0].travellerInfo.child"));
+        Assert.assertEquals(childCountCreateCart, Integer.parseInt(childCount));
         logger.info("Child Count Validation Success for Create Cart Response");
 
-        createCartResponse.then().body(("data[0].products[0].travellerInfo.infant"), equalTo(childCount));
+
+        int infantCountCreateCart = createCartResponse.path(("data[0].products[0].travellerInfo.infant"));
+        Assert.assertEquals(infantCountCreateCart, Integer.parseInt(infantCount));
         logger.info("Infant Count Validation Success for Create Cart Response");
+
     }
 }
