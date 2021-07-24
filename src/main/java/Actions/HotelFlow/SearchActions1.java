@@ -63,7 +63,7 @@ public class SearchActions1 {
                 queryParam("nights", nightCount).
                 queryParam("adult", "2~30~1990-01-01~1");
 
-        logger.info("Body Created");
+        logger.info("Get Request Parameters Created");
     }
 
 

@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Crate CArt Full Flow Done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java" afterDir="false" />
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Update Passenger Request Body">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreateCartActions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreateCartActions2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants/EndPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreateCartSteps2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreateCartSteps2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,7 +386,7 @@
       <workItem from="1627039457198" duration="774000" />
       <workItem from="1627056019921" duration="6990000" />
       <workItem from="1627074598189" duration="1521000" />
-      <workItem from="1627115455552" duration="13364000" />
+      <workItem from="1627115455552" duration="18931000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -446,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627139564620</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update Passenger Request Body">
+      <created>1627150742033</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627150742033</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -528,7 +533,8 @@
     <MESSAGE value="Step Deifinition of Creaet Cart" />
     <MESSAGE value="Assertion Completed" />
     <MESSAGE value="Crate CArt Full Flow Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crate CArt Full Flow Done" />
+    <MESSAGE value="Update Passenger Request Body" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Passenger Request Body" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

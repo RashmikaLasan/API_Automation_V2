@@ -4,9 +4,9 @@ public class EndPoints {
 
     //UAT_URL="https://tbx.backend.development.travel.theculturetrip.com/";
     //STG_URL="https://backend.staging.travel.theculturetrip.com/"
-    public static final String BaseEnvironmet= "https://backend.staging.travel.theculturetrip.com/";
-//    public static final String BaseEnvironmet ="https://tbx.backend.development.travel.theculturetrip.com/";
-    public static final String SearchURLPara ="hotel-search/v2/products";
+//    public static final String BaseEnvironmet= "https://backend.staging.travel.theculturetrip.com/";
+    public static final String BaseEnvironmet = "https://tbx.backend.development.travel.theculturetrip.com/";
+    public static final String SearchURLPara = "hotel-search/v2/products";
     public static final String CreateCartURLPara = "cart-service/v2/cart/-1/products?actions&confirm=false&bkgSource=TC&itemSource=TC&expand=all";
     public static final String PromoPara1 = "cart-service/v2/cart/";
     public static final String PromoPara2 = "/promotions?confirm=false&bkgSource=TC&itemSource=TC&expand=all";

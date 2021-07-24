@@ -37,6 +37,14 @@ Feature: Verify the V2 Hotel Flow
     Then check the Pax Combination is correct
 
     #Update Passenger
+    When I want to Create Update Passenger Body I Create Contact Details
+    When I want to Create Update Passenger Body I Create Address Details
+    When I want to Create Update Passenger Body I Create Profile Details
+    When I want to Create Update Passenger Body I Create Reference Details
+    When I want to Create Update Passenger Body I Create Payload Details of Passenger One
+    When I want to Create Update Passenger Body I Create Payload Details of Passenger One
+    When I want to Create Update Passenger Body I Create Payload Details of all the Passengers
+    Then I Combined the Update Passenger details body
     When I create Update Passenger Body to Update Passenger Details
     Then I click send request for Update Passenger Request
     Then I should get a successful response as status code 200 Update Passenger
@@ -45,7 +53,7 @@ Feature: Verify the V2 Hotel Flow
 
     Examples:
       | FutureDateCount | NightCount | HotelCode | City | PromoCode |
-      | 60              | 3          | EAN455291 | HKG  | CTPromo   |
+      | 60              | 3          | EAN179227 | LON  | CTPromo   |
 
 #      | FutureDateCount    | NightCount | HotelCode | City |PromoCode|
 #      | 60                 | 3          | EAN311048 | DXB  | CTPromo |

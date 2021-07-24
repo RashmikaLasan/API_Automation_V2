@@ -5,7 +5,6 @@ import gherkin.deps.com.google.gson.JsonArray;
 import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
-
 import static Actions.HotelFlow.CreateCartActions2.*;
 import static Actions.HotelFlow.SearchActions1.keyControls;
 import static Constants.EndPoints.*;
@@ -25,7 +24,8 @@ public class UpdatePassengerAction3 {
     public JsonObject updatePassengerBody;
     public JsonArray payloadBody;
 
-    //create Update Passenger Body
+
+    //Create Update Passenger Body
     public void createContactBody() {
 
         //Create Contact Body for Contact1
@@ -49,11 +49,12 @@ public class UpdatePassengerAction3 {
         Contact = new JsonArray();
         Contact.add(Contact1);
         Contact.add(Contact2);
+        logger.info("Contact is: " + Contact);
     }
 
+    //Create Address Body Elements
     public void createAddressBody() {
 
-        //Create Address Body Elements
         JsonObject Address = new JsonObject();
         Address.addProperty("no", 0);
         Address.addProperty("street", "MEL");
@@ -71,9 +72,11 @@ public class UpdatePassengerAction3 {
         //Aggregate Address Elements
         Addresses = new JsonArray();
         Addresses.add(Address);
+        logger.info("Addresses is :" + Addresses);
 
     }
 
+    //Create Profile Elements
     public void createProfileBody() {
 
         JsonArray frequentFlyerNumbers1 = new JsonArray();
@@ -98,6 +101,8 @@ public class UpdatePassengerAction3 {
         profile1.add("frequentFlyerNumbers", frequentFlyerNumbers1);
         profile1.add("memberships", memberships1);
 
+        logger.info("Profile is: " + profile1);
+
     }
 
     //Create Reference Body
@@ -111,18 +116,20 @@ public class UpdatePassengerAction3 {
         reference1 = new JsonObject();
         reference1.addProperty("key", TravellersKeyOne);
         reference1.add("externalRefs", externalRefs1);
+        logger.info("Reference for Passenger One :" + reference1);
 
         //Create External Reference for Passenger Two
         reference2 = new JsonObject();
         reference2.addProperty("key", TravellersKeyTwo);
         reference2.add("externalRefs", externalRefs2);
+        logger.info("Reference for Passenger Two :" + reference2);
 
     }
 
     //Create Payload Body of Passenger One
     public void createPayloadBodyOne() {
 
-        JsonObject payload1 = new JsonObject();
+        payload1 = new JsonObject();
         payload1.addProperty("key", TravellersKeyOne);
         payload1.addProperty("no", 1);
         payload1.addProperty("lead", true);
@@ -140,7 +147,7 @@ public class UpdatePassengerAction3 {
 
     }
 
-    // //Create Payload Body of Passenger Two
+    //Create Payload Body of Passenger Two
     public void createPayloadBodyTwo() {
 
         payload2 = new JsonObject();
@@ -164,7 +171,9 @@ public class UpdatePassengerAction3 {
 
         payloadBody = new JsonArray();
         payloadBody.add(payload1);
+        logger.info("payload1 is  " + payload1);
         payloadBody.add(payload2);
+        logger.info("payload2 is " + payload2);
 
     }
 
@@ -173,7 +182,7 @@ public class UpdatePassengerAction3 {
         updatePassengerBody = new JsonObject();
         updatePassengerBody.add("keyControls", keyControls);
         updatePassengerBody.add("payload", payloadBody);
-
+        logger.info("Update Passenger Body is: " + updatePassengerBody);
     }
 
     public void updatePassengerResponse() {
@@ -184,6 +193,7 @@ public class UpdatePassengerAction3 {
                 when().
                 put(BaseEnvironmet + PromoPara1 + cartId + UpdatePassengerPara);
 
+        logger.info("Update Passenger Request URL is: " + BaseEnvironmet + PromoPara1 + cartId + UpdatePassengerPara);
         updatePassengerResponse.prettyPrint().toString();
 
     }
