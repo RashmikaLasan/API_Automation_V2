@@ -43,7 +43,7 @@ public class CreateCartActions2 {
     public void storeCartId() {
 
         cartId = createCartResponse.path("data[0].summary.id").toString();
-        logger.info("Cart ID is: " + cartId);
+        logger.info("Cart ID is: " + cartId + " in Create Cart Response");
 
     }
 
@@ -51,7 +51,7 @@ public class CreateCartActions2 {
     public void storeTravellersKeyOne() {
 
         TravellersKeyOne = createCartResponse.path("data[0].travellers[0].key").toString();
-        logger.info("Travellers Key one is: " + TravellersKeyOne);
+        logger.info("Travellers Key one is: " + TravellersKeyOne + " in Create Cart Response");
 
     }
 
@@ -59,7 +59,7 @@ public class CreateCartActions2 {
     public void storeTravellersKeyTwo() {
 
         TravellersKeyTwo = createCartResponse.path("data[0].travellers[1].key").toString();
-        logger.info("Travellers Key one is: " + TravellersKeyTwo);
+        logger.info("Travellers Key one is: " + TravellersKeyTwo + " in Create Cart Response");
 
     }
 

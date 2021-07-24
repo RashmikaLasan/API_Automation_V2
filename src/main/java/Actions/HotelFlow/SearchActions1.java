@@ -99,76 +99,76 @@ public class SearchActions1 {
     public void storeHotelName() {
 
         hotelName = searchResponse.path("data[0].summary.name").toString();
-        logger.info("Hotel Name is: " + hotelName);
+        logger.info("Hotel Name is: " + hotelName + " in Search");
     }
 
     //Store Hotel Code
     public void storeHotelCode() {
 
         hotelCode = searchResponse.path("data[0].detail.hotelCode").toString();
-        logger.info("Hotel Code is: " + hotelCode);
+        logger.info("Hotel Code is: " + hotelCode + " in Search");
     }
 
     //Store Start Date
     public void storeStartDate() {
 
         serviceStartDate = searchResponse.path("data[0].summary.serviceStartDate").toString();
-        logger.info("Start Date is: " + serviceStartDate);
+        logger.info("Start Date is: " + serviceStartDate + " in Search");
     }
 
     //Store End Date
     public void storeEndDate() {
 
         serviceEndDate = searchResponse.path("data[0].summary.serviceEndDate").toString();
-        logger.info("End Date is: " + serviceEndDate);
+        logger.info("End Date is: " + serviceEndDate + " in Search");
     }
 
     //Store Night Count
     public void storeNightsDate() {
 
         nightCount = searchResponse.path("data[0].summary.duration").toString();
-        logger.info("Night Count is: " + nightCount);
+        logger.info("Night Count is: " + nightCount + " in Search");
     }
 
     //Store Choice Key
     public void storeChoiceKey() {
 
-        choiceKey = searchResponse.path("data[0].roomSet.choiceKey").toString();
-        logger.info("Choice Key is: " + choiceKey);
+        choiceKey = searchResponse.path("data[0].roomSet.choiceKey").toString().substring(6);
+        logger.info("Choice Key is: HTL__0" + choiceKey + " in Search");
     }
 
     //Store Total Price
     public void storePrice() {
 
         totalPrice = searchResponse.path("data[0].roomSet.rate.price").toString();
-        logger.info("Total Price is: " + totalPrice);
+        logger.info("Total Price is: " + totalPrice + " in Search");
     }
 
     //Store Room Type
     public void storeRoomType() {
 
         roomType = searchResponse.path("data[0].roomSet.rooms[0].typeName").toString();
-        logger.info("Room Type is: " + roomType);
+        logger.info("Room Type is: " + roomType + " in Search");
     }
 
     //Store Meal Plan
     public void storeMealPlan() {
 
         mealPlan = searchResponse.path("data[0].roomSet.rooms[0].mealPlanName").toString();
-        logger.info("Meal Plan is: " + mealPlan);
+        logger.info("Meal Plan is: " + mealPlan + " in Search");
     }
 
     //Store Pax Combination
     public void storePaxCombination() {
 
         adultCount = searchResponse.path("data[0].roomSet.rooms[0].travellerInfo.adult").toString();
-        logger.info("Adult Count is: " + adultCount);
+        logger.info("Adult Count is: " + adultCount + " in Search");
 
         childCount = searchResponse.path("data[0].roomSet.rooms[0].travellerInfo.child").toString();
-        logger.info("Child Count is: " + childCount);
+        logger.info("Child Count is: " + childCount + " in Search");
 
         infantCount = searchResponse.path("data[0].roomSet.rooms[0].travellerInfo.infant").toString();
-        logger.info("Infant Count is: " + infantCount);
+        logger.info("Infant Count is: " + infantCount + " in Search");
     }
 
 }

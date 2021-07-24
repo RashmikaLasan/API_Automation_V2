@@ -13,6 +13,7 @@ public class HotelBookingAssertionActions {
 
     public static ValidatableResponse validatableResponse;
     public static String totalPriceCreateCart;
+    public static String choiceKeyCreateCart;
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
@@ -76,7 +77,11 @@ public class HotelBookingAssertionActions {
     //Create Cart ChoiceKey Validation
     public void createCartChoiceKeyAssertion() {
 
-        createCartResponse.then().body(("data[0].products[0].roomSet.choiceKey"), equalTo(choiceKey));
+//        createCartResponse.then().body(("data[0].products[0].roomSet.choiceKey"), equalTo(choiceKey));
+        String choiceKeyCreateCart = createCartResponse.path("data[0].products[0].roomSet.choiceKey").toString();
+        String choiceKeyCart = choiceKeyCreateCart.substring(7);
+        Assert.assertEquals(choiceKeyCart, choiceKey);
+        logger.info("Choice Key in Create Cart Response is: " + choiceKeyCreateCart);
         logger.info("ChoiceKey Validation Success for Create Cart Response");
 
     }

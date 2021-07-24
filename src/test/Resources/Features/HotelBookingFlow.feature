@@ -41,7 +41,7 @@ Feature: Verify the V2 Hotel Flow
 
     Examples:
       | FutureDateCount | NightCount | HotelCode | City | PromoCode |
-      | 60              | 3          | EAN437034 | SFO  | CTPromo   |
-#
+      | 60              | 3          | EAN455291 | HKG  | CTPromo   |
+
 #      | FutureDateCount    | NightCount | HotelCode | City |PromoCode|
 #      | 60                 | 3          | EAN311048 | DXB  | CTPromo |
