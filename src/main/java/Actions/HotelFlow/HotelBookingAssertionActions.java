@@ -77,7 +77,6 @@ public class HotelBookingAssertionActions {
     //Create Cart ChoiceKey Validation
     public void createCartChoiceKeyAssertion() {
 
-//        createCartResponse.then().body(("data[0].products[0].roomSet.choiceKey"), equalTo(choiceKey));
         String choiceKeyCreateCart = createCartResponse.path("data[0].products[0].roomSet.choiceKey").toString();
         String choiceKeyCart = choiceKeyCreateCart.substring(7);
         Assert.assertEquals(choiceKeyCart, choiceKey);
@@ -124,6 +123,14 @@ public class HotelBookingAssertionActions {
         int infantCountCreateCart = createCartResponse.path(("data[0].products[0].travellerInfo.infant"));
         Assert.assertEquals(infantCountCreateCart, Integer.parseInt(infantCount));
         logger.info("Infant Count Validation Success for Create Cart Response");
+
+    }
+
+    //Update Passenger Status Code Validation
+    public void updatePassengerStatusCode(int statusCode) {
+
+        createCartResponse.then().statusCode(statusCode);
+        logger.info("Status Code 200 and its Success for Create Cart Response");
 
     }
 }

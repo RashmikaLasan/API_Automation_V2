@@ -36,6 +36,10 @@ Feature: Verify the V2 Hotel Flow
     Then check the Meal Plan is correct
     Then check the Pax Combination is correct
 
+    #Update Passenger
+    When I create Update Passenger Body to Update Passenger Details
+    Then I click send request for Update Passenger Request
+    Then I should get a successful response as status code 200 Update Passenger
 
 
 

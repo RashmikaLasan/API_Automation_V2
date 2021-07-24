@@ -4,7 +4,6 @@ import Utilities.Log;
 import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
-
 import static Actions.HotelFlow.SearchActions1.keyControls;
 import static Actions.HotelFlow.SearchActions1.payload;
 import static Constants.EndPoints.BaseEnvironmet;

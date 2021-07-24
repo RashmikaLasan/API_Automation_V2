@@ -86,4 +86,11 @@ public class HotelBookingAssertionSteps {
 
         hotelBookingAssertionActions.createCartPaxCombinationAssertion();
     }
+
+
+    @Then("I should get a successful response as status code (\\d+) Update Passenger")
+    public void iShouldGetASuccessfulResponseAsStatusCodeUpdatePassenger(int statusCode) {
+
+        hotelBookingAssertionActions.updatePassengerStatusCode(statusCode);
+    }
 }
