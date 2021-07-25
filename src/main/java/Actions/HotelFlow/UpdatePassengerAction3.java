@@ -79,6 +79,7 @@ public class UpdatePassengerAction3 {
     //Create Profile Elements
     public void createProfileBody() {
 
+        //Frequent Fly Number and Membership Elements Create
         JsonArray frequentFlyerNumbers1 = new JsonArray();
         JsonArray memberships1 = new JsonArray();
 
@@ -167,6 +168,7 @@ public class UpdatePassengerAction3 {
         payload2.add("reference", reference2);
     }
 
+    //Payload Full Body Create
     public void payloadFullBody() {
 
         payloadBody = new JsonArray();
@@ -177,6 +179,7 @@ public class UpdatePassengerAction3 {
 
     }
 
+    //Update Passenger Full Body Merge
     public void updatePassengerFullBody() {
 
         updatePassengerBody = new JsonObject();
@@ -185,7 +188,8 @@ public class UpdatePassengerAction3 {
         logger.info("Update Passenger Body is: " + updatePassengerBody);
     }
 
-    public void updatePassengerResponse() {
+    //Update Passenger Request send
+    public void updatePassengerRequestSend() {
 
         updatePassengerResponse = given().
                 header("Content-Type", "application/json").
@@ -194,7 +198,7 @@ public class UpdatePassengerAction3 {
                 put(BaseEnvironmet + PromoPara1 + cartId + UpdatePassengerPara);
 
         logger.info("Update Passenger Request URL is: " + BaseEnvironmet + PromoPara1 + cartId + UpdatePassengerPara);
-        updatePassengerResponse.prettyPrint().toString();
+//        updatePassengerResponse.prettyPrint().toString();
 
     }
 }

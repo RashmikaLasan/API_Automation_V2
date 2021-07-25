@@ -62,7 +62,7 @@ public class PassengerUpdate3 {
     @Then("I click send request for Update Passenger Request")
     public void iClickSendRequestForUpdatePassengerRequest() {
 
-        updatePassengerAction3.updatePassengerResponse();
+        updatePassengerAction3.updatePassengerRequestSend();
 
     }
 }

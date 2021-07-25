@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Update Passenger Request Body">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Update Passenger Request Steps Changed">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants/EndPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -277,11 +279,11 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CGAssignmentCucumberMethod/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -296,7 +298,7 @@
       <recent name="Runner" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.D:/LearningMe/API_Automation_V2/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -317,6 +319,17 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/LearningMe/API_Automation_V2/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Automation_V2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -350,6 +363,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/LearningMe/API_Automation_V2/testng.xml" />
         <item itemvalue="TestNG.RunCuke" />
       </list>
     </recent_temporary>
@@ -386,7 +400,10 @@
       <workItem from="1627039457198" duration="774000" />
       <workItem from="1627056019921" duration="6990000" />
       <workItem from="1627074598189" duration="1521000" />
-      <workItem from="1627115455552" duration="18931000" />
+      <workItem from="1627115455552" duration="19495000" />
+      <workItem from="1627160447023" duration="1937000" />
+      <workItem from="1627193806211" duration="6692000" />
+      <workItem from="1627206332615" duration="2361000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -451,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627150742033</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update Passenger Request Steps Changed">
+      <created>1627159769814</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627159769814</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -534,7 +558,8 @@
     <MESSAGE value="Assertion Completed" />
     <MESSAGE value="Crate CArt Full Flow Done" />
     <MESSAGE value="Update Passenger Request Body" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Passenger Request Body" />
+    <MESSAGE value="Update Passenger Request Steps Changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Passenger Request Steps Changed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
