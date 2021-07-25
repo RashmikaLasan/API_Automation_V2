@@ -1,5 +1,6 @@
 package Steps.HotelBookFlow;
 
+import Actions.HotelFlow.CreatePaymentSessionActions;
 import Actions.HotelFlow.HotelBookingAssertionActions;
 import cucumber.api.java.en.Then;
 
@@ -7,7 +8,7 @@ import cucumber.api.java.en.Then;
 public class HotelBookingAssertionSteps {
 
     HotelBookingAssertionActions hotelBookingAssertionActions = new HotelBookingAssertionActions();
-
+    CreatePaymentSessionActions createPaymentSessionActions = new CreatePaymentSessionActions();
     @Then("I should get a successful response as status code (\\d+) for Hotel Search")
     public void iShouldGetASuccessfulResponseAsStatusCodeForHotelSearch(int statusCode) {
 
@@ -91,6 +92,7 @@ public class HotelBookingAssertionSteps {
     }
 
 
+    //Update Passenger Assertions
     @Then("I should get a successful response as status code (\\d+) Update Passenger")
     public void iShouldGetASuccessfulResponseAsStatusCodeUpdatePassenger(int statusCode) {
 
@@ -160,7 +162,16 @@ public class HotelBookingAssertionSteps {
     @Then("check the Pax Combination is correct in Update Passenger Response")
     public void checkThePaxCombinationIsCorrectInUpdatePassengerResponse() {
 
+        hotelBookingAssertionActions.updatePassengerPaxCombinationAssertion();
     }
 
+
+    //Create Payment Session Assertions
+    @Then("I should get a successful response as status code (\\d+) for Create Payment Session")
+    public void iShouldGetASuccessfulResponseAsStatusCodeForCreatePaymentSession(int statusCode) {
+
+        hotelBookingAssertionActions.createPaymentSessionStatusCode(statusCode);
+
+    }
 
 }

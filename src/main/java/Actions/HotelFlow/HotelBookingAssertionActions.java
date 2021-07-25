@@ -7,6 +7,7 @@ import org.testng.Assert;
 
 import static Actions.HotelFlow.CreateCartActions2.cartId;
 import static Actions.HotelFlow.CreateCartActions2.createCartResponse;
+import static Actions.HotelFlow.CreatePaymentSessionActions.createPaymentSessionResponse;
 import static Actions.HotelFlow.SearchActions1.*;
 import static Actions.HotelFlow.UpdatePassengerAction3.updatePassengerResponse;
 import static org.hamcrest.Matchers.equalTo;
@@ -232,5 +233,12 @@ public class HotelBookingAssertionActions {
         Assert.assertEquals(infantCountUpdatePassengerResponse, Integer.parseInt(infantCount));
         logger.info("Infant Count Validation Success for Update Passenger Response and Infant Count is: " + infantCount);
 
+    }
+
+    //Create Payment Session Status Code Validation
+    public void createPaymentSessionStatusCode(int statusCode) {
+
+        createPaymentSessionResponse.then().statusCode(statusCode);
+        logger.info("Status Code 200 and its Success for Create Payment Session");
     }
 }

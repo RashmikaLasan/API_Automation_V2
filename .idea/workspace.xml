@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Update Passenger Request Steps Changed">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Update Passenger Assertion Completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreatePaymentSessionActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreatePaymentSession4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java" afterDir="false" />
@@ -287,11 +287,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LearningMe\API_Automation_V2" />
       <recent name="E:\LearningMe\API_Automation_V2\src\test\Resources\Features" />
       <recent name="E:\LearningMe\API_Automation_V2" />
       <recent name="E:\LearningMe\API_Automation_V2\src\main\java" />
       <recent name="E:\LearningMe\API_Automation_V2\src\test\java" />
-      <recent name="E:\LearningMe\API_Automation_V2\src\test\Resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Constants" />
@@ -403,7 +403,7 @@
       <workItem from="1627115455552" duration="19495000" />
       <workItem from="1627160447023" duration="1937000" />
       <workItem from="1627193806211" duration="6692000" />
-      <workItem from="1627206332615" duration="2361000" />
+      <workItem from="1627206332615" duration="13956000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -475,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627159769814</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update Passenger Assertion Completed">
+      <created>1627208991585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1627208991585</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -546,6 +553,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -559,7 +576,8 @@
     <MESSAGE value="Crate CArt Full Flow Done" />
     <MESSAGE value="Update Passenger Request Body" />
     <MESSAGE value="Update Passenger Request Steps Changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Passenger Request Steps Changed" />
+    <MESSAGE value="Update Passenger Assertion Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Passenger Assertion Completed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

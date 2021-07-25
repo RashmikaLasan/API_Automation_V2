@@ -62,12 +62,18 @@ Feature: Verify the V2 Hotel Flow
     Then check the Pax Combination is correct in Update Passenger Response
 
 
+    #Create Payment Session
+    When I want to create Payment Session with Payment Currency as "<Currency>"
+    When I click send request for Create Payment Session Request
+    Then I should get a successful response as status code 200 for Create Payment Session
+
+
 
 
 
     Examples:
-      | FutureDateCount | NightCount | HotelCode | City | PromoCode |
-      | 60              | 3          | EAN179227 | LON  | CTPromo   |
+      | FutureDateCount | NightCount | HotelCode | City | PromoCode | Currency |
+      | 60              | 3          | EAN179227 | LON  | CTPromo   | GBP      |
 
 #      | FutureDateCount    | NightCount | HotelCode | City |PromoCode|
 #      | 60                 | 3          | EAN311048 | DXB  | CTPromo |
