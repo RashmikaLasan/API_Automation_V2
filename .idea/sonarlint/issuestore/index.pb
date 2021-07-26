@@ -17,8 +17,6 @@ i
 9src/test/java/Steps/HotelCalendar/HotelCalendarSteps.java,d\3\d3a61768d67f36d8a7af59ac9c20a9588d173771
 m
 =src/main/java/Actions/HotelCalendar/HotelCalendarActions.java,5\a\5af875ec825782bcc6565226a369f95a756c4bce
-c
-3src/test/java/Steps/Tritium/TritiumSearchSteps.java,1\8\184fffd6f5b2913990f4e4511c404d5f9881e755
 i
 9src/main/java/Actions/Tritium/TritiumAssertionAction.java,a\3\a3dcbe5e65a85a411883ef905135708d52e73e5c
 g
@@ -34,11 +32,5 @@ testng.xml,5\2\522a7a4e21649af06297e31a9e33f13bb4fd3022
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 g
 7src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java,b\1\b1a2d2737484989649f8786437a95af8c093f40c
-c
-3src/main/java/Actions/HotelFlow/SearchActions1.java,9\0\90084c811988385396b9f63b3fb91c2083af0c81
 k
 ;src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java,9\0\903116a9342b46930863e8a80277ac8b4048b897
-g
-7src/main/java/Actions/HotelFlow/CreateCartActions2.java,b\f\bf673d91ded4e8a12a1d9176ff529fa1b8b95956
-g
-7src/test/java/Steps/HotelBookFlow/CreateCartSteps2.java,1\9\19b2dbfaf76e64f7800360ce096fc0111bf79ad8

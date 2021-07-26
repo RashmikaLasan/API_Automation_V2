@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Create Payment Session Request Body">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Create Payment Session Asserions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/AddPaymentActions6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CapturePaymentActions5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/AddPaymentSteps6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CapturePaymentSteps5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreatePaymentSessionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreatePaymentSessionActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreatePaymentSessionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreatePaymentSessionActions4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreatePaymentSession4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreatePaymentSession4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreatePaymentSession4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreatePaymentSessionSteps4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Tritium/TritiumSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Tritium/TritiumSearchSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,7 +411,7 @@
       <workItem from="1627280776910" duration="654000" />
       <workItem from="1627298310291" duration="2199000" />
       <workItem from="1627311497062" duration="312000" />
-      <workItem from="1627314429577" duration="1491000" />
+      <workItem from="1627314429577" duration="8201000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -492,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627240789382</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create Payment Session Asserions">
+      <created>1627316223708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627316223708</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -588,7 +600,8 @@
     <MESSAGE value="Update Passenger Request Steps Changed" />
     <MESSAGE value="Update Passenger Assertion Completed" />
     <MESSAGE value="Create Payment Session Request Body" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Payment Session Request Body" />
+    <MESSAGE value="Create Payment Session Asserions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Payment Session Asserions" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

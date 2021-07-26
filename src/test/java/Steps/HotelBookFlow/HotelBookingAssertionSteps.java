@@ -1,6 +1,6 @@
 package Steps.HotelBookFlow;
 
-import Actions.HotelFlow.CreatePaymentSessionActions;
+import Actions.HotelFlow.CreatePaymentSessionActions4;
 import Actions.HotelFlow.HotelBookingAssertionActions;
 import cucumber.api.java.en.Then;
 
@@ -8,7 +8,7 @@ import cucumber.api.java.en.Then;
 public class HotelBookingAssertionSteps {
 
     HotelBookingAssertionActions hotelBookingAssertionActions = new HotelBookingAssertionActions();
-    CreatePaymentSessionActions createPaymentSessionActions = new CreatePaymentSessionActions();
+    CreatePaymentSessionActions4 createPaymentSessionActions4 = new CreatePaymentSessionActions4();
     @Then("I should get a successful response as status code (\\d+) for Hotel Search")
     public void iShouldGetASuccessfulResponseAsStatusCodeForHotelSearch(int statusCode) {
 
@@ -174,15 +174,29 @@ public class HotelBookingAssertionSteps {
 
     }
 
+
     @Then("check the payment Amount is correct in Create Payment Session response")
     public void checkThePaymentAmountIsCorrectInCreatePaymentSessionResponse() {
 
         hotelBookingAssertionActions.createPaymentSessionPriceAssertion();
     }
 
+
     @Then("check the Transaction Identifier is equal to the Cart ID in Create Payment Session response")
     public void checkTheTransactionIdentifierIsEqualToTheCartIDInCreatePaymentSessionResponse() {
 
         hotelBookingAssertionActions.createPaymentSessionCartIdAssertion();
+    }
+
+    //    Capture Payment
+    @Then("I should get a successful response as status code (\\d+) for Capture Payment Request")
+    public void iShouldGetASuccessfulResponseAsStatusCodeForCapturePaymentRequest(int statusCode) {
+
+        hotelBookingAssertionActions.capturePaymentStatusCode(statusCode);
+    }
+
+    //    Add Payments
+    @Then("I should get a successful response as status code {int} for Add Payment Request")
+    public void iShouldGetASuccessfulResponseAsStatusCodeForAddPaymentRequest(int statusCode) {
     }
 }

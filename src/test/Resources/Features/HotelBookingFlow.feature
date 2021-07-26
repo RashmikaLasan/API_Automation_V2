@@ -18,7 +18,7 @@ Feature: Verify the V2 Hotel Flow
     Then Store the Meal Plan
     Then Store the Pax Combination
 
-    #Add To Cart
+    #2.Add To Cart
     Then I want to Create Cart
     When I click send request for Create Cart Request
     Then I should get a successful response as status code 200 Add to Cart
@@ -36,7 +36,7 @@ Feature: Verify the V2 Hotel Flow
     Then check the Meal Plan is correct in Create Cart Response
     Then check the Pax Combination is correct in Create Cart Response
 
-    #Update Passenger
+    #3.Update Passenger
     When I want to Create Update Passenger Body I Create Contact Details
     When I want to Create Update Passenger Body I Create Address Details
     When I want to Create Update Passenger Body I Create Profile Details
@@ -62,7 +62,7 @@ Feature: Verify the V2 Hotel Flow
     Then check the Pax Combination is correct in Update Passenger Response
 
 
-    #Create Payment Session
+    #4.Create Payment Session
     When I want to create Payment Session with Payment Currency as "<Currency>"
     When I click send request for Create Payment Session Request
     Then I should get a successful response as status code 200 for Create Payment Session
@@ -72,12 +72,30 @@ Feature: Verify the V2 Hotel Flow
     Then check the Transaction Identifier is equal to the Cart ID in Create Payment Session response
 
 
+    #5.Capture Payment
+    Given I want to send the Capture Payment Request where Card Type as "<cardType>" and Currency as "<Currency>"
+    Then I click send request for Capture Payment Request
+    Then I should get a successful response as status code 200 for Capture Payment Request
+
+
+    #6.Add Payment
+    Given I want to create Unique ID in Add Payment Body
+    Given I want to create Payment Details in Add Payment Body where Card Type as "<cardType>"
+    Given I want to create Payment Info  in Add Payment Body
+    Given I want to create Note in Add Payment Body
+    Then I want to Merge the Full Body
+    Then I click send request for Add Payment Request
+    Then I should get a successful response as status code 200 for Add Payment Request
+
+
+
+
 
 
 
     Examples:
-      | FutureDateCount | NightCount | HotelCode | City | PromoCode | Currency |
-      | 60              | 3          | EAN179227 | LON  | CTPromo   | GBP      |
+      | FutureDateCount | NightCount | HotelCode | City | PromoCode | Currency | cardType |
+      | 60              | 3          | EAN179227 | LON  | CTPromo   | GBP      | VISA     |
 
 #      | FutureDateCount    | NightCount | HotelCode | City |PromoCode|
 #      | 60                 | 3          | EAN311048 | DXB  | CTPromo |

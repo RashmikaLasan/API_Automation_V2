@@ -5,9 +5,10 @@ import io.restassured.response.ValidatableResponse;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
+import static Actions.HotelFlow.CapturePaymentActions5.capturePaymentResponse;
 import static Actions.HotelFlow.CreateCartActions2.cartId;
 import static Actions.HotelFlow.CreateCartActions2.createCartResponse;
-import static Actions.HotelFlow.CreatePaymentSessionActions.createPaymentSessionResponse;
+import static Actions.HotelFlow.CreatePaymentSessionActions4.createPaymentSessionResponse;
 import static Actions.HotelFlow.SearchActions1.*;
 import static Actions.HotelFlow.UpdatePassengerAction3.updatePassengerResponse;
 import static org.hamcrest.Matchers.equalTo;
@@ -259,5 +260,12 @@ public class HotelBookingAssertionActions {
         transactionIdentifier = createPaymentSessionResponse.path("data[0].transactionIdentifier").toString();
         Assert.assertEquals(transactionIdentifier, cartId);
         logger.info("Transaction Identifier Validation success in Create Payment Session and Transaction Identifier is: " + transactionIdentifier);
+    }
+
+    //Capture Payment Status Code Validation
+    public void capturePaymentStatusCode(int statusCode) {
+
+        capturePaymentResponse.then().statusCode(statusCode);
+        logger.info("Status Code 200 and its Success for Capture Payment Response");
     }
 }
