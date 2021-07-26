@@ -4,7 +4,6 @@ import Utilities.Log;
 import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.response.*;
 import org.apache.log4j.Logger;
-
 import static Actions.HotelFlow.CreateCartActions2.cartId;
 import static Actions.HotelFlow.SearchActions1.keyControls;
 import static Actions.HotelFlow.SearchActions1.totalPrice;
@@ -17,6 +16,7 @@ public class CreatePaymentSessionActions {
     public static Response createPaymentSessionResponse;
     final Logger logger = Log.getLogData(Log.class.getName());
     public JsonObject CreatePaymentSessionBody;
+    public String paymentReference;
 
     //Create Body of Payment Session
     public void createPaymentSessionBody(String currency) {
@@ -46,13 +46,14 @@ public class CreatePaymentSessionActions {
         PaymentSessionPayload.addProperty("web", true);
         PaymentSessionPayload.addProperty("cartId", cartId);
 
-        //Enter the Key Controls and create Total Body
+        //Enter the Key Controls and create Full  Body
         CreatePaymentSessionBody = new JsonObject();
         CreatePaymentSessionBody.add("keyControls", keyControls);
         CreatePaymentSessionBody.add("payload", PaymentSessionPayload);
 
     }
 
+    //Send the Request
     public void sendCreatePaymentSessionRequest() {
 
         createPaymentSessionResponse = given().
@@ -61,5 +62,13 @@ public class CreatePaymentSessionActions {
                 when().
                 post(BaseEnvironmet + PaymentSessionURL);
         createPaymentSessionResponse.prettyPrint().toString();
+    }
+
+    //Store the Payment Reference
+    public void storePaymentReference() {
+
+        paymentReference = createPaymentSessionResponse.path("data[0].paymentReference").toString();
+        logger.info("Payment Reference is: " + paymentReference + " in Create Payment Session Response");
+
     }
 }

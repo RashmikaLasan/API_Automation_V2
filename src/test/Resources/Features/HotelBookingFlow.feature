@@ -67,6 +67,10 @@ Feature: Verify the V2 Hotel Flow
     When I click send request for Create Payment Session Request
     Then I should get a successful response as status code 200 for Create Payment Session
 
+    Then Store the Payment Reference in Create Payment Session response
+    Then check the payment Amount is correct in Create Payment Session response
+    Then check the Transaction Identifier is equal to the Cart ID in Create Payment Session response
+
 
 
 

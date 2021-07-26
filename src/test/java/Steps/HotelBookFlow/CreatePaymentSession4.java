@@ -21,5 +21,9 @@ public class CreatePaymentSession4 {
         createPaymentSessionActions.sendCreatePaymentSessionRequest();
     }
 
+    @Then("Store the Payment Reference in Create Payment Session response")
+    public void storeThePaymentReferenceInCreatePaymentSessionResponse() {
 
+        createPaymentSessionActions.storePaymentReference();
+    }
 }

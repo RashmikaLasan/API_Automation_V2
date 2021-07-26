@@ -174,4 +174,15 @@ public class HotelBookingAssertionSteps {
 
     }
 
+    @Then("check the payment Amount is correct in Create Payment Session response")
+    public void checkThePaymentAmountIsCorrectInCreatePaymentSessionResponse() {
+
+        hotelBookingAssertionActions.createPaymentSessionPriceAssertion();
+    }
+
+    @Then("check the Transaction Identifier is equal to the Cart ID in Create Payment Session response")
+    public void checkTheTransactionIdentifierIsEqualToTheCartIDInCreatePaymentSessionResponse() {
+
+        hotelBookingAssertionActions.createPaymentSessionCartIdAssertion();
+    }
 }

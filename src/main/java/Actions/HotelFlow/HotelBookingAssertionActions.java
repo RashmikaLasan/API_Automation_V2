@@ -19,6 +19,8 @@ public class HotelBookingAssertionActions {
     public static String totalPriceCreateCart;
     public static String choiceKeyCreateCart;
     public static String totalPriceUpdatePassenger;
+    public static String totalPriceCreatePaymentSession;
+    public static String transactionIdentifier;
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
@@ -240,5 +242,22 @@ public class HotelBookingAssertionActions {
 
         createPaymentSessionResponse.then().statusCode(statusCode);
         logger.info("Status Code 200 and its Success for Create Payment Session");
+    }
+
+    //Create Payment Session Price Validation
+    public void createPaymentSessionPriceAssertion() {
+
+        totalPriceCreatePaymentSession = (createPaymentSessionResponse.path(("data[0].total"))).toString();
+        Assert.assertEquals(totalPriceUpdatePassenger, totalPrice);
+        logger.info("Total Price Validation Success for Create Payment Session and Total Price is: " + totalPriceCreatePaymentSession);
+
+    }
+
+    //Create Payment Session Transaction Identifier Assertion
+    public void createPaymentSessionCartIdAssertion() {
+
+        transactionIdentifier = createPaymentSessionResponse.path("data[0].transactionIdentifier").toString();
+        Assert.assertEquals(transactionIdentifier, cartId);
+        logger.info("Transaction Identifier Validation success in Create Payment Session and Transaction Identifier is: " + transactionIdentifier);
     }
 }
