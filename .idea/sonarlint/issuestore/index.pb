@@ -34,3 +34,17 @@ g
 7src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java,b\1\b1a2d2737484989649f8786437a95af8c093f40c
 k
 ;src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java,9\0\903116a9342b46930863e8a80277ac8b4048b897
+c
+3src/test/java/Steps/HotelBookFlow/SearchSteps1.java,2\b\2b25074485001f45be785823bfe01ec1d8386473
+q
+Asrc/test/java/Steps/HotelBookFlow/CreatePaymentSessionSteps4.java,d\f\df81e9c60af95409855824c33c7f22df3a380492
+c
+3src/main/java/Actions/HotelFlow/SearchActions1.java,9\0\90084c811988385396b9f63b3fb91c2083af0c81
+q
+Asrc/main/java/Actions/HotelFlow/CreatePaymentSessionActions4.java,7\4\74c52ec4b33ebaf01bad9ebb47c892fbf074d7bb
+c
+3src/test/java/Steps/Tritium/TritiumSearchSteps.java,1\8\184fffd6f5b2913990f4e4511c404d5f9881e755
+g
+7src/test/java/Steps/HotelBookFlow/CreateCartSteps2.java,1\9\19b2dbfaf76e64f7800360ce096fc0111bf79ad8
+g
+7src/main/java/Actions/HotelFlow/CreateCartActions2.java,b\f\bf673d91ded4e8a12a1d9176ff529fa1b8b95956

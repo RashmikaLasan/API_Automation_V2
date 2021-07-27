@@ -81,11 +81,34 @@ Feature: Verify the V2 Hotel Flow
     #6.Add Payment
     Given I want to create Unique ID in Add Payment Body
     Given I want to create Payment Details in Add Payment Body where Card Type as "<cardType>"
-    Given I want to create Payment Info  in Add Payment Body
-    Given I want to create Note in Add Payment Body
+    Given I want to create Payment Info  in Add Payment Body where Currency as "<Currency>"
     Then I want to Merge the Full Body
     Then I click send request for Add Payment Request
     Then I should get a successful response as status code 200 for Add Payment Request
+
+    #7.Confirm Cart
+    Given I want to Confirm Booking by creating the Confirm Cart Body
+    Then I click send request for Confirm Cart Request
+    Then I should get a successful response as status code 200 for Confirm Cart Request
+
+
+    Then Store the Booking ID in Confirm Cart Response
+    And Store the Booking Reference in Confirm Cart Response
+    And the Booking Status Name should "Confirmed" in Confirm Cart Response
+    Then check the Hotel Name is correct in Confirm Cart Response
+    Then check the Hotel Code is correct in Confirm Cart Response
+    Then check the Service Start Date is correct in Confirm Cart Response
+    Then check the Service End Date is correct in Confirm Cart Response
+    Then check the Nights Count is correct in Confirm Cart Response
+    Then check the Choice Key is correct in Confirm Cart Response
+    Then check the Price of the Booking is correct in Confirm Cart Response
+    Then check the Room Type is correct in Confirm Cart Response
+    Then check the Meal Plan is correct in Confirm Cart Response
+    Then check the Pax Combination is correct in Confirm Cart Response
+    Then check the Choice Key is correct in Confirm Cart Response
+
+
+
 
 
 

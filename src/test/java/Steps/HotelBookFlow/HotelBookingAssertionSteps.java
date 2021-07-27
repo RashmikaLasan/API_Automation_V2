@@ -196,7 +196,15 @@ public class HotelBookingAssertionSteps {
     }
 
     //    Add Payments
-    @Then("I should get a successful response as status code {int} for Add Payment Request")
+    @Then("I should get a successful response as status code (\\d+) for Add Payment Request")
     public void iShouldGetASuccessfulResponseAsStatusCodeForAddPaymentRequest(int statusCode) {
+
+        hotelBookingAssertionActions.addPaymentStatusCode(statusCode);
+    }
+
+    @Then("I should get a successful response as status code (\\d+) for Confirm Cart Request")
+    public void iShouldGetASuccessfulResponseAsStatusCodeForConfirmCartRequest(int statusCode) {
+
+        hotelBookingAssertionActions.confirmCartStatusCode(statusCode);
     }
 }

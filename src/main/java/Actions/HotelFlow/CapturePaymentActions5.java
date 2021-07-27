@@ -3,9 +3,7 @@ package Actions.HotelFlow;
 import Utilities.Log;
 import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Logger;
-
 import static Actions.HotelFlow.CreateCartActions2.cartId;
 import static Actions.HotelFlow.CreatePaymentSessionActions4.paymentReference;
 import static Actions.HotelFlow.SearchActions1.keyControls;

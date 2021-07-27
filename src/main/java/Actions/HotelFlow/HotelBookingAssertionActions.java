@@ -1,11 +1,14 @@
 package Actions.HotelFlow;
 
 import Utilities.Log;
+import io.restassured.response.Validatable;
 import io.restassured.response.ValidatableResponse;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
+import static Actions.HotelFlow.AddPaymentActions6.addPaymentResponse;
 import static Actions.HotelFlow.CapturePaymentActions5.capturePaymentResponse;
+import static Actions.HotelFlow.ConfirmCartActions7.confirmCartResponse;
 import static Actions.HotelFlow.CreateCartActions2.cartId;
 import static Actions.HotelFlow.CreateCartActions2.createCartResponse;
 import static Actions.HotelFlow.CreatePaymentSessionActions4.createPaymentSessionResponse;
@@ -268,4 +271,22 @@ public class HotelBookingAssertionActions {
         capturePaymentResponse.then().statusCode(statusCode);
         logger.info("Status Code 200 and its Success for Capture Payment Response");
     }
+
+
+    //Add Payments Status Code Validation
+    public void addPaymentStatusCode(int statusCode) {
+
+        addPaymentResponse.then().statusCode(statusCode);
+        logger.info("Status Code 200 and its Success for Add Payments Response");
+
+    }
+
+    //Confirm Cart Status Code Validation
+    public void confirmCartStatusCode(int statusCode) {
+
+        confirmCartResponse.then().statusCode(statusCode);
+        logger.info("Status Code 200 and its Success for Confirm Cart Response");
+
+    }
+
 }
