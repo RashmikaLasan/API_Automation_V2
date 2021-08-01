@@ -2,6 +2,7 @@ package Steps.HotelBookFlow;
 
 import Actions.HotelFlow.CreatePaymentSessionActions4;
 import Actions.HotelFlow.HotelBookingAssertionActions;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 
 
@@ -202,9 +203,18 @@ public class HotelBookingAssertionSteps {
         hotelBookingAssertionActions.addPaymentStatusCode(statusCode);
     }
 
+
+    //Confirm Cart
     @Then("I should get a successful response as status code (\\d+) for Confirm Cart Request")
     public void iShouldGetASuccessfulResponseAsStatusCodeForConfirmCartRequest(int statusCode) {
 
         hotelBookingAssertionActions.confirmCartStatusCode(statusCode);
+    }
+
+
+    @And("the Booking Status Name should \"([^\"]*)\" in Confirm Cart Response")
+    public void theBookingStatusNameShouldInConfirmCartResponse(String confirmed) {
+
+        hotelBookingAssertionActions.confirmCartBookingStatus(confirmed);
     }
 }

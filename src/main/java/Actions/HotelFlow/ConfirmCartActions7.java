@@ -15,6 +15,8 @@ public class ConfirmCartActions7 {
 
     public static JsonObject ConfirmCartBody;
     public static Response confirmCartResponse;
+    public String bookingId;
+    public String bookingReference;
     final Logger logger = Log.getLogData(Log.class.getName());
 
     public void createConfirmCartBody() {
@@ -32,6 +34,19 @@ public class ConfirmCartActions7 {
                 post(BaseEnvironmet + PromoPara1 + cartId + ConfirmPara);
 
         logger.info("Confirm Cart Request URL is: " + BaseEnvironmet + PromoPara1 + cartId + ConfirmPara);
-        confirmCartResponse.prettyPrint();
+    }
+
+    //Store Booking ID
+    public void storeBookingId() {
+
+        bookingId = confirmCartResponse.path("data[0].summary.id").toString();
+        logger.info("Booking ID is: " + bookingId + " in Confirm Cart Response");
+    }
+
+    //Store Booking Reference
+    public void storeBookingReference() {
+
+        bookingReference = confirmCartResponse.path("data[0].summary.bookingProperties.bookingReference").toString();
+        logger.info("Booking Reference is: " + bookingReference + " in Confirm Cart Response");
     }
 }

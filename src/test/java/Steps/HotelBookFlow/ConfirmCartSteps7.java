@@ -1,6 +1,7 @@
 package Steps.HotelBookFlow;
 
 import Actions.HotelFlow.ConfirmCartActions7;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
@@ -18,5 +19,17 @@ public class ConfirmCartSteps7 {
     public void iClickSendRequestForConfirmCartRequest() {
 
         confirmCartActions7.sendConfirmCartRequest();
+    }
+
+    @Then("Store the Booking ID in Confirm Cart Response")
+    public void storeTheBookingIDInConfirmCartResponse() {
+
+        confirmCartActions7.storeBookingId();
+    }
+
+    @And("Store the Booking Reference in Confirm Cart Response")
+    public void storeTheBookingReferenceInConfirmCartResponse() {
+
+        confirmCartActions7.storeBookingReference();
     }
 }

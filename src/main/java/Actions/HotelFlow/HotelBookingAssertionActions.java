@@ -1,11 +1,9 @@
 package Actions.HotelFlow;
 
 import Utilities.Log;
-import io.restassured.response.Validatable;
 import io.restassured.response.ValidatableResponse;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-
 import static Actions.HotelFlow.AddPaymentActions6.addPaymentResponse;
 import static Actions.HotelFlow.CapturePaymentActions5.capturePaymentResponse;
 import static Actions.HotelFlow.ConfirmCartActions7.confirmCartResponse;
@@ -278,7 +276,6 @@ public class HotelBookingAssertionActions {
 
         addPaymentResponse.then().statusCode(statusCode);
         logger.info("Status Code 200 and its Success for Add Payments Response");
-
     }
 
     //Confirm Cart Status Code Validation
@@ -286,7 +283,13 @@ public class HotelBookingAssertionActions {
 
         confirmCartResponse.then().statusCode(statusCode);
         logger.info("Status Code 200 and its Success for Confirm Cart Response");
+    }
 
+    //Confirm Cart Booking Status
+    public void confirmCartBookingStatus(String Confirmed) {
+
+        confirmCartResponse.then().body(("data[0].summary.bookingStatusName"), equalTo(Confirmed));
+        logger.info("Booking Status Validation Success for Confirm Cart Response");
     }
 
 }

@@ -61,7 +61,7 @@ public class CreatePaymentSessionActions4 {
                 body(CreatePaymentSessionBody.toString()).
                 when().
                 post(BaseEnvironmet + PaymentSessionURL);
-        createPaymentSessionResponse.prettyPrint().toString();
+//        createPaymentSessionResponse.prettyPrint().toString();
     }
 
     //Store the Payment Reference

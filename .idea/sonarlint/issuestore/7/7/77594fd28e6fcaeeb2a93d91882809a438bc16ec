@@ -1,0 +1,57 @@
+
+`
+java:S1444">Make this "public static ViatorPricingMatrixPrice" field final(Ğõ„şÿÿÿÿ8·€Œß©/
+p
+java:S1104"SMake reqBody a static final constant or non-public and provide accessors if needed.(ìĞß8·€Œß©/
+y
+java:S1104"WMake TritEndDate a static final constant or non-public and provide accessors if needed.(“€øĞøÿÿÿÿ8·€Œß©/
+}
+java:S1104"`Make requestSpecification a static final constant or non-public and provide accessors if needed.(÷ø½¢8·€Œß©/
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¡Æ°8·€Œß©/
+U
+java:S1444"3Make this "public static TritStartDate" field final(†Ÿ”£üÿÿÿÿ8·€Œß©/
+y
+java:S1104"WMake GenCalPrice a static final constant or non-public and provide accessors if needed.(Å¿êúÿÿÿÿ8·€Œß©/
+S
+java:S1444"1Make this "public static GenCalPrice" field final(Å¿êúÿÿÿÿ8·€Œß©/
+n
+java:S1192L"QDefine a constant instead of duplicating this literal "application/json" 3 times.(¿Ò½Ç8·€Œß©/
+†
+java:S1104"dMake ViatorPricingMatrixPrice a static final constant or non-public and provide accessors if needed.(Ğõ„şÿÿÿÿ8·€Œß©/
+q
+java:S1104"TMake response a static final constant or non-public and provide accessors if needed.(Ó†ß8·€Œß©/
+x
+java:S3008"VRename this field "TritEndDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“€øĞøÿÿÿÿ8·€Œß©/
+N
+java:S1444"1Make this "public static checkInDate" field final(åœ­‹8·€Œß©/
+K
+java:S1444".Make this "public static response" field final(Ó†ß8·€Œß©/
+S
+java:S2696b"6Make the enclosing method "static" or remove this set.(´Ü›8·€Œß©/
+z
+java:S3008"XRename this field "TritStartDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ÿ”£üÿÿÿÿ8·€Œß©/
+z
+java:S1104"XMake tritiumPrice a static final constant or non-public and provide accessors if needed.(âÍ´ıÿÿÿÿ8·€Œß©/
+T
+java:S1444"2Make this "public static tritiumPrice" field final(âÍ´ıÿÿÿÿ8·€Œß©/
+J
+java:S1444"-Make this "public static reqBody" field final(ìĞß8·€Œß©/
+S
+java:S1444"1Make this "public static TritEndDate" field final(“€øĞøÿÿÿÿ8·€Œß©/
+T
+java:S1444"2Make this "public static checkOutDate" field final(ÿÜÒøÿÿÿÿ8·€Œß©/
+t
+java:S1104"WMake checkInDate a static final constant or non-public and provide accessors if needed.(åœ­‹8·€Œß©/
+x
+java:S3008"VRename this field "GenCalPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å¿êúÿÿÿÿ8·€Œß©/
+z
+java:S1104"XMake checkOutDate a static final constant or non-public and provide accessors if needed.(ÿÜÒøÿÿÿÿ8·€Œß©/
+W
+java:S1444":Make this "public static requestSpecification" field final(÷ø½¢8·€Œß©/
+X
+java:S2696X"6Make the enclosing method "static" or remove this set.(®É¼øşÿÿÿÿ8·€Œß©/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡¦´íøÿÿÿÿ8·€Œß©/
+{
+java:S1104"YMake TritStartDate a static final constant or non-public and provide accessors if needed.(†Ÿ”£üÿÿÿÿ8·€Œß©/
+…
+java:S3008"cRename this field "ViatorPricingMatrixPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğõ„şÿÿÿÿ8·€Œß©/

@@ -62,7 +62,7 @@ public class CapturePaymentActions5 {
                 put(BaseEnvironmet + PaymentSessionURL + "/" + paymentReference);
 
         logger.info("URL for Capture Payment Request is: " + BaseEnvironmet + PaymentSessionURL + "/" + paymentReference);
-        capturePaymentResponse.prettyPrint().toString();
+//        capturePaymentResponse.prettyPrint().toString();
     }
 
 

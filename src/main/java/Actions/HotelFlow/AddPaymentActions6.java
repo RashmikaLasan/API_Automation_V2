@@ -109,7 +109,7 @@ public class AddPaymentActions6 {
                 when().
                 post(BaseEnvironmet + PromoPara1 + cartId + AddPaymentPara);
 
-        addPaymentResponse.prettyPrint().toString();
+//        addPaymentResponse.prettyPrint().toString();
         logger.info("Add Payment Request URL is: " + BaseEnvironmet + PromoPara1 + cartId + AddPaymentPara);
     }
 }

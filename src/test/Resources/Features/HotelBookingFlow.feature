@@ -95,17 +95,17 @@ Feature: Verify the V2 Hotel Flow
     Then Store the Booking ID in Confirm Cart Response
     And Store the Booking Reference in Confirm Cart Response
     And the Booking Status Name should "Confirmed" in Confirm Cart Response
-    Then check the Hotel Name is correct in Confirm Cart Response
-    Then check the Hotel Code is correct in Confirm Cart Response
-    Then check the Service Start Date is correct in Confirm Cart Response
-    Then check the Service End Date is correct in Confirm Cart Response
-    Then check the Nights Count is correct in Confirm Cart Response
-    Then check the Choice Key is correct in Confirm Cart Response
-    Then check the Price of the Booking is correct in Confirm Cart Response
-    Then check the Room Type is correct in Confirm Cart Response
-    Then check the Meal Plan is correct in Confirm Cart Response
-    Then check the Pax Combination is correct in Confirm Cart Response
-    Then check the Choice Key is correct in Confirm Cart Response
+#    Then check the Hotel Name is correct in Confirm Cart Response
+#    Then check the Hotel Code is correct in Confirm Cart Response
+#    Then check the Service Start Date is correct in Confirm Cart Response
+#    Then check the Service End Date is correct in Confirm Cart Response
+#    Then check the Nights Count is correct in Confirm Cart Response
+#    Then check the Choice Key is correct in Confirm Cart Response
+#    Then check the Price of the Booking is correct in Confirm Cart Response
+#    Then check the Room Type is correct in Confirm Cart Response
+#    Then check the Meal Plan is correct in Confirm Cart Response
+#    Then check the Pax Combination is correct in Confirm Cart Response
+#    Then check the Choice Key is correct in Confirm Cart Response
 
 
 
@@ -118,7 +118,7 @@ Feature: Verify the V2 Hotel Flow
 
     Examples:
       | FutureDateCount | NightCount | HotelCode | City | PromoCode | Currency | cardType |
-      | 60              | 3          | EAN179227 | LON  | CTPromo   | GBP      | VISA     |
+      | 50              | 3          | EAN179227 | LON  | CTPromo   | GBP      | VISA     |
 
 #      | FutureDateCount    | NightCount | HotelCode | City |PromoCode|
 #      | 60                 | 3          | EAN311048 | DXB  | CTPromo |
