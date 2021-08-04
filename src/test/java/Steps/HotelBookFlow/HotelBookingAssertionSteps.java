@@ -217,4 +217,52 @@ public class HotelBookingAssertionSteps {
 
         hotelBookingAssertionActions.confirmCartBookingStatus(confirmed);
     }
+
+    @Then("check the Hotel Name is correct in Confirm Cart Response")
+    public void checkTheHotelNameIsCorrectInConfirmCartResponse() {
+
+        hotelBookingAssertionActions.confirmCartHotelName();
+    }
+
+    @Then("check the Hotel Code is correct in Confirm Cart Response")
+    public void checkTheHotelCodeIsCorrectInConfirmCartResponse() {
+
+        hotelBookingAssertionActions.confirmCartHotelCode();
+    }
+
+    @Then("check the Service Start Date is correct in Confirm Cart Response")
+    public void checkTheServiceStartDateIsCorrectInConfirmCartResponse() {
+
+        hotelBookingAssertionActions.confirmCartCheckInDate();
+    }
+
+    @Then("check the Service End Date is correct in Confirm Cart Response")
+    public void checkTheServiceEndDateIsCorrectInConfirmCartResponse() {
+    }
+
+    @Then("check the Nights Count is correct in Confirm Cart Response")
+    public void checkTheNightsCountIsCorrectInConfirmCartResponse() {
+    }
+
+    @Then("check the Choice Key is correct in Confirm Cart Response")
+    public void checkTheChoiceKeyIsCorrectInConfirmCartResponse() {
+    }
+
+    @Then("check the Price of the Booking is correct in Confirm Cart Response")
+    public void checkThePriceOfTheBookingIsCorrectInConfirmCartResponse() {
+    }
+
+    @Then("check the Room Type is correct in Confirm Cart Response")
+    public void checkTheRoomTypeIsCorrectInConfirmCartResponse() {
+    }
+
+    @Then("check the Meal Plan is correct in Confirm Cart Response")
+    public void checkTheMealPlanIsCorrectInConfirmCartResponse() {
+    }
+
+    @Then("check the Pax Combination is correct in Confirm Cart Response")
+    public void checkThePaxCombinationIsCorrectInConfirmCartResponse() {
+    }
+
+
 }

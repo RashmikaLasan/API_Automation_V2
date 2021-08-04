@@ -292,4 +292,33 @@ public class HotelBookingAssertionActions {
         logger.info("Booking Status Validation Success for Confirm Cart Response");
     }
 
+    //Confirm Cart Hotel Name Assertion
+    public void confirmCartHotelName() {
+
+        confirmCartResponse.then().body(("data[0].products[0].summary.name"), equalTo(hotelName));
+        logger.info("Hotel Name Validation Success for Confirm Cart Response");
+    }
+
+    //Confirm Cart Hotel Code Assertion
+    public void confirmCartHotelCode() {
+
+        confirmCartResponse.then().body(("data[0].products[0].detail.hotelCode"), equalTo(hotelCode));
+        logger.info("Hotel Code Validation Success for Confirm Cart Response");
+    }
+
+    //Confirm Cart Service Start Date Assertion
+    public void confirmCartCheckInDate() {
+
+        confirmCartResponse.then().body(("data[0].products[0].summary.serviceStartDate"), equalTo(serviceStartDate));
+        logger.info("Service Start Date Validation Success for Confirm Cart Response");
+    }
+
+    //Confirm Cart Service End Date Assertion
+    public void confirmCartCheckOutDate() {
+
+        confirmCartResponse.then().body(("data[0].products[0].summary.serviceEndDate"), equalTo(serviceEndDate));
+        logger.info("Service Start End Validation Success for Confirm Cart Response");
+    }
+
+
 }
