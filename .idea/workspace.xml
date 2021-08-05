@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Hotel Code Changes">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Confirm Cart Assertions">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/ConfirmCartActions7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/ConfirmCartActions7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/ConfirmCartSteps7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/ConfirmCartSteps7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -412,7 +414,9 @@
       <workItem from="1627823894694" duration="547000" />
       <workItem from="1627837052092" duration="1619000" />
       <workItem from="1628011876823" duration="697000" />
-      <workItem from="1628092090003" duration="2630000" />
+      <workItem from="1628092090003" duration="4235000" />
+      <workItem from="1628178359246" duration="934000" />
+      <workItem from="1628180292907" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -526,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627838068021</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Confirm Cart Assertions">
+      <created>1628103066322</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1628103066322</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -626,7 +637,8 @@
     <MESSAGE value="Add Payment Request" />
     <MESSAGE value="Confirm Cart Request" />
     <MESSAGE value="Hotel Code Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Code Changes" />
+    <MESSAGE value="Confirm Cart Assertions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Confirm Cart Assertions" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

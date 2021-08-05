@@ -30,7 +30,7 @@ Feature: Verify the V2 Hotel Flow
     Then check the Service Start Date is correct in Create Cart Response
     Then check the Service End Date is correct in Create Cart Response
     Then check the Nights Count is correct in Create Cart Response
-    Then check the Choice Key is correct in Create Cart Response
+#    Then check the Choice Key is correct in Create Cart Response
     Then check the Price of the Booking is correct in Create Cart Response
     Then check the Room Type is correct in Create Cart Response
     Then check the Meal Plan is correct in Create Cart Response
@@ -55,7 +55,7 @@ Feature: Verify the V2 Hotel Flow
     Then check the Service Start Date is correct in Update Passenger Response
     Then check the Service End Date is correct in Update Passenger Response
     Then check the Nights Count is correct in Update Passenger Response
-    Then check the Choice Key is correct in Update Passenger Response
+#    Then check the Choice Key is correct in Update Passenger Response
     Then check the Price of the Booking is correct in Update Passenger Response
     Then check the Room Type is correct in Update Passenger Response
     Then check the Meal Plan is correct in Update Passenger Response
@@ -101,12 +101,11 @@ Feature: Verify the V2 Hotel Flow
     Then check the Service Start Date is correct in Confirm Cart Response
     Then check the Service End Date is correct in Confirm Cart Response
     Then check the Nights Count is correct in Confirm Cart Response
-    Then check the Choice Key is correct in Confirm Cart Response
+#    Then check the Choice Key is correct in Confirm Cart Response
     Then check the Price of the Booking is correct in Confirm Cart Response
     Then check the Room Type is correct in Confirm Cart Response
     Then check the Meal Plan is correct in Confirm Cart Response
     Then check the Pax Combination is correct in Confirm Cart Response
-    Then check the Choice Key is correct in Confirm Cart Response
 
 
 

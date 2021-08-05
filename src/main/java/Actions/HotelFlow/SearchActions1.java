@@ -64,7 +64,6 @@ public class SearchActions1 {
                 queryParam("adult", "2~30~1990-01-01~1");
 
         logger.info("Get Request Parameters Created");
-        logger.info(requestSpecification);
     }
 
 
@@ -75,7 +74,6 @@ public class SearchActions1 {
                 when().get(BaseEnvironmet + SearchURLPara);
         logger.info(requestSpecification + BaseEnvironmet + SearchURLPara);
         logger.info("Search Request Send");
-//        searchResponse.prettyPrint();
 
     }
 

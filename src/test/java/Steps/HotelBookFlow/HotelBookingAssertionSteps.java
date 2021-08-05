@@ -238,30 +238,38 @@ public class HotelBookingAssertionSteps {
 
     @Then("check the Service End Date is correct in Confirm Cart Response")
     public void checkTheServiceEndDateIsCorrectInConfirmCartResponse() {
+
+        hotelBookingAssertionActions.confirmCartCheckOutDate();
     }
 
     @Then("check the Nights Count is correct in Confirm Cart Response")
     public void checkTheNightsCountIsCorrectInConfirmCartResponse() {
-    }
 
-    @Then("check the Choice Key is correct in Confirm Cart Response")
-    public void checkTheChoiceKeyIsCorrectInConfirmCartResponse() {
+        hotelBookingAssertionActions.confirmCartNightCount();
     }
 
     @Then("check the Price of the Booking is correct in Confirm Cart Response")
     public void checkThePriceOfTheBookingIsCorrectInConfirmCartResponse() {
+
+        hotelBookingAssertionActions.confirmCartTotalPrice();
     }
 
     @Then("check the Room Type is correct in Confirm Cart Response")
     public void checkTheRoomTypeIsCorrectInConfirmCartResponse() {
+
+        hotelBookingAssertionActions.confirmCartRoomType();
     }
 
     @Then("check the Meal Plan is correct in Confirm Cart Response")
     public void checkTheMealPlanIsCorrectInConfirmCartResponse() {
+
+        hotelBookingAssertionActions.confirmCartMealPlan();
     }
 
     @Then("check the Pax Combination is correct in Confirm Cart Response")
     public void checkThePaxCombinationIsCorrectInConfirmCartResponse() {
+
+        hotelBookingAssertionActions.confirmCartPax();
     }
 
 

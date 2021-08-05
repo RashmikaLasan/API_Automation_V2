@@ -289,35 +289,82 @@ public class HotelBookingAssertionActions {
     public void confirmCartBookingStatus(String Confirmed) {
 
         confirmCartResponse.then().body(("data[0].summary.bookingStatusName"), equalTo(Confirmed));
-        logger.info("Booking Status Validation Success for Confirm Cart Response");
+        logger.info("Booking Status Validation Success for Confirm Cart Response and Booking Status is: " + Confirmed);
     }
 
     //Confirm Cart Hotel Name Assertion
     public void confirmCartHotelName() {
 
         confirmCartResponse.then().body(("data[0].products[0].summary.name"), equalTo(hotelName));
-        logger.info("Hotel Name Validation Success for Confirm Cart Response");
+        logger.info("Hotel Name Validation Success for Confirm Cart Response and Hotel Name is: " + hotelName);
     }
 
     //Confirm Cart Hotel Code Assertion
     public void confirmCartHotelCode() {
 
         confirmCartResponse.then().body(("data[0].products[0].detail.hotelCode"), equalTo(hotelCode));
-        logger.info("Hotel Code Validation Success for Confirm Cart Response");
+        logger.info("Hotel Code Validation Success for Confirm Cart Response and Hotel Code is: " + hotelCode);
     }
 
     //Confirm Cart Service Start Date Assertion
     public void confirmCartCheckInDate() {
 
         confirmCartResponse.then().body(("data[0].products[0].summary.serviceStartDate"), equalTo(serviceStartDate));
-        logger.info("Service Start Date Validation Success for Confirm Cart Response");
+        logger.info("Service Start Date Validation Success for Confirm Cart Response and Start Date is: " + serviceStartDate);
     }
 
     //Confirm Cart Service End Date Assertion
     public void confirmCartCheckOutDate() {
 
         confirmCartResponse.then().body(("data[0].products[0].summary.serviceEndDate"), equalTo(serviceEndDate));
-        logger.info("Service Start End Validation Success for Confirm Cart Response");
+        logger.info("Service Start End Validation Success for Confirm Cart Response and End Date is :" + serviceEndDate);
+    }
+
+    //Confirm Cart Service Night Count Assertion
+    public void confirmCartNightCount() {
+
+        String durationConfirmCart = confirmCartResponse.path("data[0].products[0].summary.duration").toString();
+        Assert.assertEquals(durationConfirmCart, nightCount);
+        logger.info("Night Count Validation Success for Confirm Cart Response and Night Count is: " + nightCount);
+    }
+
+    //Confirm Cart Service Night Count Assertion
+    public void confirmCartTotalPrice() {
+
+        String totalConfirmCart = (confirmCartResponse.path(("data[0].products[0].roomSet.rate.price"))).toString();
+        Assert.assertEquals(totalConfirmCart, totalPrice);
+        logger.info("Total Price Validation Success for Confirm Cart Response and Total Price is: " + totalPrice);
+    }
+
+    //Confirm Cart Room Type Assertion
+    public void confirmCartRoomType() {
+
+        confirmCartResponse.then().body(("data[0].products[0].roomSet.rooms[0].typeName"), equalTo(roomType));
+        logger.info("Room Type Validation Success for Confirm Cart Response and Room Type is :" + roomType);
+    }
+
+    //Confirm Cart Meal Plan Assertion
+    public void confirmCartMealPlan() {
+
+        confirmCartResponse.then().body(("data[0].products[0].roomSet.rooms[0].mealPlanName"), equalTo(mealPlan));
+        logger.info("Room Type Validation Success for Confirm Cart Response and Meal Plan is :" + mealPlan);
+    }
+
+    //Confirm Cart Passenger Assertion
+    public void confirmCartPax() {
+
+        String adultCountConfirmCartResponse = Integer.toString((confirmCartResponse.path(("data[0].products[0].travellerInfo.adult"))));
+        Assert.assertEquals(adultCountConfirmCartResponse, adultCount);
+        logger.info("Adult Count Validation Success for Confirm Cart Response and Adult Count is: " + adultCount);
+
+        int childCountConfirmCartResponse = confirmCartResponse.path(("data[0].products[0].travellerInfo.child"));
+        Assert.assertEquals(childCountConfirmCartResponse, Integer.parseInt(childCount));
+        logger.info("Child Count Validation Success for Confirm Cart Response and Child Count is: " + childCount);
+
+        int infantCountConfirmCartResponse = confirmCartResponse.path(("data[0].products[0].travellerInfo.infant"));
+        Assert.assertEquals(infantCountConfirmCartResponse, Integer.parseInt(infantCount));
+        logger.info("Infant Count Validation Success for Confirm Cart Response and Infant Count is: " + infantCount);
+
     }
 
 

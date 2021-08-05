@@ -40,7 +40,7 @@ public class ConfirmCartActions7 {
     public void storeBookingId() {
 
         bookingId = confirmCartResponse.path("data[0].summary.id").toString();
-        logger.info("Booking ID is: " + bookingId + " in Confirm Cart Response");
+        logger.info("Booking ID in Confirm Cart Response is: " + bookingId);
     }
 
     //Store Booking Reference

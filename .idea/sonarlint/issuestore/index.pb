@@ -32,8 +32,6 @@ g
 7src/test/java/Steps/HotelBookFlow/CreateCartSteps2.java,1\9\19b2dbfaf76e64f7800360ce096fc0111bf79ad8
 g
 7src/main/java/Actions/HotelFlow/CreateCartActions2.java,b\f\bf673d91ded4e8a12a1d9176ff529fa1b8b95956
-h
-8src/main/java/Actions/HotelFlow/ConfirmCartActions7.java,d\0\d0925e7fb1186df8bdf2189b4c3fbddf19eac73c
 g
 7src/test/java/Steps/HotelBookFlow/AddPaymentSteps6.java,c\6\c6d4360d32bd6b0311c966e5372fe7cdf7396507
 k
@@ -50,9 +48,7 @@ g
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 g
 7src/main/java/Actions/HotelFlow/AddPaymentActions6.java,e\b\eb42f9c79d9bd76e44cc2494a0153202de462e8c
-c
-3src/test/java/Steps/HotelBookFlow/SearchSteps1.java,2\b\2b25074485001f45be785823bfe01ec1d8386473
-c
-3src/main/java/Actions/HotelFlow/SearchActions1.java,9\0\90084c811988385396b9f63b3fb91c2083af0c81
 V
 &src/main/java/Constants/EndPoints.java,6\7\67f460409e43e6bd0f2c4d04ed6535bde4bab0dd
+q
+Asrc/test/java/Steps/HotelBookFlow/CreatePaymentSessionSteps4.java,d\f\df81e9c60af95409855824c33c7f22df3a380492
