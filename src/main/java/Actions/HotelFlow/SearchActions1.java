@@ -33,7 +33,7 @@ public class SearchActions1 {
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
-    //Hotel Search Cart Creation
+    //Hotel Search Parameters create
     public void searchRequestCreate(int futureDateCount, String nightCount, String hotelCode, String city) {
 
         checkinDate = TimeHandler.TravelDateOne(futureDateCount);

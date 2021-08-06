@@ -9,7 +9,8 @@ import cucumber.api.java.en.Then;
 public class HotelBookingAssertionSteps {
 
     HotelBookingAssertionActions hotelBookingAssertionActions = new HotelBookingAssertionActions();
-    CreatePaymentSessionActions4 createPaymentSessionActions4 = new CreatePaymentSessionActions4();
+
+
     @Then("I should get a successful response as status code (\\d+) for Hotel Search")
     public void iShouldGetASuccessfulResponseAsStatusCodeForHotelSearch(int statusCode) {
 
@@ -273,4 +274,10 @@ public class HotelBookingAssertionSteps {
     }
 
 
+    @Then("I should get a successful response as status code (\\d+) for Retrieve Request")
+    public void iShouldGetASuccessfulResponseAsStatusCodeForRetrieveRequest(int statusCode) {
+
+        hotelBookingAssertionActions.retrieveStatusCode(statusCode);
+
+    }
 }

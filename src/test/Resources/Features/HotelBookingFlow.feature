@@ -1,7 +1,7 @@
 Feature: Verify the V2 Hotel Flow
 
   @htlpromo
-  Scenario Outline: Verifying V2 HTL Flow with the PromoCode
+  Scenario Outline: Verifying V2 HTL Flow without the PromoCode
     Given I Enter the checkIn date as "<FutureDateCount>" Night Count as "<NightCount>" Hotel Code as "<HotelCode>" City as "<City>" for two Adults
     When I click send request for Hotel Search Request
     Then I should get a successful response as status code 200 for Hotel Search
@@ -89,13 +89,14 @@ Feature: Verify the V2 Hotel Flow
     #7.Confirm Cart
     Given I want to Confirm Booking by creating the Confirm Cart Body
     Then I click send request for Confirm Cart Request
-    Then I should get a successful response as status code 200 for Confirm Cart Request
 
+    Then I click send request for Confirm Cart Request
+    Then I click send request for Confirm Cart Request
+    Then I should get a successful response as status code 200 for Confirm Cart Request
 
     Then Store the Booking ID in Confirm Cart Response
     And Store the Booking Reference in Confirm Cart Response
     And the Booking Status Name should "Confirmed" in Confirm Cart Response
-
     Then check the Hotel Name is correct in Confirm Cart Response
     Then check the Hotel Code is correct in Confirm Cart Response
     Then check the Service Start Date is correct in Confirm Cart Response
@@ -108,12 +109,10 @@ Feature: Verify the V2 Hotel Flow
     Then check the Pax Combination is correct in Confirm Cart Response
 
 
-
-
-
-
-
-
+    #Booking Retrieve
+    Given I want to create the Get Request as userId as "877" UserName as "codegen" ClientID as "-1" Expand as "all"
+    When I click send Request for Retrieve Request
+    Then I should get a successful response as status code 200 for Retrieve Request
 
 
     Examples:

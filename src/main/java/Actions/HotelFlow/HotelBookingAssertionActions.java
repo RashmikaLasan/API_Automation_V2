@@ -10,6 +10,7 @@ import static Actions.HotelFlow.ConfirmCartActions7.confirmCartResponse;
 import static Actions.HotelFlow.CreateCartActions2.cartId;
 import static Actions.HotelFlow.CreateCartActions2.createCartResponse;
 import static Actions.HotelFlow.CreatePaymentSessionActions4.createPaymentSessionResponse;
+import static Actions.HotelFlow.RetrieveActions.retrieveResponse;
 import static Actions.HotelFlow.SearchActions1.*;
 import static Actions.HotelFlow.UpdatePassengerAction3.updatePassengerResponse;
 import static org.hamcrest.Matchers.equalTo;
@@ -367,5 +368,12 @@ public class HotelBookingAssertionActions {
 
     }
 
+
+    //Retrieve Status Code Validation
+    public void retrieveStatusCode(int statusCode) {
+
+        retrieveResponse.then().statusCode(statusCode);
+        logger.info("Status Code 200 and its Success for Retrieve Response");
+    }
 
 }
