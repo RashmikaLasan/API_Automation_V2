@@ -4,18 +4,43 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Retrieve Flow Done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actions/GenericFlow/GenericSearchAction1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/GenericBookFlow/GenericSearchStep1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1e43591ff9d95c87d75d0781a907f1cd131bc99" beforeDir="false" />
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Generic Search Steps">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/GenericFlow/GenericSearchAction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericSearchAction1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelCalendar/HotelCalendarAssertionAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarAssertionAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/AddPaymentActions6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/AddPaymentActions6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CapturePaymentActions5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/CapturePaymentActions5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/ConfirmCartActions7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/ConfirmCartActions7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreateCartActions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/CreateCartActions2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/CreatePaymentSessionActions4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/CreatePaymentSessionActions4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/HotelBookingAssertionActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/HotelBookingAssertionActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/RetrieveActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/RetrieveActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/SearchActions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/SearchActions1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/HotelFlow/UpdatePassengerAction3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/UpdatePassengerAction3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/Tritium/TritiumAssertionAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Tritium/TritiumAssertionAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/Tritium/TritiumRequestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Tritium/TritiumRequestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/EndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/TimeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/TimeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/RetrieveSteps8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/RetrieveSteps8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/GenericBookFlow/GenericSearchStep1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericSearchStep1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/AddPaymentSteps6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/AddPaymentSteps6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CapturePaymentSteps5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/CapturePaymentSteps5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/ConfirmCartSteps7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/ConfirmCartSteps7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreateCartSteps2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/CreateCartSteps2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/CreatePaymentSessionSteps4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/CreatePaymentSessionSteps4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/PassengerUpdate3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/PassengerUpdate3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/RetrieveSteps8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/RetrieveSteps8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelBookFlow/SearchSteps1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/SearchSteps1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarAssertionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HotelCalendar/HotelCalendarSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Tritium/TritiumSearchAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Tritium/TritiumSearchAssertionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Tritium/TritiumSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Tritium/TritiumSearchSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,15 +343,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -434,7 +457,8 @@
       <workItem from="1628180292907" duration="4946000" />
       <workItem from="1628225810094" duration="610000" />
       <workItem from="1628265831903" duration="10151000" />
-      <workItem from="1628314582441" duration="14155000" />
+      <workItem from="1628314582441" duration="14798000" />
+      <workItem from="1628348441554" duration="7226000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -569,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628274436946</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Generic Search Steps">
+      <created>1628341888701</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1628341888701</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -672,7 +703,8 @@
     <MESSAGE value="Confirm Cart Assertions" />
     <MESSAGE value="Confirm Cart Done" />
     <MESSAGE value="Retrieve Flow Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retrieve Flow Done" />
+    <MESSAGE value="Generic Search Steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic Search Steps" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

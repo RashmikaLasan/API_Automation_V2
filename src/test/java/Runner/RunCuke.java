@@ -12,9 +12,9 @@ import java.util.Map;
 
 
 @CucumberOptions(
-        plugin = {"json:target/positive/cucumber.json", "pretty", "html:target/positive/cucumber.html","com.cucumber.listener.ExtentCucumberFormatter"},
+        plugin = {"json:target/positive/cucumber.json", "pretty", "html:target/positive/cucumber.html", "com.cucumber.listener.ExtentCucumberFormatter"},
         features = "src\\test\\resources\\Features",
-        glue = "Steps",
+        glue = "steps",
         tags = {"@gennopromo"}
 )
 

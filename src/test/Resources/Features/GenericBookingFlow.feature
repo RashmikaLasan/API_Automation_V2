@@ -13,13 +13,11 @@ Feature: Verify the V2 Generic Flow
     Then Store the Generic Service Start Date
     Then Store the Duration of Tour
     Then Store the Generic Service End Date
-
-
-#    Then Store the Choice Key
-#    Then Store the Price of the Booking
-#    Then Store the Room Type
-#    Then Store the Meal Plan
-#    Then Store the Pax Combination
+    Then Store the Generic Choice Key
+    Then Store the Price of the Generic Search
+    Then Store the Category Code
+    Then Store the Category Name
+    Then Store the Generic Pax Combination
 
 
 
