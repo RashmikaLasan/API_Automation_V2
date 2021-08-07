@@ -119,5 +119,6 @@ Feature: Verify the V2 Hotel Flow
       | FutureDateCount | NightCount | HotelCode | City | PromoCode | Currency | cardType |
       | 50              | 3          | EAN179227 | LON  | CTPromo   | GBP      | VISA     |
 
+
 #      | FutureDateCount    | NightCount | HotelCode | City |PromoCode|
 #      | 60                 | 3          | EAN311048 | DXB  | CTPromo |

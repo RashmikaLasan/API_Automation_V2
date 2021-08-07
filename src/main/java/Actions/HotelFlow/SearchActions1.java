@@ -73,7 +73,7 @@ public class SearchActions1 {
         searchResponse = requestSpecification.
                 when().get(BaseEnvironmet + SearchURLPara);
         logger.info(requestSpecification + BaseEnvironmet + SearchURLPara);
-        logger.info("Search Request Send");
+        logger.info("Hotel Search Request Send");
 
     }
 
