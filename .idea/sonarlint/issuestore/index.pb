@@ -68,3 +68,7 @@ q
 Asrc/test/java/Steps/HotelBookFlow/HotelBookingAssertionSteps.java,9\7\97ae2ceb07096d0bbb5a64787eeff28b4a8b00a7
 c
 3src/test/java/Steps/HotelBookFlow/SearchSteps1.java,2\b\2b25074485001f45be785823bfe01ec1d8386473
+c
+3src/test/java/steps/HotelBookFlow/SearchSteps1.java,0\d\0d99ecc5dcbbb80b95fa1fafcd352cf2126ed943
+c
+3src/main/java/actions/HotelFlow/SearchActions1.java,7\7\77706621d1c1d6ad8cd775cd2a2f846e010f8f83

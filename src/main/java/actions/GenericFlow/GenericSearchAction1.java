@@ -13,8 +13,9 @@ import static io.restassured.RestAssured.given;
 
 public class GenericSearchAction1 {
 
-    public static String checkinDate;
     public static RequestSpecification genericRequestSpecification;
+    public Response genericSearchResponse;
+    public static String checkinDate;
     public static JsonElement genericKeyControls;
     public static JsonElement genericPayload;
     public static String productName;
@@ -30,7 +31,7 @@ public class GenericSearchAction1 {
     public static String childCount;
     public static String infantCount;
     final Logger logger = Log.getLogData(Log.class.getName());
-    public Response genericSearchResponse;
+
 
     //Hotel Search Parameters create
     public void genericSearchRequestCreate(int futureDateCount, String productCode, String city) {

@@ -100,4 +100,5 @@ public class GenericSearchStep1 {
 
         genericSearchAction1.storeGenericPaxCombination();
     }
+
 }
