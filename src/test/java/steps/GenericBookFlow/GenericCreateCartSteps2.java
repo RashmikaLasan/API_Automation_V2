@@ -45,4 +45,54 @@ public class GenericCreateCartSteps2 {
         genericCreateCartAction2.storeGenTravellersKeyTwo();
     }
 
+    @Then("check the Product Name is correct in Generic Create Cart Response")
+    public void checkTheProductNameIsCorrectInGenericCreateCartResponse() {
+
+        genericCreateCartAction2.createCartGenProductNameAssertion();
+    }
+
+    @Then("check the Product Code is correct in Generic Create Cart Response")
+    public void checkTheProductCodeIsCorrectInGenericCreateCartResponse() {
+        genericCreateCartAction2.createCartGenProductCodeAssertion();
+    }
+
+    @Then("check the Generic Service Start Date is correct in Generic Create Cart Response")
+    public void checkTheGenericServiceStartDateIsCorrectInGenericCreateCartResponse() {
+
+        genericCreateCartAction2.createCartGenStartDateAssertion();
+    }
+
+    @Then("check the Generic Service End Date is correct in Generic Create Cart Response")
+    public void checkTheGenericServiceEndDateIsCorrectInGenericCreateCartResponse() {
+
+        genericCreateCartAction2.createCartGenEndDateAssertion();
+    }
+
+//    @Then("check the Duration of the Tour is correct in Generic Create Cart Response")
+//    public void checkTheDurationOfTheTourIsCorrectInGenericCreateCartResponse() {
+//
+//        genericCreateCartAction2.createCartGenDurationAssertion();
+//    }
+
+    @Then("check the Price of the Product is correct in Generic Create Cart Response")
+    public void checkThePriceOfTheProductIsCorrectInGenericCreateCartResponse() {
+
+        genericCreateCartAction2.createCartGenPriceAssertion();
+    }
+
+    @Then("check the Category Code is correct in Create Cart Response")
+    public void checkTheCategoryCodeIsCorrectInCreateCartResponse() {
+
+        genericCreateCartAction2.createCartGenCategoryCodeAssertion();
+    }
+
+    @Then("check the Category Name is correct in Create Cart Response")
+    public void checkTheCategoryNameIsCorrectInCreateCartResponse() {
+
+        genericCreateCartAction2.createCartGenCategoryNameAssertion();
+    }
+
+    @Then("check the Pax Combination is correct in Generic Create Cart Response")
+    public void checkThePaxCombinationIsCorrectInGenericCreateCartResponse() {
+    }
 }

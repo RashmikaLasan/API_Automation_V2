@@ -24,7 +24,7 @@ public class GenericSearchAction1 {
     public static String genericServiceEndDate;
     public static String genericTourDuration;
     public static String genericChoiceKey;
-    public static String genericTotalPrice;
+    public static double genericTotalPrice;
     public static String genericCategoryCode;
     public static String genericCategoryName;
     public static String adultCount;
@@ -146,7 +146,8 @@ public class GenericSearchAction1 {
     //Store Generic Total Price
     public void storeGenericPrice() {
 
-        genericTotalPrice = genericSearchResponse.path("data[0].category.rate.price").toString();
+        String genericTotalPriceString = genericSearchResponse.path("data[0].category.rate.price").toString();
+        genericTotalPrice = Double.parseDouble(genericTotalPriceString);
         logger.info("Total Price in Generic Search is: " + genericTotalPrice);
     }
 

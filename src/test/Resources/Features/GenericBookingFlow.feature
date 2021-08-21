@@ -28,19 +28,18 @@ Feature: Verify the V2 Generic Flow
     And Store the Generic TravellersKey of Passenger One
     And Store the Generic TravellersKey of Passenger Two
 
-#    Then check the Hotel Name is correct in Create Cart Response
-#    Then check the Hotel Code is correct in Create Cart Response
-#    Then check the Service Start Date is correct in Create Cart Response
-#    Then check the Service End Date is correct in Create Cart Response
-#    Then check the Nights Count is correct in Create Cart Response
-##    Then check the Choice Key is correct in Create Cart Response
-#    Then check the Price of the Booking is correct in Create Cart Response
-#    Then check the Room Type is correct in Create Cart Response
-#    Then check the Meal Plan is correct in Create Cart Response
-#    Then check the Pax Combination is correct in Create Cart Response
+    Then check the Product Name is correct in Generic Create Cart Response
+    Then check the Product Code is correct in Generic Create Cart Response
+    Then check the Generic Service Start Date is correct in Generic Create Cart Response
+    Then check the Generic Service End Date is correct in Generic Create Cart Response
+#    Then check the Choice Key is correct in Create Cart Response
+    Then check the Price of the Product is correct in Generic Create Cart Response
+    Then check the Category Code is correct in Create Cart Response
+    Then check the Category Name is correct in Create Cart Response
+#    Then check the Pax Combination is correct in Generic Create Cart Response
 
     Examples:
       | FutureDateCount | ProductCode | City |
-      | 60              | VT108414P7  | LON  |
+      | 90              | VT108266P12 | DXB  |
 
 

@@ -4,7 +4,6 @@ import utilities.Log;
 import io.restassured.response.ValidatableResponse;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-
 import static actions.HotelFlow.AddPaymentActions6.addPaymentResponse;
 import static actions.HotelFlow.CapturePaymentActions5.capturePaymentResponse;
 import static actions.HotelFlow.ConfirmCartActions7.confirmCartResponse;
