@@ -4,16 +4,18 @@ import gherkin.deps.com.google.gson.JsonArray;
 import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import utilities.Log;
 
 import static actions.GenericFlow.GenericCreateCartAction2.*;
-import static actions.GenericFlow.GenericSearchAction1.genericKeyControls;
-import static actions.GenericFlow.GenericSearchAction1.genericPayload;
+import static actions.GenericFlow.GenericSearchAction1.*;
+import static actions.GenericFlow.GenericSearchAction1.infantCountGen;
 import static actions.HotelFlow.CreateCartActions2.TravellersKeyOne;
 import static actions.HotelFlow.CreateCartActions2.TravellersKeyTwo;
 import static constants.EndPoints.*;
 import static constants.EndPoints.UpdatePassengerPara;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 public class GenericUpdatePassengerAction4 {
 
@@ -202,7 +204,7 @@ public class GenericUpdatePassengerAction4 {
                 put(BaseEnvironmet + PromoPara1 + genCartId + UpdatePassengerPara);
 
         logger.info("Update Passenger Request URL is: " + BaseEnvironmet + PromoPara1 + genCartId + UpdatePassengerPara);
-        updateGenPassengerResponse.prettyPrint().toString();
+//        updateGenPassengerResponse.prettyPrint();
 
     }
 
@@ -210,7 +212,91 @@ public class GenericUpdatePassengerAction4 {
     public void genericSearchStatusCode(int statusCode) {
 
         updateGenPassengerResponse.then().statusCode(statusCode);
-        logger.info("Status Code 200 and its Success for Update Passenger Response");
+        logger.info("Status Code 200 and its Success for Generic Update Passenger Response");
+
+    }
+
+    //Generic Update Passenger Cart ID Validation
+    public void updatePassengerGenCartIdAssertion() {
+
+        updateGenPassengerResponse.then().body(("data[0].products[0].summary.name"), equalTo(productName));
+        logger.info("Product Name Validation Success for Generic Update Passenger Response");
+
+    }
+
+    //Update Passenger Product Name Validation
+    public void updatePassengerGenProductNameAssertion() {
+
+        updateGenPassengerResponse.then().body(("data[0].products[0].summary.name"), equalTo(productName));
+        logger.info("Product Name Validation Success for Generic Update Passenger Response and Product Name is " + productName);
+
+    }
+
+    //Update Passenger Product Code Validation
+    public void updatePassengerGenProductCodeAssertion() {
+
+        updateGenPassengerResponse.then().body(("data[0].products[0].source.supplier.code"), equalTo(productCode.substring(2)));
+        logger.info("Product Code Validation Success for Generic Update Passenger Response");
+    }
+
+    //Update Passenger Service Start Date Validation
+    public void updatePassengerGenStartDateAssertion() {
+
+        updateGenPassengerResponse.then().body(("data[0].summary.returnDate"), equalTo(genericServiceStartDate));
+        logger.info("Service Start Date Validation Success for Generic Update Passenger Response and Service Start Date is " + genericServiceStartDate);
+    }
+
+    //Update Passenger Service Start End Validation
+    public void updatePassengerGenEndDateAssertion() {
+
+        updateGenPassengerResponse.then().body(("data[0].summary.departureDate"), equalTo(genericServiceEndDate));
+        logger.info("Service End Date Validation Success for Generic Update Passenger Response and Service Start End is " + genericServiceEndDate);
+    }
+
+    //Update Passenger Duration Validation
+//    public void updatePassengerGenDurationAssertion() {
+//
+//        updateGenPassengerResponse.then().body(("data[0].summary.durationDescription"), equalTo(genericTourDuration));
+//        logger.info("Duration Validation Success for Generic Update Passenger Response");
+//    }
+
+    //Update Passenger Price Validation
+    public void updatePassengerGenPriceAssertion() {
+
+        updateGenPassengerResponse.then().body(("data[0].summary.rate.price"), equalTo((float) genericTotalPrice));
+        logger.info("Price Validation Success for Generic Update Passenger Response and Price is " + genericTotalPrice);
+
+    }
+
+    //Update Passenger Category Code Validation
+    public void updatePassengerGenCategoryCodeAssertion() {
+
+        updateGenPassengerResponse.then().body(("data[0].products[0].category.categoryCode"), equalTo(genericCategoryCode));
+        logger.info("Category Code Validation Success for Generic Update Passenger Response and Category Code" + genericCategoryCode);
+    }
+
+    //Update Passenger Category Name Validation
+    public void updatePassengerGenCategoryNameAssertion() {
+
+        updateGenPassengerResponse.then().body(("data[0].products[0].category.categoryName"), equalTo(genericCategoryName));
+        logger.info("Category Name Validation Success for Generic Update Passenger Response and Category Name is " + genericCategoryName);
+    }
+
+    //Update Passenger Passenger Passenger Combination Validation
+    public void updatePassengerGenPaxCombinationAssertion() {
+
+        String adultCountUpdatePassengerGenResponse = Integer.toString((updateGenPassengerResponse.path(("data[0].products[0].travellerInfo.adult"))));
+        Assert.assertEquals(adultCountUpdatePassengerGenResponse, adultCountGen);
+        logger.info("Adult Count Validation Success for Generic Update Passenger Response and Adult Count is: " + adultCountGen);
+
+        int childCountUpdatePassengerGenResponse = updateGenPassengerResponse.path(("data[0].products[0].travellerInfo.child"));
+        Assert.assertEquals(childCountUpdatePassengerGenResponse, Integer.parseInt(childCountGen));
+        logger.info("Child Count Validation Success for Generic Update Passenger Response and Child Count is: " + childCountGen);
+
+
+        int infantCountUpdatePassengerGenResponse = updateGenPassengerResponse.path(("data[0].products[0].travellerInfo.infant"));
+        Assert.assertEquals(infantCountUpdatePassengerGenResponse, Integer.parseInt(infantCountGen));
+        logger.info("Infant Count Validation Success for Generic Update Passenger Response and Infant Count is: " + infantCountGen);
 
     }
 }

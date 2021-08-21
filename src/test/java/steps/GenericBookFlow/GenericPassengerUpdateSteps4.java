@@ -67,4 +67,57 @@ public class GenericPassengerUpdateSteps4 {
 
         genericUpdatePassengerAction4.genericSearchStatusCode(status);
     }
+
+    @Then("check the Cart ID is correct in Generic Update Passenger Response")
+    public void checkTheCartIDIsCorrectInGenericUpdatePassengerResponse() {
+
+        genericUpdatePassengerAction4.updatePassengerGenCartIdAssertion();
+    }
+
+    @Then("check the Product Name is correct in Generic Update Passenger Response")
+    public void checkTheProductNameIsCorrectInGenericUpdatePassengerResponse() {
+
+        genericUpdatePassengerAction4.updatePassengerGenProductNameAssertion();
+    }
+
+    @Then("check the Product Code is correct in Generic Update Passenger Response")
+    public void checkTheProductCodeIsCorrectInGenericUpdatePassengerResponse() {
+
+        genericUpdatePassengerAction4.updatePassengerGenProductCodeAssertion();
+    }
+
+    @Then("check the Generic Service Start Date is correct in Generic Update Passenger Response")
+    public void checkTheGenericServiceStartDateIsCorrectInGenericUpdatePassengerResponse() {
+        genericUpdatePassengerAction4.updatePassengerGenStartDateAssertion();
+    }
+
+    @Then("check the Generic Service End Date is correct in Generic Update Passenger Response")
+    public void checkTheGenericServiceEndDateIsCorrectInGenericUpdatePassengerResponse() {
+
+        genericUpdatePassengerAction4.updatePassengerGenEndDateAssertion();
+    }
+
+    @Then("check the Price of the Product is correct in Generic Update Passenger Response")
+    public void checkThePriceOfTheProductIsCorrectInGenericUpdatePassengerResponse() {
+
+        genericUpdatePassengerAction4.updatePassengerGenPriceAssertion();
+    }
+
+    @Then("check the Category Code is correct in Generic Update Passenger Response")
+    public void checkTheCategoryCodeIsCorrectInGenericUpdatePassengerResponse() {
+
+        genericUpdatePassengerAction4.updatePassengerGenCategoryCodeAssertion();
+    }
+
+    @Then("check the Category Name is correct in Generic Update Passenger Response")
+    public void checkTheCategoryNameIsCorrectInGenericUpdatePassengerResponse() {
+
+        genericUpdatePassengerAction4.updatePassengerGenCategoryNameAssertion();
+    }
+
+    @Then("check the Pax Combination is correct in Generic Update Passenger Response")
+    public void checkThePaxCombinationIsCorrectInGenericUpdatePassengerResponse() {
+
+        genericUpdatePassengerAction4.updatePassengerGenPaxCombinationAssertion();
+    }
 }
