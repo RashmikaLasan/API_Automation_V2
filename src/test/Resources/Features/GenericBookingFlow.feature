@@ -39,7 +39,7 @@ Feature: Verify the V2 Generic Flow
     Then check the Pax Combination is correct in Generic Create Cart Response
 
 
-    #3.Update Passenger
+    #4.Update Passenger
     When I want to Create Update Passenger Body I Create Gen Contact Details
     When I want to Create Update Passenger Body I Create Gen Address Details
     When I want to Create Update Passenger Body I Create Gen Profile Details
@@ -54,8 +54,6 @@ Feature: Verify the V2 Generic Flow
 
     Then check the Cart ID is correct in Generic Update Passenger Response
     Then check the Product Name is correct in Generic Update Passenger Response
-
-
     Then check the Product Code is correct in Generic Update Passenger Response
     Then check the Generic Service Start Date is correct in Generic Update Passenger Response
     Then check the Generic Service End Date is correct in Generic Update Passenger Response
@@ -66,8 +64,26 @@ Feature: Verify the V2 Generic Flow
     Then check the Pax Combination is correct in Generic Update Passenger Response
 
 
+    #5.Create Payment Session
+    When I want to create Generic Payment Session with Payment Currency as "<Currency>" Brand as "<Brand>" Batch Receipt as "<batchReceiptInfo>"
+    When I click send request for Generic Create Payment Session Request
+    Then I should get a successful response as status code 200 for Generic Create Payment Session
+
+    Then Store the Payment Reference in Generic Create Payment Session response
+    Then check the payment Amount is correct in Generic Create Payment Session response
+    Then check the Transaction Identifier is equal to the Cart ID in Generic Create Payment Session response
+    Then check the Payment Currency is "<Currency>"
+
+
+    #6.Capture Payment
+    Given I want to send the Generic Capture Payment Request where Card Type as "<cardType>" and Currency as "<Currency>" Batch Receipt as "<batchReceiptInfo>" Brand as "<Brand>"
+    Then I click send request for Generic Capture Payment Request
+    Then I should get a successful response as status code 200 for Generic Capture Payment Request
+
+
+
     Examples:
-      | FutureDateCount | ProductCode | City |
-      | 90              | VT108266P12 | DXB  |
+      | FutureDateCount | ProductCode | City | Currency | Brand | cardType | batchReceiptInfo                      |
+      | 90              | VT108266P12 | DXB  | GBP      | CT    | VISA     | pm_card_amex_threeDSecureNotSupported |
 
 

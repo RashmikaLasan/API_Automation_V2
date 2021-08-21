@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Generic Passenger Update Feature File">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Generic Passenger Update Fully Done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCapturePaymentAction6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCreatePaymentSessionActions5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCapturePaymentSteps6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCreatePaymentSessionSteps5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCreateCartAction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCreateCartAction2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericUpdatePassengerAction4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericUpdatePassengerAction4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericPassengerUpdateSteps4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericPassengerUpdateSteps4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/SearchSteps1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/SearchSteps1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,6 +307,8 @@
       <recent name="E:\LearningMe\API_Automation_V2\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="actions.GenericFlow" />
+      <recent name="steps.GenericBookFlow" />
       <recent name="Constants" />
       <recent name="Runner" />
     </key>
@@ -431,7 +438,7 @@
       <workItem from="1628348441554" duration="7492000" />
       <workItem from="1628393649147" duration="15083000" />
       <workItem from="1629431013170" duration="700000" />
-      <workItem from="1629521296000" duration="13727000" />
+      <workItem from="1629521296000" duration="26282000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -601,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629531746547</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Generic Passenger Update Fully Done">
+      <created>1629536989037</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1629536989037</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -709,7 +723,8 @@
     <MESSAGE value="Generic Create Cart Steps" />
     <MESSAGE value="Generic Create Cart Steps Done" />
     <MESSAGE value="Generic Passenger Update Feature File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic Passenger Update Feature File" />
+    <MESSAGE value="Generic Passenger Update Fully Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic Passenger Update Fully Done" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

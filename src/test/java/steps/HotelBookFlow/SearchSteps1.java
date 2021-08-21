@@ -99,4 +99,5 @@ public class SearchSteps1 {
         searchActions1.storePaxCombination();
     }
 
+
 }

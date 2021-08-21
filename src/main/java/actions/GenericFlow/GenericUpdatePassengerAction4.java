@@ -10,8 +10,9 @@ import utilities.Log;
 import static actions.GenericFlow.GenericCreateCartAction2.*;
 import static actions.GenericFlow.GenericSearchAction1.*;
 import static actions.GenericFlow.GenericSearchAction1.infantCountGen;
-import static actions.HotelFlow.CreateCartActions2.TravellersKeyOne;
-import static actions.HotelFlow.CreateCartActions2.TravellersKeyTwo;
+import static actions.HotelFlow.CreateCartActions2.*;
+import static actions.HotelFlow.CreateCartActions2.cartId;
+import static actions.HotelFlow.UpdatePassengerAction3.updatePassengerResponse;
 import static constants.EndPoints.*;
 import static constants.EndPoints.UpdatePassengerPara;
 import static io.restassured.RestAssured.given;
@@ -219,9 +220,9 @@ public class GenericUpdatePassengerAction4 {
     //Generic Update Passenger Cart ID Validation
     public void updatePassengerGenCartIdAssertion() {
 
-        updateGenPassengerResponse.then().body(("data[0].products[0].summary.name"), equalTo(productName));
-        logger.info("Product Name Validation Success for Generic Update Passenger Response");
-
+        String cartIdGenUpdatePassenger = updateGenPassengerResponse.path("data[0].summary.id").toString();
+        Assert.assertEquals(cartIdGenUpdatePassenger, genCartId);
+        logger.info("Cart ID Validation success in Generic Updates Passenger and Cart ID is: " + genCartId);
     }
 
     //Update Passenger Product Name Validation
