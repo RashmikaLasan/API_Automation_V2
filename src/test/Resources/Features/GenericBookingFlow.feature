@@ -81,6 +81,13 @@ Feature: Verify the V2 Generic Flow
     Then I should get a successful response as status code 200 for Generic Capture Payment Request
 
 
+    #7.Add Payment
+    Given I want to create Unique ID in Generic Add Payment Body
+    Given I want to create Payment Details in Generic Add Payment Body where Card Type as "<cardType>"
+    Given I want to create Payment Info in Generic Add Payment Body where Currency as "<Currency>"
+    Then I want to Merge the Full Body of Generic Add Payment Body
+    Then I click send request for Generic Add Payment Request
+    Then I should get a successful response as status code 200 for Generic Add Payment Request
 
     Examples:
       | FutureDateCount | ProductCode | City | Currency | Brand | cardType | batchReceiptInfo                      |
