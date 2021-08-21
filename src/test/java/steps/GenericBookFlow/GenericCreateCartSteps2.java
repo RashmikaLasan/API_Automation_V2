@@ -94,5 +94,7 @@ public class GenericCreateCartSteps2 {
 
     @Then("check the Pax Combination is correct in Generic Create Cart Response")
     public void checkThePaxCombinationIsCorrectInGenericCreateCartResponse() {
+
+        genericCreateCartAction2.updatePassengerPaxCombinationGenAssertion();
     }
 }

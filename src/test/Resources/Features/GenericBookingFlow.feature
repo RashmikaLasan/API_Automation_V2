@@ -36,7 +36,33 @@ Feature: Verify the V2 Generic Flow
     Then check the Price of the Product is correct in Generic Create Cart Response
     Then check the Category Code is correct in Create Cart Response
     Then check the Category Name is correct in Create Cart Response
-#    Then check the Pax Combination is correct in Generic Create Cart Response
+    Then check the Pax Combination is correct in Generic Create Cart Response
+
+
+    #3.Update Passenger
+    When I want to Create Update Passenger Body I Create Gen Contact Details
+    When I want to Create Update Passenger Body I Create Gen Address Details
+    When I want to Create Update Passenger Body I Create Gen Profile Details
+    When I want to Create Update Passenger Body I Create Gen Reference Details
+    When I want to Create Update Passenger Body I Create Gen Payload Details of Passenger One
+    When I want to Create Update Passenger Body I Create Gen Payload Details of Passenger One
+    When I want to Create Update Passenger Body I Create Gen Payload Details of all the Passengers
+    Then I Combined the Gen Update Passenger details body
+    When I create Gen Update Passenger Body to Update Passenger Details
+    Then I click send request for Gen Update Passenger Request
+    Then I should get a successful response as status code 200 Gen Update Passenger
+
+#    Then check the Cart ID is correct in Update Passenger Response
+#    Then check the Hotel Name is correct in Update Passenger Response
+#    Then check the Hotel Code is correct in Update Passenger Response
+#    Then check the Service Start Date is correct in Update Passenger Response
+#    Then check the Service End Date is correct in Update Passenger Response
+#    Then check the Nights Count is correct in Update Passenger Response
+##    Then check the Choice Key is correct in Update Passenger Response
+#    Then check the Price of the Booking is correct in Update Passenger Response
+#    Then check the Room Type is correct in Update Passenger Response
+#    Then check the Meal Plan is correct in Update Passenger Response
+#    Then check the Pax Combination is correct in Update Passenger Response
 
     Examples:
       | FutureDateCount | ProductCode | City |

@@ -22,6 +22,7 @@ Feature: Verify the V2 Hotel Flow
     Then I want to Create Cart
     When I click send request for Create Cart Request
     Then I should get a successful response as status code 200 Add to Cart
+
     Then Store the Cart ID
     And Store the TravellersKey of Passenger One
     And Store the TravellersKey of Passenger Two

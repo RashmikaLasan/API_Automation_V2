@@ -27,9 +27,9 @@ public class GenericSearchAction1 {
     public static double genericTotalPrice;
     public static String genericCategoryCode;
     public static String genericCategoryName;
-    public static String adultCount;
-    public static String childCount;
-    public static String infantCount;
+    public static String adultCountGen;
+    public static String childCountGen;
+    public static String infantCountGen;
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
@@ -168,13 +168,13 @@ public class GenericSearchAction1 {
     //Store Pax Combination in Generic Search
     public void storeGenericPaxCombination() {
 
-        adultCount = genericSearchResponse.path("data[0].travellerInfo.adult").toString();
-        logger.info("Adult Count in Generic Search is: " + adultCount);
+        adultCountGen = genericSearchResponse.path("data[0].travellerInfo.adult").toString();
+        logger.info("Adult Count in Generic Search is: " + adultCountGen);
 
-        childCount = genericSearchResponse.path("data[0].travellerInfo.child").toString();
-        logger.info("Child Count in Generic Search is: " + childCount);
+        childCountGen = genericSearchResponse.path("data[0].travellerInfo.child").toString();
+        logger.info("Child Count in Generic Search is: " + childCountGen);
 
-        infantCount = genericSearchResponse.path("data[0].travellerInfo.infant").toString();
-        logger.info("Infant Count in Generic Search is: " + infantCount);
+        infantCountGen = genericSearchResponse.path("data[0].travellerInfo.infant").toString();
+        logger.info("Infant Count in Generic Search is: " + infantCountGen);
     }
 }

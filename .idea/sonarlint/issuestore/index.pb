@@ -70,11 +70,5 @@ c
 3src/test/java/Steps/HotelBookFlow/SearchSteps1.java,2\b\2b25074485001f45be785823bfe01ec1d8386473
 c
 3src/test/java/steps/HotelBookFlow/SearchSteps1.java,0\d\0d99ecc5dcbbb80b95fa1fafcd352cf2126ed943
-c
-3src/main/java/actions/HotelFlow/SearchActions1.java,7\7\77706621d1c1d6ad8cd775cd2a2f846e010f8f83
-g
-7src/main/java/actions/HotelFlow/CreateCartActions2.java,d\3\d3d3bc599616355619f5631dda90658bf3ed431b
-g
-7src/test/java/steps/HotelBookFlow/CreateCartSteps2.java,d\f\df91d4ed78bb11f2da81fa6ec12e14b908fe8d4f
 V
 &src/main/java/constants/EndPoints.java,9\1\9171b3346f06a1a452b5a39d5720e64dfe82c2f2

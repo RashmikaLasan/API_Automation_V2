@@ -3,6 +3,7 @@ package actions.GenericFlow;
 import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import utilities.Log;
 import static actions.GenericFlow.GenericSearchAction1.*;
 import static constants.EndPoints.BaseEnvironmet;
@@ -13,9 +14,9 @@ import static org.hamcrest.Matchers.equalTo;
 public class GenericCreateCartAction2 {
     public static Response genericCreateCartResponse;
     public static JsonObject genericCreateCartBody;
-    public static String cartId;
-    public static String TravellersKeyOne;
-    public static String TravellersKeyTwo;
+    public static String genCartId;
+    public static String genTravellersKeyOne;
+    public static String genTravellersKeyTwo;
     final Logger logger = Log.getLogData(Log.class.getName());
 
     //Create Cart Request Body in Generic Create Cart
@@ -48,24 +49,24 @@ public class GenericCreateCartAction2 {
     //Store the Cart ID in Generic Create Cart
     public void storeGenCartId() {
 
-        cartId = genericCreateCartResponse.path("data[0].summary.id").toString();
-        logger.info("Cart ID in Generic Create Cart Response is: " + cartId);
+        genCartId = genericCreateCartResponse.path("data[0].summary.id").toString();
+        logger.info("Cart ID in Generic Create Cart Response is: " + genCartId);
 
     }
 
     //Store the Travellers Key of First Passenger in Generic Create Cart
     public void storeGenTravellersKeyOne() {
 
-        TravellersKeyOne = genericCreateCartResponse.path("data[0].travellers[0].key").toString();
-        logger.info("Travellers Key one  in Generic Create Cart Response is :" + TravellersKeyOne);
+        genTravellersKeyOne = genericCreateCartResponse.path("data[0].travellers[0].key").toString();
+        logger.info("Travellers Key one  in Generic Create Cart Response is :" + genTravellersKeyOne);
 
     }
 
     //Store the Travellers Key of Second Passenger in Generic Create Cart
     public void storeGenTravellersKeyTwo() {
 
-        TravellersKeyTwo = genericCreateCartResponse.path("data[0].travellers[1].key").toString();
-        logger.info("Travellers Key one  in Generic Create Cart Response is: " + TravellersKeyTwo);
+        genTravellersKeyTwo = genericCreateCartResponse.path("data[0].travellers[1].key").toString();
+        logger.info("Travellers Key one  in Generic Create Cart Response is: " + genTravellersKeyTwo);
 
     }
 
@@ -125,6 +126,24 @@ public class GenericCreateCartAction2 {
 
         genericCreateCartResponse.then().body(("data[0].products[0].category.categoryName"), equalTo(genericCategoryName));
         logger.info("Category Name Validation Success for Generic Create Cart Response");
+    }
+
+    //Generic Update Passenger Passenger Combination Validation
+    public void updatePassengerPaxCombinationGenAssertion() {
+
+        String adultCountUpdatePassengerGenResponse = Integer.toString((genericCreateCartResponse.path(("data[0].products[0].travellerInfo.adult"))));
+        Assert.assertEquals(adultCountUpdatePassengerGenResponse, adultCountGen);
+        logger.info("Adult Count Validation Success for Update Passenger Generic Response and Adult Count is: " + adultCountGen);
+
+        int childCountUpdatePassengerGenResponse = genericCreateCartResponse.path(("data[0].products[0].travellerInfo.child"));
+        Assert.assertEquals(childCountUpdatePassengerGenResponse, Integer.parseInt(childCountGen));
+        logger.info("Child Count Validation Success for Update Passenger Generic Response and Child Count is: " + childCountGen);
+
+
+        int infantCountUpdatePassengerGenResponse = genericCreateCartResponse.path(("data[0].products[0].travellerInfo.infant"));
+        Assert.assertEquals(infantCountUpdatePassengerGenResponse, Integer.parseInt(infantCountGen));
+        logger.info("Infant Count Validation Success for Update Passenger Generic Response and Infant Count is: " + infantCountGen);
+
     }
 
 }
