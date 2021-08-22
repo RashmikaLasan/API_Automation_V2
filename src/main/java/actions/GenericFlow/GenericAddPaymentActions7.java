@@ -6,6 +6,9 @@ import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import utilities.Log;
 
+import static actions.GenericFlow.GenericCreateCartAction2.genCartId;
+import static actions.GenericFlow.GenericCreatePaymentSessionActions5.genericPaymentReference;
+import static actions.GenericFlow.GenericSearchAction1.genericTotalPrice;
 import static actions.HotelFlow.CreateCartActions2.cartId;
 import static actions.HotelFlow.CreatePaymentSessionActions4.paymentReference;
 import static actions.HotelFlow.SearchActions1.keyControls;
@@ -15,7 +18,7 @@ import static io.restassured.RestAssured.given;
 
 public class GenericAddPaymentActions7 {
 
-    public static Response addPaymentResponse;
+    public static Response addGenericPaymentResponse;
     final Logger logger = Log.getLogData(Log.class.getName());
     public JsonObject uniqueId;
     public JsonObject paymentDetails;
@@ -41,7 +44,7 @@ public class GenericAddPaymentActions7 {
         paymentDetails.addProperty("maskedCardNumber", "************4444");
         paymentDetails.addProperty("expireDate", "2044-04-30");
         paymentDetails.addProperty("gatewayReference", "STRIPE");
-        paymentDetails.addProperty("transactionIdentifier", paymentReference);
+        paymentDetails.addProperty("transactionIdentifier", genericPaymentReference);
         paymentDetails.addProperty("rrn", "505471017057");
         paymentDetails.addProperty("rrnKey", "");
         paymentDetails.addProperty("authorised", true);
@@ -59,7 +62,7 @@ public class GenericAddPaymentActions7 {
     public void createPaymentInfo(String currency) {
 
         paymentInfo = new JsonObject();
-        paymentInfo.addProperty("amount", totalPrice);
+        paymentInfo.addProperty("amount", genericTotalPrice);
         paymentInfo.addProperty("currencyCode", currency);
         paymentInfo.addProperty("accountNo", "");
         paymentInfo.addProperty("bankCode", "");
@@ -102,15 +105,15 @@ public class GenericAddPaymentActions7 {
     }
 
     //Send the Request
-    public void sendAddPaymentRequest() {
+    public void sendGenericAddPaymentRequest() {
 
-        addPaymentResponse = given().
+        addGenericPaymentResponse = given().
                 header("Content-Type", "application/json").
                 body(addPaymentBody.toString()).
                 when().
                 post(BaseEnvironmet + PromoPara1 + cartId + AddPaymentPara);
 
-//        addPaymentResponse.prettyPrint().toString();
-        logger.info("Add Payment Request URL is: " + BaseEnvironmet + PromoPara1 + cartId + AddPaymentPara);
+//        addGenericPaymentResponse.prettyPrint().toString();
+        logger.info("Add Payment Request URL is: " + BaseEnvironmet + PromoPara1 + genCartId + AddPaymentPara);
     }
 }
