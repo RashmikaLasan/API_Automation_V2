@@ -11,11 +11,11 @@ public class GenericAddPaymentSteps7 {
     }
 
 
-    @Given("I want to create Payment Details in Generic Add Payment Body where Card Type as {string}")
+    @Given("I want to create Payment Details in Generic Add Payment Body where Card Type as \"([^\"]*)\"")
     public void iWantToCreatePaymentDetailsInGenericAddPaymentBodyWhereCardTypeAs(String arg0) {
     }
 
-    @Given("I want to create Payment Info in Generic Add Payment Body where Currency as {string}")
+    @Given("I want to create Payment Info in Generic Add Payment Body where Currency as \"([^\"]*)\"")
     public void iWantToCreatePaymentInfoInGenericAddPaymentBodyWhereCurrencyAs(String arg0) {
     }
 
@@ -27,7 +27,7 @@ public class GenericAddPaymentSteps7 {
     public void iClickSendRequestForGenericAddPaymentRequest() {
     }
 
-    @Then("I should get a successful response as status code {int} for Generic Add Payment Request")
+    @Then("I should get a successful response as status code (\\d+) for Generic Add Payment Request")
     public void iShouldGetASuccessfulResponseAsStatusCodeForGenericAddPaymentRequest(int arg0) {
     }
 }

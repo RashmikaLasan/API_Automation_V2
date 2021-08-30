@@ -33,7 +33,7 @@ public class ConfirmCartActions7 {
                 post(BaseEnvironmet + PromoPara1 + cartId + ConfirmPara);
 
         logger.info("Confirm Cart Request URL is: " + BaseEnvironmet + PromoPara1 + cartId + ConfirmPara);
-        logger.info(confirmCartResponse.prettyPrint().toString());
+//        logger.info(confirmCartResponse.prettyPrint().toString());
     }
 
     //Store Booking ID

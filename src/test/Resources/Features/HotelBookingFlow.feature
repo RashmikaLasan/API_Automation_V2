@@ -90,8 +90,6 @@ Feature: Verify the V2 Hotel Flow
     Given I want to Confirm Booking by creating the Confirm Cart Body
     Then I click send request for Confirm Cart Request
 
-    Then I click send request for Confirm Cart Request
-    Then I click send request for Confirm Cart Request
     Then I should get a successful response as status code 200 for Confirm Cart Request
 
     Then Store the Booking ID in Confirm Cart Response
