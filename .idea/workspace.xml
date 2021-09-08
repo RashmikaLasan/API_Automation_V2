@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Add Payments Steps">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Jenkins Setup">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/ConfirmCartActions7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/ConfirmCartActions7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/EndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +308,7 @@
       <recent name="Runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RunCuke">
+  <component name="RunManager" selected="TestNG.D:/LearningMe/API_Automation_V2/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -374,8 +373,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RunCuke" />
         <item itemvalue="TestNG.D:/LearningMe/API_Automation_V2/testng.xml" />
+        <item itemvalue="TestNG.RunCuke" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +440,11 @@
       <workItem from="1630082762608" duration="1419000" />
       <workItem from="1630136287100" duration="1087000" />
       <workItem from="1630144899654" duration="733000" />
-      <workItem from="1630346790140" duration="1590000" />
+      <workItem from="1630346790140" duration="2407000" />
+      <workItem from="1630425316532" duration="2435000" />
+      <workItem from="1630428983825" duration="570000" />
+      <workItem from="1631043049969" duration="1346000" />
+      <workItem from="1631129666935" duration="832000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -639,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629656990853</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Jenkins Setup">
+      <created>1630352503673</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1630352503673</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -723,7 +733,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Comments Added" />
     <MESSAGE value="Create Cart Steps" />
     <MESSAGE value="Create Cart Assertions" />
     <MESSAGE value="Step Deifinition of Creaet Cart" />
@@ -748,7 +757,8 @@
     <MESSAGE value="Generic Passenger Update Fully Done" />
     <MESSAGE value="Capture Payment Fully Done" />
     <MESSAGE value="Add Payments Steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Payments Steps" />
+    <MESSAGE value="Jenkins Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jenkins Setup" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

@@ -8,10 +8,13 @@ Feature: Verify the Hotel Pricing Details
     Then I should get a successful response with status code 200 for HTL Calendar Response
     And extract price from the response for StartDateCount Date
 
-
+#QA
     Examples:
-      | HotelID   | StartDateCount | EndDateCount | CityName |
-      | EAN115066 | 5              | 120          | DXB      |
+      | HotelID        | StartDateCount | EndDateCount | CityName |
+      | TRIEAN19681371 | 5              | 120          | NYC      |
+      | TRIEAN1397608  | 5              | 120          | HKG      |
+
+
 
 
 #    ------------------------------------------------End------------------------------------------------------------
