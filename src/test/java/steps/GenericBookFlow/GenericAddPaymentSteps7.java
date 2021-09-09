@@ -30,4 +30,6 @@ public class GenericAddPaymentSteps7 {
     @Then("I should get a successful response as status code (\\d+) for Generic Add Payment Request")
     public void iShouldGetASuccessfulResponseAsStatusCodeForGenericAddPaymentRequest(int arg0) {
     }
+
+
 }

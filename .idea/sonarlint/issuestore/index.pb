@@ -105,8 +105,6 @@ o
 ?src/main/java/actions/GenericFlow/GenericCreateCartAction2.java,7\9\79b3815f729d4621d5b6f9e870b8770b3c974966
 g
 7src/test/java/steps/HotelBookFlow/AddPaymentSteps6.java,8\3\833471f0e7658bf75025c3f8e28ac90d011fa5da
-p
-@src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java,6\5\651b0448386fc6b6dc00967c4637eaaf74f459dc
 h
 8src/test/java/steps/HotelBookFlow/ConfirmCartSteps7.java,6\f\6fee016b883ff336ba06fef5b5931b0051eb1754
 h
@@ -118,3 +116,11 @@ Asrc/main/java/actions/HotelFlow/HotelBookingAssertionActions.java,d\2\d266928f
 :
 
 testng.xml,5\2\522a7a4e21649af06297e31a9e33f13bb4fd3022
+k
+;src/main/java/actions/GenericFlow/GenericSearchAction1.java,3\a\3a076a4ae07cd2ded839653d172f476713fada74
+V
+&src/main/java/constants/EndPoints.java,9\1\9171b3346f06a1a452b5a39d5720e64dfe82c2f2
+k
+;src/test/java/steps/GenericBookFlow/GenericSearchStep1.java,3\1\312a7b4e6292ed4c9f032469e2cee0d7abf3da81
+p
+@src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java,6\5\651b0448386fc6b6dc00967c4637eaaf74f459dc
