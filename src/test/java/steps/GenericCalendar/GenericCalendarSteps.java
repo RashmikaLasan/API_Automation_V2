@@ -19,19 +19,25 @@ public class GenericCalendarSteps {
         genericCalendarActions.setRequest(productId, startDateCount, endDateCount);
     }
 
-    @Then("^I should get a successful response with status code 200 for Gen Calendar$")
-    public void i_should_get_a_successful_response_with_status_code_200_for_gen_calendar() throws Throwable {
-        throw new PendingException();
+    @Then("^I should get a successful response with status code (\\d+) for Gen Calendar$")
+    public void i_should_get_a_successful_response_with_status_code_200_for_gen_calendar(int statusCode) {
+
+        genericCalendarActions.genCalendarStatusCode(statusCode);
+
     }
 
     @And("^response should return Product Name as \"([^\"]*)\" in response$")
-    public void response_should_return_product_name_as_something_in_response(String suppliername, String strArg1) throws Throwable {
-        throw new PendingException();
+    public void response_should_return_product_name_as_something_in_response(String productName) {
+
+        genericCalendarActions.genCalendarProductNameAssertion(productName);
+
     }
 
     @And("^response should return Product Code as \"([^\"]*)\"$")
-    public void response_should_return_product_code_as_something(String productid, String strArg1) throws Throwable {
-        throw new PendingException();
+    public void response_should_return_product_code_as_something(String productId) {
+
+        genericCalendarActions.genCalendarProductCodeAssertion(productId);
+
     }
 
     @And("^extract Gen Calendar Price from the response response for StartDateCount Date$")

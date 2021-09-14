@@ -109,10 +109,6 @@ h
 8src/test/java/steps/HotelBookFlow/ConfirmCartSteps7.java,6\f\6fee016b883ff336ba06fef5b5931b0051eb1754
 h
 8src/main/java/actions/HotelFlow/ConfirmCartActions7.java,b\2\b26a7a3a90d9830cffbd5ca00165fbc518bd7c38
-q
-Asrc/test/java/steps/HotelBookFlow/HotelBookingAssertionSteps.java,4\4\44539452bf5284bcb48f7b30ab54a49d02b4f9d7
-q
-Asrc/main/java/actions/HotelFlow/HotelBookingAssertionActions.java,d\2\d266928f128391270152e4e9577a8b07b06ceb02
 :
 
 testng.xml,5\2\522a7a4e21649af06297e31a9e33f13bb4fd3022
