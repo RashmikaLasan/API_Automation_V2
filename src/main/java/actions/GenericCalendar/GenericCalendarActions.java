@@ -1,16 +1,17 @@
 package actions.GenericCalendar;
 
+import com.mongodb.util.JSON;
+import gherkin.deps.com.google.gson.Gson;
+import gherkin.deps.com.google.gson.JsonArray;
+import gherkin.deps.com.google.gson.JsonElement;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Logger;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import utilities.Log;
 import utilities.TimeHandler;
 
-import java.time.LocalDate;
-
-import static actions.HotelFlow.CapturePaymentActions5.capturePaymentResponse;
-import static actions.HotelFlow.CreateCartActions2.createCartResponse;
-import static actions.HotelFlow.SearchActions1.mealPlan;
 import static constants.EndPoints.BaseEnvironmet;
 import static constants.EndPoints.GENCalendar;
 import static io.restassured.RestAssured.given;
@@ -22,7 +23,8 @@ public class GenericCalendarActions {
     public static String checkOutDate;
     public static RequestSpecification requestSpecification;
     public static Response genCalResponse;
-    public static String GenCalPrice;
+    public static String genCalPrice;
+    public static String genCalDate;
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
@@ -49,11 +51,27 @@ public class GenericCalendarActions {
                 queryParam("searchType", "CACHE_AND_LIVE_SEARCH").
                 when().get(BaseEnvironmet + GENCalendar);
 //        genCalResponse.prettyPrint();
-        System.out.println(BaseEnvironmet + GENCalendar + "?cmp=CT&channel=U&brand=CT&div=CTDIV_LON&cur=GBP&bkgType=STD&cliGrp=Direct&cliId=-1&cliType=DIRECT_CLIENT&srcCountry=GB&searchType=CACHE_AND_LIVE_SEARCH&supplierCodes=" + productID + "&fromDate=" + checkInDate + "&toDate=" + checkOutDate);
+        logger.info(BaseEnvironmet + GENCalendar + "?cmp=CT&channel=U&brand=CT&div=CTDIV_LON&cur=GBP&bkgType=STD&cliGrp=Direct&cliId=-1&cliType=DIRECT_CLIENT&srcCountry=GB&searchType=CACHE_AND_LIVE_SEARCH&supplierCodes=" + productID + "&fromDate=" + checkInDate + "&toDate=" + checkOutDate);
 
 
-        GenCalPrice = genCalResponse.jsonPath().getString("data[0].products[0].dates[0].rateInfo.price");
-        System.out.println("Price for " + checkInDate + " in Gen Calendar is: " + GenCalPrice);
+        Gson gson = new Gson();
+        JsonElement msd = gson.toJsonTree(genCalResponse.jsonPath().getJsonObject("data[0].products[0].dates"));
+        logger.info(msd);
+        JsonArray priceArrayLength = msd.getAsJsonArray();
+        logger.info("priceArrayLength    " + priceArrayLength);
+        logger.info(priceArrayLength.size());
+
+        for (int i = 0; i < priceArrayLength.size(); i++) {
+
+            genCalDate = genCalResponse.jsonPath().getString("data[0].products[0].dates[" + i + "].date");
+            genCalPrice = genCalResponse.jsonPath().getString("data[0].products[0].dates[" + i + "].rateInfo.price");
+            System.out.println("Price for " + genCalDate + " in Gen Calendar is: " + genCalPrice);
+
+        }
+
+
+        genCalPrice = genCalResponse.jsonPath().getString("data[0].products[0].dates[0].rateInfo.price");
+        System.out.println("Price for " + checkInDate + " in Gen Calendar is: " + genCalPrice);
 
 
     }
