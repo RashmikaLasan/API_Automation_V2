@@ -124,3 +124,7 @@ k
 ;src/test/java/steps/GenericBookFlow/GenericSearchStep1.java,3\1\312a7b4e6292ed4c9f032469e2cee0d7abf3da81
 p
 @src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java,6\5\651b0448386fc6b6dc00967c4637eaaf74f459dc
+c
+3src/test/java/steps/Tritium/TritiumSearchSteps.java,8\e\8efe53868d09b691add29c7280a553e675d1fb5d
+i
+9src/test/java/steps/HotelCalendar/HotelCalendarSteps.java,8\c\8ca2289c0bfd59297063ead658a780babc35a02b

@@ -23,14 +23,7 @@ public class GenericCalendarActions {
 
         checkInDate = TimeHandler.TravelDateOne(startDatesCount);
         checkOutDate = TimeHandler.TravelDateTwo(endDatesCount);
-//
-//        LocalDate futureDateStart = LocalDate.now().plusDays(Long.parseLong(startDatesCount));
-//        System.out.println("Gen Calendar Start Date for Gen Calendar Request is : " + futureDateStart);
-//        GenCalStartDate = futureDateStart.toString();
-//
-//        LocalDate futureDateEnd = LocalDate.now().plusDays(Long.parseLong(EndDateCount));
-//        System.out.println("Gen Calendar End Date for Gen Calendar Request is : " + futureDateEnd);
-//        GenCalEndDate = futureDateEnd.toString();
+
 
         response = given().
                 queryParam("cmp", "CT").
