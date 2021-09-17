@@ -1,0 +1,100 @@
+
+L
+java:S2696'"6Make the enclosing method "static" or remove this set.(Ûº»Ë
+Q
+java:S2696+"6Make the enclosing method "static" or remove this set.(–§ÚÑşÿÿÿÿ
+Q
+java:S2696["6Make the enclosing method "static" or remove this set.(«¿–ªøÿÿÿÿ
+Q
+java:S2696c"6Make the enclosing method "static" or remove this set.(¾Ÿ¯…øÿÿÿÿ
+Q
+java:S2696k"6Make the enclosing method "static" or remove this set.(‘£¦×ùÿÿÿÿ
+Q
+java:S2696r"6Make the enclosing method "static" or remove this set.(ğå°—ùÿÿÿÿ
+L
+java:S2696y"6Make the enclosing method "static" or remove this set.(üÌ„
+M
+java:S2696€"6Make the enclosing method "static" or remove this set.(€Òæ
+M
+java:S2696‡"6Make the enclosing method "static" or remove this set.(Ø¼ş¼
+R
+java:S2696"6Make the enclosing method "static" or remove this set.(Œò¨ÿøÿÿÿÿ
+M
+java:S2696–"6Make the enclosing method "static" or remove this set.(ø¼ì 
+R
+java:S2696"6Make the enclosing method "static" or remove this set.(ÑÙÉûúÿÿÿÿ
+M
+java:S2696¤"6Make the enclosing method "static" or remove this set.(ÊÖ¥Š
+R
+java:S2696«"6Make the enclosing method "static" or remove this set.(ĞÕ‹åÿÿÿÿÿ
+R
+java:S2696®"6Make the enclosing method "static" or remove this set.(ò½óãûÿÿÿÿ
+R
+java:S2696±"6Make the enclosing method "static" or remove this set.(Ã•êİüÿÿÿÿ
+}
+java:S1104"gMake genericRequestSpecification a static final constant or non-public and provide accessors if needed.(«ÑÕİ
+w
+java:S1104"aMake genericSearchResponse a static final constant or non-public and provide accessors if needed.(†çá
+m
+java:S1104"WMake checkinDate a static final constant or non-public and provide accessors if needed.(í„×ç
+y
+java:S1104"^Make genericKeyControls a static final constant or non-public and provide accessors if needed.(æ”˜¶øÿÿÿÿ
+u
+java:S1104"ZMake genericPayload a static final constant or non-public and provide accessors if needed.(–ïï ıÿÿÿÿ
+l
+java:S1104"WMake productName a static final constant or non-public and provide accessors if needed.(–× K
+r
+java:S1104"WMake productCode a static final constant or non-public and provide accessors if needed.(ÿ”››øÿÿÿÿ
+~
+java:S1104"cMake genericServiceStartDate a static final constant or non-public and provide accessors if needed.(æú¹†üÿÿÿÿ
+w
+java:S1104"aMake genericServiceEndDate a static final constant or non-public and provide accessors if needed.(¦Œäˆ
+z
+java:S1104"_Make genericTourDuration a static final constant or non-public and provide accessors if needed.(—¯­¤ıÿÿÿÿ
+r
+java:S1104"\Make genericChoiceKey a static final constant or non-public and provide accessors if needed.(¦Ÿ†Ì
+x
+java:S1104"]Make genericTotalPrice a static final constant or non-public and provide accessors if needed.(îæıĞúÿÿÿÿ
+z
+java:S1104"_Make genericCategoryCode a static final constant or non-public and provide accessors if needed.(–µÁ‡ÿÿÿÿÿ
+z
+java:S1104"_Make genericCategoryName a static final constant or non-public and provide accessors if needed.(¡‰ŞÁøÿÿÿÿ
+o
+java:S1104"YMake adultCountGen a static final constant or non-public and provide accessors if needed.(®çüï
+o
+java:S1104"YMake childCountGen a static final constant or non-public and provide accessors if needed.(â¢û
+u
+java:S1104 "ZMake infantCountGen a static final constant or non-public and provide accessors if needed.(©â’öüÿÿÿÿ
+W
+java:S1444"AMake this "public static genericRequestSpecification" field final(«ÑÕİ
+G
+java:S1444"1Make this "public static checkinDate" field final(í„×ç
+S
+java:S1444"8Make this "public static genericKeyControls" field final(æ”˜¶øÿÿÿÿ
+O
+java:S1444"4Make this "public static genericPayload" field final(–ïï ıÿÿÿÿ
+F
+java:S1444"1Make this "public static productName" field final(–× K
+L
+java:S1444"1Make this "public static productCode" field final(ÿ”››øÿÿÿÿ
+X
+java:S1444"=Make this "public static genericServiceStartDate" field final(æú¹†üÿÿÿÿ
+Q
+java:S1444";Make this "public static genericServiceEndDate" field final(¦Œäˆ
+T
+java:S1444"9Make this "public static genericTourDuration" field final(—¯­¤ıÿÿÿÿ
+L
+java:S1444"6Make this "public static genericChoiceKey" field final(¦Ÿ†Ì
+R
+java:S1444"7Make this "public static genericTotalPrice" field final(îæıĞúÿÿÿÿ
+T
+java:S1444"9Make this "public static genericCategoryCode" field final(–µÁ‡ÿÿÿÿÿ
+T
+java:S1444"9Make this "public static genericCategoryName" field final(¡‰ŞÁøÿÿÿÿ
+I
+java:S1444"3Make this "public static adultCountGen" field final(®çüï
+I
+java:S1444"3Make this "public static childCountGen" field final(â¢û
+O
+java:S1444 "4Make this "public static infantCountGen" field final(©â’öüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Öß³şÿÿÿÿ

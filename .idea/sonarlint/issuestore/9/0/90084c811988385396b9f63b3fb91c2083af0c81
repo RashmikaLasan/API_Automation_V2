@@ -1,0 +1,106 @@
+
+S
+java:S2696'"6Make the enclosing method "static" or remove this set.(Ûº»Ë8‰á«àª/
+X
+java:S2696*"6Make the enclosing method "static" or remove this set.(áÚÍâıÿÿÿÿ8‰á«àª/
+X
+java:S2696I"6Make the enclosing method "static" or remove this set.(Ï¿Åóıÿÿÿÿ8É“®ò­/
+X
+java:S2696T"6Make the enclosing method "static" or remove this set.(—¡Ÿ¸şÿÿÿÿ8Ğ“®ò­/
+S
+java:S2696\"6Make the enclosing method "static" or remove this set.(×İì8Ò“®ò­/
+S
+java:S2696d"6Make the enclosing method "static" or remove this set.(ÙŠúÊ8Ô“®ò­/
+S
+java:S2696k"6Make the enclosing method "static" or remove this set.(° ÒÀ8Õ“®ò­/
+S
+java:S2696r"6Make the enclosing method "static" or remove this set.(¿ØŒÆ8×“®ò­/
+S
+java:S2696y"6Make the enclosing method "static" or remove this set.(ÇÂ¦÷8Ø“®ò­/
+T
+java:S2696€"6Make the enclosing method "static" or remove this set.(°ÑÑÓ8Ú“®ò­/
+T
+java:S2696‡"6Make the enclosing method "static" or remove this set.(öÍ¿8İ“®ò­/
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(Âšó„ùÿÿÿÿ8Ş“®ò­/
+Y
+java:S2696•"6Make the enclosing method "static" or remove this set.(õ­šşÿÿÿÿ8à“®ò­/
+S
+java:S2696œ"6Make the enclosing method "static" or remove this set.(Ğàğ8â“®ò­/
+Y
+java:S2696£"6Make the enclosing method "static" or remove this set.(¢äÍâøÿÿÿÿ8ä“®ò­/
+Y
+java:S2696¦"6Make the enclosing method "static" or remove this set.(Õ’Õÿÿÿÿÿ8å“®ò­/
+Y
+java:S2696©"6Make the enclosing method "static" or remove this set.(•÷ïàüÿÿÿÿ8æ“®ò­/
+n
+java:S1192e"LDefine a constant instead of duplicating this literal " in Search" 12 times.(ßãÃ¡üÿÿÿÿ8è“®ò­/
+}
+java:S1104"`Make requestSpecification a static final constant or non-public and provide accessors if needed.(÷ø½¢8‰á«àª/
+|
+java:S1104"ZMake searchResponse a static final constant or non-public and provide accessors if needed.(²¦Ê€ûÿÿÿÿ8é“®ò­/
+t
+java:S1104"WMake checkinDate a static final constant or non-public and provide accessors if needed.(í„×ç8‰á«àª/
+t
+java:S1104"WMake keyControls a static final constant or non-public and provide accessors if needed.(Ğå´ù8‰á«àª/
+p
+java:S1104"SMake payload a static final constant or non-public and provide accessors if needed.(Ë‚Ã¶8‰á«àª/
+r
+java:S1104"UMake hotelName a static final constant or non-public and provide accessors if needed.(Œ¨¢İ8‰á«àª/
+w
+java:S1104"UMake hotelCode a static final constant or non-public and provide accessors if needed.(ñ—ŠÌúÿÿÿÿ8‰á«àª/
+~
+java:S1104"\Make serviceStartDate a static final constant or non-public and provide accessors if needed.(„³·ûÿÿÿÿ8í“®ò­/
+w
+java:S1104"ZMake serviceEndDate a static final constant or non-public and provide accessors if needed.(÷ÃÓ¼8í“®ò­/
+x
+java:S1104"VMake nightCount a static final constant or non-public and provide accessors if needed.(ğ®—ıÿÿÿÿ8í“®ò­/
+w
+java:S1104"UMake choiceKey a static final constant or non-public and provide accessors if needed.(ÑàÓôüÿÿÿÿ8î“®ò­/
+x
+java:S1104"VMake totalPrice a static final constant or non-public and provide accessors if needed.(õçæ”şÿÿÿÿ8î“®ò­/
+p
+java:S1104"TMake roomType a static final constant or non-public and provide accessors if needed.(¿Óù98î“®ò­/
+q
+java:S1104"TMake mealPlan a static final constant or non-public and provide accessors if needed.(´Ç‡8î“®ò­/
+x
+java:S1104"VMake adultCount a static final constant or non-public and provide accessors if needed.(ò×¹İøÿÿÿÿ8î“®ò­/
+s
+java:S1104"VMake childCount a static final constant or non-public and provide accessors if needed.(ïî8ï“®ò­/
+y
+java:S1104"WMake infantCount a static final constant or non-public and provide accessors if needed.(õò±·ûÿÿÿÿ8ï“®ò­/
+W
+java:S1444":Make this "public static requestSpecification" field final(÷ø½¢8‰á«àª/
+V
+java:S1444"4Make this "public static searchResponse" field final(²¦Ê€ûÿÿÿÿ8ğ“®ò­/
+N
+java:S1444"1Make this "public static checkinDate" field final(í„×ç8‰á«àª/
+N
+java:S1444"1Make this "public static keyControls" field final(Ğå´ù8‰á«àª/
+J
+java:S1444"-Make this "public static payload" field final(Ë‚Ã¶8‰á«àª/
+L
+java:S1444"/Make this "public static hotelName" field final(Œ¨¢İ8‰á«àª/
+Q
+java:S1444"/Make this "public static hotelCode" field final(ñ—ŠÌúÿÿÿÿ8‰á«àª/
+X
+java:S1444"6Make this "public static serviceStartDate" field final(„³·ûÿÿÿÿ8ñ“®ò­/
+Q
+java:S1444"4Make this "public static serviceEndDate" field final(÷ÃÓ¼8ñ“®ò­/
+R
+java:S1444"0Make this "public static nightCount" field final(ğ®—ıÿÿÿÿ8ò“®ò­/
+Q
+java:S1444"/Make this "public static choiceKey" field final(ÑàÓôüÿÿÿÿ8ò“®ò­/
+R
+java:S1444"0Make this "public static totalPrice" field final(õçæ”şÿÿÿÿ8ò“®ò­/
+J
+java:S1444".Make this "public static roomType" field final(¿Óù98ò“®ò­/
+K
+java:S1444".Make this "public static mealPlan" field final(´Ç‡8ò“®ò­/
+R
+java:S1444"0Make this "public static adultCount" field final(ò×¹İøÿÿÿÿ8ó“®ò­/
+M
+java:S1444"0Make this "public static childCount" field final(ïî8ó“®ò­/
+S
+java:S1444"1Make this "public static infantCount" field final(õò±·ûÿÿÿÿ8ó“®ò­/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œï²úÿÿÿÿ8‰á«àª/

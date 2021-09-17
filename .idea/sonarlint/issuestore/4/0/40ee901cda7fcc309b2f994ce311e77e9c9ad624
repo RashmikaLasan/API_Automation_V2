@@ -1,0 +1,13 @@
+
+w	java:S116"]Rename this field "CapturePaymentBody" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕıÁÈúÿÿÿÿ
+Q
+java:S2696;"6Make the enclosing method "static" or remove this set.(èà¯ûÿÿÿÿ
+Q	java:S125B"<This block of commented-out lines of code should be removed.(–ú°ã
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âŒ÷üÿÿÿÿ
+w
+java:S1104"bMake capturePaymentResponse a static final constant or non-public and provide accessors if needed.(‹øÏ
+y
+java:S1104"^Make CapturePaymentBody a static final constant or non-public and provide accessors if needed.(ÕıÁÈúÿÿÿÿ
+Q
+java:S1444"<Make this "public static capturePaymentResponse" field final(‹øÏ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì©ÛÖ

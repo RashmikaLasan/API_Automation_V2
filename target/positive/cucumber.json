@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Verifying price for Generic Calendar Request",
+        "description": "",
+        "id": "verify-the-pricing-calendar-details;verifying-price-for-generic-calendar-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12903432799,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Gen Product Availability of \"VT10211P47\" FromDate as \"30\" ToDate as \"120\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VT10211P47",
+                  "offset": 37
+                },
+                {
+                  "val": "30",
+                  "offset": 62
+                },
+                {
+                  "val": "120",
+                  "offset": 77
+                }
+              ],
+              "location": "GenericCalendarSteps.i_click_gen_product_availability_of_something_fromdate_as_something_todate_as_something(String,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48380601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get a successful response with status code 200 for Gen Calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 52
+                }
+              ],
+              "location": "GenericCalendarSteps.i_should_get_a_successful_response_with_status_code_200_for_gen_calendar(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 896256299,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "response should return Product Name as \"San Francisco Embarcadero Scavenger Hunt Adventure\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "San Francisco Embarcadero Scavenger Hunt Adventure",
+                  "offset": 40
+                }
+              ],
+              "location": "GenericCalendarSteps.response_should_return_product_name_as_something_in_response(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272147300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "response should return Product Code as \"VT10211P47\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VT10211P47",
+                  "offset": 40
+                }
+              ],
+              "location": "GenericCalendarSteps.response_should_return_product_code_as_something(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3897293000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "extract Gen Calendar Price from the response response for StartDateCount Date",
+            "match": {
+              "location": "GenericCalendarSteps.extract_gen_calendar_price_from_the_response_response_for_startdatecount_date()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@gencala"
+          },
+          {
+            "line": 4,
+            "name": "@cba"
+          },
+          {
+            "line": 4,
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verifying price for Generic Calendar Request",
+        "description": "",
+        "id": "verify-the-pricing-calendar-details;verifying-price-for-generic-calendar-request;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5241140200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Gen Product Availability of \"VT100648P1\" FromDate as \"30\" ToDate as \"120\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VT100648P1",
+                  "offset": 37
+                },
+                {
+                  "val": "30",
+                  "offset": 62
+                },
+                {
+                  "val": "120",
+                  "offset": 77
+                }
+              ],
+              "location": "GenericCalendarSteps.i_click_gen_product_availability_of_something_fromdate_as_something_todate_as_something(String,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1588801,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get a successful response with status code 200 for Gen Calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 52
+                }
+              ],
+              "location": "GenericCalendarSteps.i_should_get_a_successful_response_with_status_code_200_for_gen_calendar(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24063100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "response should return Product Name as \"Colosseum Tour Express for Kids \u0026 Families in Rome with local guide Alessandra\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Colosseum Tour Express for Kids \u0026 Families in Rome with local guide Alessandra",
+                  "offset": 40
+                }
+              ],
+              "location": "GenericCalendarSteps.response_should_return_product_name_as_something_in_response(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21582300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "response should return Product Code as \"VT100648P1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VT100648P1",
+                  "offset": 40
+                }
+              ],
+              "location": "GenericCalendarSteps.response_should_return_product_code_as_something(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1514451499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "extract Gen Calendar Price from the response response for StartDateCount Date",
+            "match": {
+              "location": "GenericCalendarSteps.extract_gen_calendar_price_from_the_response_response_for_startdatecount_date()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@gencala"
+          },
+          {
+            "line": 4,
+            "name": "@cba"
+          },
+          {
+            "line": 4,
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Pricing Calendar Details",
+    "description": "",
+    "id": "verify-the-pricing-calendar-details",
+    "keyword": "Feature",
+    "uri": "GenericCalendar.feature"
+  }
+]

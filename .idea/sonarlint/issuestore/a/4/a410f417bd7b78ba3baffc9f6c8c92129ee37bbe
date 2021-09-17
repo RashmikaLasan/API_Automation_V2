@@ -1,0 +1,14 @@
+
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(éå±•
+L
+java:S2696#"6Make the enclosing method "static" or remove this set.(Ş¦Ë¼
+r
+java:S1104"\Make retrieveResponse a static final constant or non-public and provide accessors if needed.(ç–šã
+ƒ
+java:S1104"hMake retrieveRequestSpecification a static final constant or non-public and provide accessors if needed.(«•±şÿÿÿÿ
+L
+java:S1444"6Make this "public static retrieveResponse" field final(ç–šã
+]
+java:S1444"BMake this "public static retrieveRequestSpecification" field final(«•±şÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œï²úÿÿÿÿ

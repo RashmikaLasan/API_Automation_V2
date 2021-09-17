@@ -1,0 +1,34 @@
+
+l	java:S116"RRename this field "Contact" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒýê½üÿÿÿÿ
+n	java:S116"TRename this field "Addresses" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à–ñÈüÿÿÿÿ
+M
+java:S2696Â"6Make the enclosing method "static" or remove this set.(·÷é³
+R	java:S125É"<This block of commented-out lines of code should be removed.(ÁÑ¼†
+l
+java:S1192‹"PDefine a constant instead of duplicating this literal "refuseInsurance" 4 times.(³Åý„þÿÿÿÿ
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èíêîþÿÿÿÿ
+m	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÍü¡8øÜÏâ­/
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô™âŒûÿÿÿÿ
+y
+java:S1104"cMake updatePassengerResponse a static final constant or non-public and provide accessors if needed.(ÙöºÜ
+n
+java:S1104"SMake Contact a static final constant or non-public and provide accessors if needed.(ƒýê½üÿÿÿÿ
+p
+java:S1104"UMake Addresses a static final constant or non-public and provide accessors if needed.(à–ñÈüÿÿÿÿ
+o
+java:S1104"TMake profile1 a static final constant or non-public and provide accessors if needed.(óùÒÚüÿÿÿÿ
+l
+java:S1104"VMake reference1 a static final constant or non-public and provide accessors if needed.(à…¨û
+l
+java:S1104"VMake reference2 a static final constant or non-public and provide accessors if needed.(íÁœ¹
+j
+java:S1104"TMake payload1 a static final constant or non-public and provide accessors if needed.(£¨²¯
+o
+java:S1104"TMake payload2 a static final constant or non-public and provide accessors if needed.(þ¡ŽÝúÿÿÿÿ
+z
+java:S1104"_Make updatePassengerBody a static final constant or non-public and provide accessors if needed.(„¿Ù×ýÿÿÿÿ
+r
+java:S1104"WMake payloadBody a static final constant or non-public and provide accessors if needed.(ƒäèúÿÿÿÿ
+S
+java:S1444"=Make this "public static updatePassengerResponse" field final(ÙöºÜ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œï²úÿÿÿÿ

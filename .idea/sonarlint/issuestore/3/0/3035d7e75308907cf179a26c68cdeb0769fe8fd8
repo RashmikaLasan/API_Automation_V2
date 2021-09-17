@@ -1,0 +1,21 @@
+
+X
+java:S2696n"6Make the enclosing method "static" or remove this set.(ˆœŸ³ÿÿÿÿÿ8ÏŠñÏ¶/
+V	java:S125t"<This block of commented-out lines of code should be removed.(åÏ…ýùÿÿÿÿ
+y
+java:S1128"\Remove this unused import 'actions.HotelFlow.CreatePaymentSessionActions4.paymentReference'.(Èý´ž8ÏŠñÏ¶/
+d
+java:S1128"HRemove this unused import 'actions.HotelFlow.SearchActions1.totalPrice'.(£®äS8ÏŠñÏ¶/
+
+java:S1104"eMake addGenericPaymentResponse a static final constant or non-public and provide accessors if needed.(Ÿðt8ÔŠñÏ¶/
+j
+java:S1104"TMake uniqueId a static final constant or non-public and provide accessors if needed.(ð£ìÿ
+p
+java:S1104"ZMake paymentDetails a static final constant or non-public and provide accessors if needed.(Œ°†“
+r
+java:S1104"WMake paymentInfo a static final constant or non-public and provide accessors if needed.(Îèþ’øÿÿÿÿ
+p
+java:S1104"ZMake addPaymentBody a static final constant or non-public and provide accessors if needed.(ƒñÇÇ
+[
+java:S1444"?Make this "public static addGenericPaymentResponse" field final(Ÿðt8ÔŠñÏ¶/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Öß³þÿÿÿÿ

@@ -1,0 +1,29 @@
+
+o
+java:S3008"ZRename this field "ConfirmCartBody" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³É¾
+K
+java:S2696"6Make the enclosing method "static" or remove this set.(ãôþ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(žµÀÍþÿÿÿÿ
+]	java:S125$"<This block of commented-out lines of code should be removed.(ÀÓéøÿÿÿÿ8ÕÝ¨Â¹/
+L
+java:S2696*"6Make the enclosing method "static" or remove this set.(‹‡ÔÔ
+L
+java:S26961"6Make the enclosing method "static" or remove this set.(ŠÊþÌ
+p
+java:S1104"[Make ConfirmCartBody a static final constant or non-public and provide accessors if needed.(³É¾
+u
+java:S1104"_Make confirmCartResponse a static final constant or non-public and provide accessors if needed.(¼™Æï
+k
+java:S1104"UMake bookingId a static final constant or non-public and provide accessors if needed.(Ôþ ¤
+w
+java:S1104"\Make bookingReference a static final constant or non-public and provide accessors if needed.(‡¢Ð»øÿÿÿÿ
+J
+java:S1444"5Make this "public static ConfirmCartBody" field final(³É¾
+O
+java:S1444"9Make this "public static confirmCartResponse" field final(¼™Æï
+E
+java:S1444"/Make this "public static bookingId" field final(Ôþ ¤
+Q
+java:S1444"6Make this "public static bookingReference" field final(‡¢Ð»øÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì©ÛÖ

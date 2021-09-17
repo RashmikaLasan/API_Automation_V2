@@ -1,0 +1,23 @@
+
+K
+java:S2696?"6Make the enclosing method "static" or remove this set.(–Â¼&
+B
+java:S2201F",The return value of "toString" must be used.(ºíûô
+[
+java:S1858F"E"prettyPrint" returns a string, there's no need to call "toString()".(ºíûô
+e
+java:S1128"HRemove this unused import 'actions.HotelFlow.CreateCartActions2.cartId'.(ë¼æë8³’¨Ï¶/
+y
+java:S1128"\Remove this unused import 'actions.HotelFlow.CreatePaymentSessionActions4.paymentReference'.(Èı´8½’¨Ï¶/
+e
+java:S1128"IRemove this unused import 'actions.HotelFlow.SearchActions1.keyControls'.(ôÚŞ 8½’¨Ï¶/
+d
+java:S1128"HRemove this unused import 'actions.HotelFlow.SearchActions1.totalPrice'.(£®äS8½’¨Ï¶/
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âŒ÷üÿÿÿÿ
+„
+java:S1104"iMake captureGenericPaymentResponse a static final constant or non-public and provide accessors if needed.(¥ÀÖøúÿÿÿÿ
+w
+java:S1104"aMake genCapturePaymentBody a static final constant or non-public and provide accessors if needed.(”™èø
+^
+java:S1444"CMake this "public static captureGenericPaymentResponse" field final(¥ÀÖøúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Öß³şÿÿÿÿ

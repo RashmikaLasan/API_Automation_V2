@@ -1,0 +1,17 @@
+
+Q
+java:S2696j"6Make the enclosing method "static" or remove this set.(½¦àşÿÿÿÿ
+W	java:S125p"<This block of commented-out lines of code should be removed.(™î„8Â¦çÇ®/
+j
+java:S1104"TMake uniqueId a static final constant or non-public and provide accessors if needed.(ğ£ìÿ
+p
+java:S1104"ZMake paymentDetails a static final constant or non-public and provide accessors if needed.(Œ°†“
+r
+java:S1104"WMake paymentInfo a static final constant or non-public and provide accessors if needed.(Îèş’øÿÿÿÿ
+p
+java:S1104"ZMake addPaymentBody a static final constant or non-public and provide accessors if needed.(ƒñÇÇ
+t
+java:S1104"^Make addPaymentResponse a static final constant or non-public and provide accessors if needed.(ôÑêÇ
+N
+java:S1444"8Make this "public static addPaymentResponse" field final(ôÑêÇ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œï²úÿÿÿÿ

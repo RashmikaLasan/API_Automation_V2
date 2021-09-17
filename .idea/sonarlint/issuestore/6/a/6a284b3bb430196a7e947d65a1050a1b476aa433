@@ -1,0 +1,21 @@
+
+x	java:S116"cRename this field "CreatePaymentSessionBody" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßˆË§
+Ÿ
+java:S1845"ˆRename method "createPaymentSessionBody" to prevent any misunderstanding/clash with field "CreatePaymentSessionBody" defined on line 19.(Á Ê¨
+L
+java:S2696<"6Make the enclosing method "static" or remove this set.(åìÇ†
+V	java:S125A"<This block of commented-out lines of code should be removed.(Ú÷Ê®ùÿÿÿÿ
+L
+java:S2696G"6Make the enclosing method "static" or remove this set.(àÛÓŽ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÄÂ²
+~
+java:S1104"hMake createPaymentSessionResponse a static final constant or non-public and provide accessors if needed.(¡ðÚÝ
+z
+java:S1104"dMake CreatePaymentSessionBody a static final constant or non-public and provide accessors if needed.(ßˆË§
+w
+java:S1104"\Make paymentReference a static final constant or non-public and provide accessors if needed.(†Õä úÿÿÿÿ
+X
+java:S1444"BMake this "public static createPaymentSessionResponse" field final(¡ðÚÝ
+Q
+java:S1444"6Make this "public static paymentReference" field final(†Õä úÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì©ÛÖ
