@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Price Iteration Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarAssertionAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarAssertionAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCreatePaymentSessionSteps5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCreatePaymentSessionSteps5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarAssertionAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarAssertionAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/GenericCalendar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/HotelCalendar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericCreatePaymentSessionSteps5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericCreatePaymentSessionSteps5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarSteps.class" afterDir="false" />
-    </list>
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Price Iteration Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -462,7 +444,7 @@
       <workItem from="1631637592394" duration="8935000" />
       <workItem from="1631696321363" duration="418000" />
       <workItem from="1631821167325" duration="1259000" />
-      <workItem from="1631903993164" duration="2954000" />
+      <workItem from="1631903993164" duration="3592000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -716,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631904814643</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Price Iteration Changes">
+      <created>1631907436993</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1631907436993</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
