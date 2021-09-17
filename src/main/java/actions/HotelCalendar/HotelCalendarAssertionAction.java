@@ -13,7 +13,7 @@ public class HotelCalendarAssertionAction {
     //Hotel Calendar Response Status Code Assertion
     public void HotelCalendarStatusCode(int statusCode) {
 
-        validatableResponse = HotelCalendarActions.response.then().statusCode(statusCode);
+        validatableResponse = HotelCalendarActions.htlCalResponse.then().statusCode(statusCode);
         logger.info("Status Code 200 and its success for HTL Calendar Response");
 
     }

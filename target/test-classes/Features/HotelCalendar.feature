@@ -7,6 +7,7 @@ Feature: Verify the Hotel Pricing Details
     When I click send request for Hotel Calendar
     Then I should get a successful response with status code 200 for HTL Calendar Response
     And extract price from the response for StartDateCount Date
+    And extract the price for dates
 
 #QA
     Examples:

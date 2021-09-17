@@ -11,6 +11,6 @@ Feature: Verify the Pricing Calendar Details
 
     Examples:
 
-      | productID  | StartDateCount | EndDateCount | SupplierName                                       |
-      | VT10211P47 | 30             | 120          | San Francisco Embarcadero Scavenger Hunt Adventure |
-      | VT100648P1 | 30             | 120            | Colosseum Tour Express for Kids & Families in Rome with local guide Alessandra              |
+      | productID  | StartDateCount | EndDateCount | SupplierName                                                                   |
+      | VT10211P47 | 30             | 120          | San Francisco Embarcadero Scavenger Hunt Adventure                             |
+      | VT100648P1 | 30             | 120          | Colosseum Tour Express for Kids & Families in Rome with local guide Alessandra |

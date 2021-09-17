@@ -1,5 +1,8 @@
 package actions.HotelCalendar;
 
+import gherkin.deps.com.google.gson.Gson;
+import gherkin.deps.com.google.gson.JsonArray;
+import gherkin.deps.com.google.gson.JsonElement;
 import utilities.Log;
 import utilities.TimeHandler;
 import gherkin.deps.com.google.gson.JsonObject;
@@ -11,11 +14,9 @@ import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-
 import static constants.EndPoints.BaseEnvironmet;
 import static constants.EndPoints.HTLCalendar;
 import static io.restassured.RestAssured.given;
@@ -27,12 +28,14 @@ public class HotelCalendarActions {
     public static String checkInDate;
     public static String checkOutDate;
     public static RequestSpecification requestSpecification;
-    public static Response response;
+    public static Response htlCalResponse;
+    public static String htlCalDate;
+    public static String htlCalPrice;
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
     //Create Hotel Calendar Body
-    public void HotelCalendarBody(String HotelID, int startDatesCount, int endDatesCount,  String CityName) {
+    public void HotelCalendarBody(String HotelID, int startDatesCount, int endDatesCount, String CityName) {
 
         checkInDate = TimeHandler.TravelDateOne(startDatesCount);
         checkOutDate = TimeHandler.TravelDateTwo(endDatesCount);
@@ -73,19 +76,37 @@ public class HotelCalendarActions {
     //Print the Hotel Calendar Response
     public void getHotelCalendarResponse() {
 
-        response = requestSpecification.
+        htlCalResponse = requestSpecification.
                 when().post(BaseEnvironmet + HTLCalendar);
         System.out.println(((RequestSpecificationImpl) requestSpecification).getBody());
 
-        response.prettyPrint();
+//        htlCalResponse.prettyPrint();
 
     }
 
     //Store the price of the Hotel Calendar
     public void hotelCalendarPriceExtract() {
 
-        hotelCalendarPrice = response.jsonPath().getString("data.products[0].dates[0][0].rateInfo.price");
+        hotelCalendarPrice = htlCalResponse.jsonPath().getString("data.products[0].dates[0][0].rateInfo.price");
         System.out.println("Price for " + checkInDate + " in Hotel Calendar is: " + hotelCalendarPrice);
+
+    }
+
+    //Get the Prices against the Dates in Cal
+    public void htlCalPricing() {
+
+        Gson htlGson = new Gson();
+        JsonElement msd = htlGson.toJsonTree(htlCalResponse.jsonPath().getJsonObject("data[0].products[0].dates"));
+        JsonArray priceArrayLength = msd.getAsJsonArray();
+        logger.info("Date Count in Iteration is: " + priceArrayLength.size());
+
+        for (int i = 0; i < priceArrayLength.size() - 1; i++) {
+
+            htlCalDate = htlCalResponse.jsonPath().getString("data[0].products[0].dates[" + i + "].date");
+            htlCalPrice = htlCalResponse.jsonPath().getString("data[0].products[0].dates[" + i + "].rateInfo.price");
+            logger.info("Price for " + htlCalDate + " in Hotel Calendar is: " + htlCalPrice);
+
+        }
 
     }
 
@@ -145,11 +166,11 @@ public class HotelCalendarActions {
             HotelCalendarBody.add("payload", reqBody2);
 
             requestSpecification = given().contentType("application/json").body(HotelCalendarBody.toString());
-            response = requestSpecification.
+            htlCalResponse = requestSpecification.
                     when().post("https://backend.travel.theculturetrip.com/hotel-search/v2/products/calendar");
             System.out.println(((RequestSpecificationImpl) requestSpecification).getBody());
 
-            response.prettyPrint();
+            htlCalResponse.prettyPrint();
         }
     }
 

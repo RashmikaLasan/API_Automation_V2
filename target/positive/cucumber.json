@@ -4,50 +4,79 @@
     "elements": [
       {
         "line": 15,
-        "name": "Verifying price for Generic Calendar Request",
+        "name": "Verifying price for Hotel Calendar Request",
         "description": "",
-        "id": "verify-the-pricing-calendar-details;verifying-price-for-generic-calendar-request;;2",
+        "id": "verify-the-hotel-pricing-details;verifying-price-for-hotel-calendar-request;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 12903432799,
+              "duration": 157394700,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I click Gen Product Availability of \"VT10211P47\" FromDate as \"30\" ToDate as \"120\"",
+            "line": 5,
+            "name": "I click create user HotelID as \"TRIEAN19681371\" ToDate as \"5\" FromDate as \"120\" City as \"NYC\"",
             "match": {
               "arguments": [
                 {
-                  "val": "VT10211P47",
-                  "offset": 37
+                  "val": "TRIEAN19681371",
+                  "offset": 32
                 },
                 {
-                  "val": "30",
-                  "offset": 62
+                  "val": "5",
+                  "offset": 59
                 },
                 {
                   "val": "120",
-                  "offset": 77
+                  "offset": 75
+                },
+                {
+                  "val": "NYC",
+                  "offset": 89
                 }
               ],
-              "location": "GenericCalendarSteps.i_click_gen_product_availability_of_something_fromdate_as_something_todate_as_something(String,int,int)"
+              "location": "HotelCalendarSteps.iClickCreateUserHotelIDAsToDateAsFromDateAsCityAs(String,int,int,String)"
             },
             "matchedColumns": [
               0,
               1,
-              2
+              2,
+              3
             ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 48380601,
+              "duration": 663638700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click create calendar body",
+            "match": {
+              "location": "HotelCalendarSteps.iClickCreateCalendarBody()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12223159400,
               "status": "passed"
             },
             "line": 7,
-            "name": "I should get a successful response with status code 200 for Gen Calendar",
+            "name": "I click send request for Hotel Calendar",
+            "match": {
+              "location": "HotelCalendarSteps.iClickSendRequestForHotelCalendar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125435500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get a successful response with status code 200 for HTL Calendar Response",
             "match": {
               "arguments": [
                 {
@@ -55,126 +84,125 @@
                   "offset": 52
                 }
               ],
-              "location": "GenericCalendarSteps.i_should_get_a_successful_response_with_status_code_200_for_gen_calendar(int)"
+              "location": "HotelCalendarAssertionSteps.iShouldGetASuccessfulResponseWithStatusCodeForHTLCalendarResponse(int)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 896256299,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "response should return Product Name as \"San Francisco Embarcadero Scavenger Hunt Adventure\" in response",
-            "match": {
-              "arguments": [
-                {
-                  "val": "San Francisco Embarcadero Scavenger Hunt Adventure",
-                  "offset": 40
-                }
-              ],
-              "location": "GenericCalendarSteps.response_should_return_product_name_as_something_in_response(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 272147300,
+              "duration": 1104883000,
               "status": "passed"
             },
             "line": 9,
-            "name": "response should return Product Code as \"VT10211P47\"",
+            "name": "extract price from the response for StartDateCount Date",
             "match": {
-              "arguments": [
-                {
-                  "val": "VT10211P47",
-                  "offset": 40
-                }
-              ],
-              "location": "GenericCalendarSteps.response_should_return_product_code_as_something(String)"
+              "location": "HotelCalendarSteps.extractPriceFromTheResponseForStartDateCountDate()"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3897293000,
+              "duration": 5417490500,
               "status": "passed"
             },
             "line": 10,
-            "name": "extract Gen Calendar Price from the response response for StartDateCount Date",
+            "name": "extract the price for dates",
             "match": {
-              "location": "GenericCalendarSteps.extract_gen_calendar_price_from_the_response_response_for_startdatecount_date()"
+              "location": "HotelCalendarSteps.extractThePriceForDates()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 4,
-            "name": "@gencala"
+            "line": 3,
+            "name": "@htlcal"
           },
           {
-            "line": 4,
-            "name": "@cba"
+            "line": 3,
+            "name": "@Htl"
           },
           {
-            "line": 4,
+            "line": 3,
             "name": "@all"
           }
         ]
       },
       {
         "line": 16,
-        "name": "Verifying price for Generic Calendar Request",
+        "name": "Verifying price for Hotel Calendar Request",
         "description": "",
-        "id": "verify-the-pricing-calendar-details;verifying-price-for-generic-calendar-request;;3",
+        "id": "verify-the-hotel-pricing-details;verifying-price-for-hotel-calendar-request;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5241140200,
+              "duration": 28202800,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I click Gen Product Availability of \"VT100648P1\" FromDate as \"30\" ToDate as \"120\"",
+            "line": 5,
+            "name": "I click create user HotelID as \"TRIEAN1397608\" ToDate as \"5\" FromDate as \"120\" City as \"HKG\"",
             "match": {
               "arguments": [
                 {
-                  "val": "VT100648P1",
-                  "offset": 37
+                  "val": "TRIEAN1397608",
+                  "offset": 32
                 },
                 {
-                  "val": "30",
-                  "offset": 62
+                  "val": "5",
+                  "offset": 58
                 },
                 {
                   "val": "120",
-                  "offset": 77
+                  "offset": 74
+                },
+                {
+                  "val": "HKG",
+                  "offset": 88
                 }
               ],
-              "location": "GenericCalendarSteps.i_click_gen_product_availability_of_something_fromdate_as_something_todate_as_something(String,int,int)"
+              "location": "HotelCalendarSteps.iClickCreateUserHotelIDAsToDateAsFromDateAsCityAs(String,int,int,String)"
             },
             "matchedColumns": [
               0,
               1,
-              2
+              2,
+              3
             ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1588801,
+              "duration": 1399700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click create calendar body",
+            "match": {
+              "location": "HotelCalendarSteps.iClickCreateCalendarBody()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5166097100,
               "status": "passed"
             },
             "line": 7,
-            "name": "I should get a successful response with status code 200 for Gen Calendar",
+            "name": "I click send request for Hotel Calendar",
+            "match": {
+              "location": "HotelCalendarSteps.iClickSendRequestForHotelCalendar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11354300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get a successful response with status code 200 for HTL Calendar Response",
             "match": {
               "arguments": [
                 {
@@ -182,85 +210,55 @@
                   "offset": 52
                 }
               ],
-              "location": "GenericCalendarSteps.i_should_get_a_successful_response_with_status_code_200_for_gen_calendar(int)"
+              "location": "HotelCalendarAssertionSteps.iShouldGetASuccessfulResponseWithStatusCodeForHTLCalendarResponse(int)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 24063100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "response should return Product Name as \"Colosseum Tour Express for Kids \u0026 Families in Rome with local guide Alessandra\" in response",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Colosseum Tour Express for Kids \u0026 Families in Rome with local guide Alessandra",
-                  "offset": 40
-                }
-              ],
-              "location": "GenericCalendarSteps.response_should_return_product_name_as_something_in_response(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 21582300,
+              "duration": 20554000,
               "status": "passed"
             },
             "line": 9,
-            "name": "response should return Product Code as \"VT100648P1\"",
+            "name": "extract price from the response for StartDateCount Date",
             "match": {
-              "arguments": [
-                {
-                  "val": "VT100648P1",
-                  "offset": 40
-                }
-              ],
-              "location": "GenericCalendarSteps.response_should_return_product_code_as_something(String)"
+              "location": "HotelCalendarSteps.extractPriceFromTheResponseForStartDateCountDate()"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1514451499,
+              "duration": 3413997500,
               "status": "passed"
             },
             "line": 10,
-            "name": "extract Gen Calendar Price from the response response for StartDateCount Date",
+            "name": "extract the price for dates",
             "match": {
-              "location": "GenericCalendarSteps.extract_gen_calendar_price_from_the_response_response_for_startdatecount_date()"
+              "location": "HotelCalendarSteps.extractThePriceForDates()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 4,
-            "name": "@gencala"
+            "line": 3,
+            "name": "@htlcal"
           },
           {
-            "line": 4,
-            "name": "@cba"
+            "line": 3,
+            "name": "@Htl"
           },
           {
-            "line": 4,
+            "line": 3,
             "name": "@all"
           }
         ]
       }
     ],
-    "name": "Verify the Pricing Calendar Details",
+    "name": "Verify the Hotel Pricing Details",
     "description": "",
-    "id": "verify-the-pricing-calendar-details",
+    "id": "verify-the-hotel-pricing-details",
     "keyword": "Feature",
-    "uri": "GenericCalendar.feature"
+    "uri": "HotelCalendar.feature"
   }
 ]

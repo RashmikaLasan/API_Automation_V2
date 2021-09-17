@@ -37,6 +37,12 @@ public class HotelCalendarSteps {
         hotelCalendarActions.hotelCalendarPriceExtract();
     }
 
+    @And("extract the price for dates")
+    public void extractThePriceForDates() {
+
+        hotelCalendarActions.htlCalPricing();
+    }
+
 
     @When("I click create user ToDate as \"([^\"]*)\" FromDate as \"([^\"]*)\"")
     public void iClickCreateUserToDateAsFromDateAs(int StartDateCount, int EndDateCount) throws IOException {

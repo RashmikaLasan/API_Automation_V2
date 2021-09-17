@@ -1,6 +1,7 @@
 package steps.GenericBookFlow;
 
 import actions.GenericFlow.GenericCreatePaymentSessionActions5;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
@@ -49,4 +50,6 @@ public class GenericCreatePaymentSessionSteps5 {
 
         genericCreatePaymentSessionActions5.createGenPaymentSessionCurrencyAssertion(currency);
     }
+
+
 }
