@@ -122,3 +122,17 @@ c
 3src/test/java/steps/Tritium/TritiumSearchSteps.java,8\e\8efe53868d09b691add29c7280a553e675d1fb5d
 i
 9src/test/java/steps/HotelCalendar/HotelCalendarSteps.java,8\c\8ca2289c0bfd59297063ead658a780babc35a02b
+m
+=src/main/java/actions/HotelCalendar/HotelCalendarActions.java,c\6\c69a942d1256568d13550f907c87b2a933bdaf8c
+q
+Asrc/main/java/actions/HotelFlow/HotelBookingAssertionActions.java,d\2\d266928f128391270152e4e9577a8b07b06ceb02
+q
+Asrc/test/java/steps/HotelBookFlow/HotelBookingAssertionSteps.java,4\4\44539452bf5284bcb48f7b30ab54a49d02b4f9d7
+k
+;src/main/java/actions/GenericFlow/GenericSearchAction1.java,3\a\3a076a4ae07cd2ded839653d172f476713fada74
+Q
+!src/test/java/Runner/RunCuke.java,c\1\c1e43591ff9d95c87d75d0781a907f1cd131bc99
+m
+=src/test/java/steps/GenericCalendar/GenericCalendarSteps.java,1\d\1d74142935612ecc480076dc25b3cc53d5a52fd8
+q
+Asrc/main/java/actions/GenericCalendar/GenericCalendarActions.java,8\d\8dd3f712c6883bdfdc61e6d7c1c5a30a2fdc890c

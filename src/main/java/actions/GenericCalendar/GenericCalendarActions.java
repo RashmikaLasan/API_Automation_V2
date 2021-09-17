@@ -1,17 +1,13 @@
 package actions.GenericCalendar;
 
-import com.mongodb.util.JSON;
 import gherkin.deps.com.google.gson.Gson;
 import gherkin.deps.com.google.gson.JsonArray;
 import gherkin.deps.com.google.gson.JsonElement;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Logger;
-import org.json.JSONArray;
-import org.json.JSONObject;
 import utilities.Log;
 import utilities.TimeHandler;
-
 import static constants.EndPoints.BaseEnvironmet;
 import static constants.EndPoints.GENCalendar;
 import static io.restassured.RestAssured.given;
@@ -53,27 +49,6 @@ public class GenericCalendarActions {
 //        genCalResponse.prettyPrint();
         logger.info(BaseEnvironmet + GENCalendar + "?cmp=CT&channel=U&brand=CT&div=CTDIV_LON&cur=GBP&bkgType=STD&cliGrp=Direct&cliId=-1&cliType=DIRECT_CLIENT&srcCountry=GB&searchType=CACHE_AND_LIVE_SEARCH&supplierCodes=" + productID + "&fromDate=" + checkInDate + "&toDate=" + checkOutDate);
 
-
-        Gson gson = new Gson();
-        JsonElement msd = gson.toJsonTree(genCalResponse.jsonPath().getJsonObject("data[0].products[0].dates"));
-        logger.info(msd);
-        JsonArray priceArrayLength = msd.getAsJsonArray();
-        logger.info("priceArrayLength    " + priceArrayLength);
-        logger.info(priceArrayLength.size());
-
-        for (int i = 0; i < priceArrayLength.size(); i++) {
-
-            genCalDate = genCalResponse.jsonPath().getString("data[0].products[0].dates[" + i + "].date");
-            genCalPrice = genCalResponse.jsonPath().getString("data[0].products[0].dates[" + i + "].rateInfo.price");
-            System.out.println("Price for " + genCalDate + " in Gen Calendar is: " + genCalPrice);
-
-        }
-
-
-        genCalPrice = genCalResponse.jsonPath().getString("data[0].products[0].dates[0].rateInfo.price");
-        System.out.println("Price for " + checkInDate + " in Gen Calendar is: " + genCalPrice);
-
-
     }
 
     //Gen Calendar Status Code Validation
@@ -96,6 +71,24 @@ public class GenericCalendarActions {
 
         genCalResponse.then().body(("data[0].products[0].supplierCode"), equalTo(productId));
         logger.info("Product Code Validation Success for Gen Calendar Response & Product Code is: " + productId);
+
+    }
+
+    //Get the Prices against the Dates
+    public void genCalPricing() {
+
+        Gson gson = new Gson();
+        JsonElement msd = gson.toJsonTree(genCalResponse.jsonPath().getJsonObject("data[0].products[0].dates"));
+        JsonArray priceArrayLength = msd.getAsJsonArray();
+        logger.info("Date Count in Iteration is: " + priceArrayLength.size());
+
+        for (int i = 0; i < priceArrayLength.size() - 1; i++) {
+
+            genCalDate = genCalResponse.jsonPath().getString("data[0].products[0].dates[" + i + "].date");
+            genCalPrice = genCalResponse.jsonPath().getString("data[0].products[0].dates[" + i + "].rateInfo.price");
+            logger.info("Price for " + genCalDate + " in Gen Calendar is: " + genCalPrice);
+
+        }
 
     }
 }

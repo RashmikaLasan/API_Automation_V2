@@ -41,8 +41,10 @@ public class GenericCalendarSteps {
     }
 
     @And("^extract Gen Calendar Price from the response response for StartDateCount Date$")
-    public void extract_gen_calendar_price_from_the_response_response_for_startdatecount_date() throws Throwable {
-        throw new PendingException();
+    public void extract_gen_calendar_price_from_the_response_response_for_startdatecount_date() {
+
+        genericCalendarActions.genCalPricing();
+
     }
 
 }
