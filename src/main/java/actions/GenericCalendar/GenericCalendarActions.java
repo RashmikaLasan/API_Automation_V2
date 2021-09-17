@@ -74,7 +74,7 @@ public class GenericCalendarActions {
 
     }
 
-    //Get the Prices against the Dates
+    //Get the Prices against the Date
     public void genCalPricing() {
 
         Gson gson = new Gson();

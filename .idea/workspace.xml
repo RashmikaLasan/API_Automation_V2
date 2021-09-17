@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Price Iteration">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericCalendar/GenericCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericCalendar/GenericCalendarActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericCalendar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericCalendar/GenericCalendarSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericCalendar/GenericCalendarSteps.java" afterDir="false" />
-    </list>
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Price Iteration Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -451,7 +444,7 @@
       <workItem from="1631637592394" duration="8935000" />
       <workItem from="1631696321363" duration="418000" />
       <workItem from="1631821167325" duration="1259000" />
-      <workItem from="1631903993164" duration="319000" />
+      <workItem from="1631903993164" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -691,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631654233819</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Price Iteration Changes">
+      <created>1631904438109</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1631904438109</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -772,10 +772,20 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Crate CArt Full Flow Done" />
     <MESSAGE value="Update Passenger Request Body" />
     <MESSAGE value="Update Passenger Request Steps Changed" />
     <MESSAGE value="Update Passenger Assertion Completed" />
@@ -800,7 +810,8 @@
     <MESSAGE value="Gen Calendar" />
     <MESSAGE value="Gen Calendar Changes" />
     <MESSAGE value="Price Iteration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Price Iteration" />
+    <MESSAGE value="Price Iteration Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Price Iteration Changes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
