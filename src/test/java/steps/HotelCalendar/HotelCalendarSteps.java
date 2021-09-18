@@ -50,4 +50,11 @@ public class HotelCalendarSteps {
         hotelCalendarActions.HotelCalendarExcelBody(StartDateCount, EndDateCount);
 
     }
+
+    @And("assert the Hotel Code is \"([^\"]*)\"  in Response")
+    public void assertTheHotelCodeIsInResponse(String hotelId) {
+
+        hotelCalendarActions.htlCalendarProductCodeAssertion(hotelId);
+
+    }
 }

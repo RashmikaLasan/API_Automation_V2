@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Price Iteration Changes" />
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Price Iteration Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/PassengerUpdate3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/PassengerUpdate3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/08092021_010353.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/09092021_011518.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/09092021_011848.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/10092021_015333.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/10092021_015347.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/10092021_015526.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/10092021_020046.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/10092021_020226.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_011227.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_012306.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_012512.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_013121.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_013248.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_013548.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_013659.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_020029.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_020228.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_020324.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_022030.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_022421.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_022817.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_022906.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_023141.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_023145.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_023454.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_024159.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_024321.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_024516.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_024904.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/15092021_025001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/18092021_010235.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/18092021_010337.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/18092021_010527.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/18092021_121355.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/18092021_121524.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/18092021_123811.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/31082021_095239.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/31082021_100211.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/31082021_100413.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +74,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -310,13 +364,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -444,7 +500,8 @@
       <workItem from="1631637592394" duration="8935000" />
       <workItem from="1631696321363" duration="418000" />
       <workItem from="1631821167325" duration="1259000" />
-      <workItem from="1631903993164" duration="3592000" />
+      <workItem from="1631903993164" duration="4769000" />
+      <workItem from="1631963240075" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -705,7 +762,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631907436993</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Price Iteration Changes">
+      <created>1631907969061</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1631907969061</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -796,6 +860,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />

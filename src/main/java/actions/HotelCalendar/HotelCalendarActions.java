@@ -20,6 +20,7 @@ import java.io.IOException;
 import static constants.EndPoints.BaseEnvironmet;
 import static constants.EndPoints.HTLCalendar;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 public class HotelCalendarActions {
 
@@ -45,7 +46,7 @@ public class HotelCalendarActions {
         reqBody1.addProperty("div", "CT_LON");
         reqBody1.addProperty("brand", "CT_OL");
         reqBody1.addProperty("channel", "U");
-        reqBody1.addProperty("cliId", 10541);
+        reqBody1.addProperty("cliId", -1);
         reqBody1.addProperty("cliGrp", "Direct");
         reqBody1.addProperty("cliType", "DIRECT_CLIENT");
         reqBody1.addProperty("bkgType", "STD");
@@ -107,6 +108,15 @@ public class HotelCalendarActions {
             logger.info("Price for " + htlCalDate + " in Hotel Calendar is: " + htlCalPrice);
 
         }
+
+    }
+
+
+    //Hotel Calendar Hotel Code Validation
+    public void htlCalendarProductCodeAssertion(String hotelId) {
+
+        htlCalResponse.then().body(("data[0].products[0].hotelCode"), equalTo(hotelId));
+        logger.info("Hotel Code Validation Success for Hotel Calendar Response & Hotel Code is: " + hotelId);
 
     }
 

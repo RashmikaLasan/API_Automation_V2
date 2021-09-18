@@ -8,6 +8,7 @@ Feature: Verify the Hotel Pricing Details
     Then I should get a successful response with status code 200 for HTL Calendar Response
     And extract price from the response for StartDateCount Date
     And extract the price for dates
+    And assert the Hotel Code is "<HotelID>"  in Response
 
 #QA
     Examples:
