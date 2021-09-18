@@ -36,7 +36,7 @@ public class HotelCalendarActions {
 
 
     //Create Hotel Calendar Body
-    public void HotelCalendarBody(String HotelID, int startDatesCount, int endDatesCount, String CityName) {
+    public void HotelCalendarBody(String HotelID, int startDatesCount, int endDatesCount, String cityName, String currency) {
 
         checkInDate = TimeHandler.TravelDateOne(startDatesCount);
         checkOutDate = TimeHandler.TravelDateTwo(endDatesCount);
@@ -51,12 +51,12 @@ public class HotelCalendarActions {
         reqBody1.addProperty("cliType", "DIRECT_CLIENT");
         reqBody1.addProperty("bkgType", "STD");
         reqBody1.addProperty("srcCountry", "GB");
-        reqBody1.addProperty("cur", "USD");
+        reqBody1.addProperty("cur", currency);
         reqBody1.addProperty("userId", 8778);
         reqBody1.addProperty("username", "codegen");
 
         JsonObject reqBody2 = new JsonObject();
-        reqBody2.addProperty("city", CityName);
+        reqBody2.addProperty("city", cityName);
         reqBody2.addProperty("endDate", checkOutDate);
         reqBody2.addProperty("hotelCode", HotelID);
         reqBody2.addProperty("startDate", checkInDate);
@@ -119,6 +119,18 @@ public class HotelCalendarActions {
         logger.info("Hotel Code Validation Success for Hotel Calendar Response & Hotel Code is: " + hotelId);
 
     }
+
+
+    //Hotel Calendar Currency Code Validation
+    public void htlCalendarCurrencyCodeAssertion(String currency) {
+
+        htlCalResponse.then().body(("data[0].products[0].dates[0].rateInfo.currencyCode"), equalTo(currency));
+        logger.info("Currency Code Validation Success for Hotel Calendar Response & Currency Code is: " + currency);
+
+    }
+
+
+//    -------------Excel Sheet Scenario----------------------
 
 
     //Create Hotel Calendar Body for Excel File

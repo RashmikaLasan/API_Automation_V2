@@ -9,15 +9,15 @@ public class HotelCalendarSteps {
 
     HotelCalendarActions hotelCalendarActions = new HotelCalendarActions();
 
-    @When("^I click create user HotelID as \"([^\"]*)\" ToDate as \"([^\"]*)\" FromDate as \"([^\"]*)\" City as \"([^\"]*)\"$")
-    public void iClickCreateUserHotelIDAsToDateAsFromDateAsCityAs(String HotelID, int StartDateCount, int EndDateCount, String CityName) {
+    @When("I click create user HotelID as \"([^\"]*)\" ToDate as \"([^\"]*)\" FromDate as \"([^\"]*)\" City as \"([^\"]*)\" Currency as \"([^\"]*)\"")
+    public void iClickCreateUserHotelIDAsToDateAsFromDateAsCityAs(String HotelID, int StartDateCount, int EndDateCount, String cityName, String currency) {
 
-        hotelCalendarActions.HotelCalendarBody(HotelID, StartDateCount, EndDateCount, CityName);
+        hotelCalendarActions.HotelCalendarBody(HotelID, StartDateCount, EndDateCount, cityName, currency);
 
     }
 
     @When("^I click create calendar body$")
-    public void iClickCreateCalendarBody(){
+    public void iClickCreateCalendarBody() {
 
         hotelCalendarActions.sendHotelCalendarRequest();
 
@@ -56,5 +56,11 @@ public class HotelCalendarSteps {
 
         hotelCalendarActions.htlCalendarProductCodeAssertion(hotelId);
 
+    }
+
+    @And("assert the Currency Code is {string} in Response")
+    public void assertTheCurrencyCodeIsInResponse(String currency) {
+
+        hotelCalendarActions.htlCalendarCurrencyCodeAssertion(currency);
     }
 }
