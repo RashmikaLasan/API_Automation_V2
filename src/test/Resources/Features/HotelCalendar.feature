@@ -15,7 +15,7 @@ Feature: Verify the Hotel Pricing Details
     Examples:
       | HotelID        | StartDateCount | EndDateCount | CityName | Currency |
       | TRIEAN19681371 | 5              | 120          | NYC      | USD      |
-      | TRIEAN1397608  | 5              | 120          | HKG      | USD      |
+      | TRIEAN1397608  | 5              | 120          | HKG      | GBP      |
 
 
 

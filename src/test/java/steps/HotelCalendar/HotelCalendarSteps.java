@@ -58,7 +58,7 @@ public class HotelCalendarSteps {
 
     }
 
-    @And("assert the Currency Code is {string} in Response")
+    @And("assert the Currency Code is \"([^\"]*)\" in Response")
     public void assertTheCurrencyCodeIsInResponse(String currency) {
 
         hotelCalendarActions.htlCalendarCurrencyCodeAssertion(currency);
