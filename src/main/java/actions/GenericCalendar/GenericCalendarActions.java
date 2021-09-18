@@ -24,7 +24,7 @@ public class GenericCalendarActions {
     final Logger logger = Log.getLogData(Log.class.getName());
 
 
-    public void setRequest(String productID, int startDatesCount, int endDatesCount) {
+    public void setRequest(String productID, int startDatesCount, int endDatesCount, String currency) {
 
         checkInDate = TimeHandler.TravelDateOne(startDatesCount);
         checkOutDate = TimeHandler.TravelDateTwo(endDatesCount);
@@ -35,7 +35,7 @@ public class GenericCalendarActions {
                 queryParam("channel", "U").
                 queryParam("brand", "CT_OL").
                 queryParam("div", "CT_LON").
-                queryParam("cur", "GBP").
+                queryParam("cur", currency).
                 queryParam("bkgType", "STD").
                 queryParam("cliGrp", "Direct").
                 queryParam("cliType", "DIRECT_CLIENT").
@@ -47,7 +47,7 @@ public class GenericCalendarActions {
                 queryParam("searchType", "CACHE_AND_LIVE_SEARCH").
                 when().get(BaseEnvironmet + GENCalendar);
 //        genCalResponse.prettyPrint();
-        logger.info(BaseEnvironmet + GENCalendar + "?cmp=CT&channel=U&brand=CT&div=CTDIV_LON&cur=GBP&bkgType=STD&cliGrp=Direct&cliId=-1&cliType=DIRECT_CLIENT&srcCountry=GB&searchType=CACHE_AND_LIVE_SEARCH&supplierCodes=" + productID + "&fromDate=" + checkInDate + "&toDate=" + checkOutDate);
+        logger.info(BaseEnvironmet + GENCalendar + "?cmp=CT&channel=U&brand=CT&div=CTDIV_LON&cur=" + currency + "&bkgType=STD&cliGrp=Direct&cliId=-1&cliType=DIRECT_CLIENT&srcCountry=GB&searchType=CACHE_AND_LIVE_SEARCH&supplierCodes=" + productID + "&fromDate=" + checkInDate + "&toDate=" + checkOutDate);
 
     }
 

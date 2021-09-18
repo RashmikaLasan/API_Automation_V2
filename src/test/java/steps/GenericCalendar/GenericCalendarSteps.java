@@ -13,10 +13,10 @@ public class GenericCalendarSteps {
 
     }
 
-    @When("^I click Gen Product Availability of \"([^\"]*)\" FromDate as \"([^\"]*)\" ToDate as \"([^\"]*)\"$")
-    public void i_click_gen_product_availability_of_something_fromdate_as_something_todate_as_something(String productId, int startDateCount, int endDateCount) {
+    @When("I click Gen Product Availability of \"([^\"]*)\" FromDate as \"([^\"]*)\" ToDate as \"([^\"]*)\" Currency as \"([^\"]*)\"")
+    public void i_click_gen_product_availability_of_something_fromdate_as_something_todate_as_something(String productId, int startDateCount, int endDateCount, String currency) {
 
-        genericCalendarActions.setRequest(productId, startDateCount, endDateCount);
+        genericCalendarActions.setRequest(productId, startDateCount, endDateCount, currency);
     }
 
     @Then("^I should get a successful response with status code (\\d+) for Gen Calendar$")

@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Htl Calendar Currency Code Assertion">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Htl Calendar Currency Code Step Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericCalendar/GenericCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericCalendar/GenericCalendarActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericCalendar.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCreateCartSteps2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCreateCartSteps2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericCalendar/GenericCalendarSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericCalendar/GenericCalendarSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,7 +462,7 @@
       <workItem from="1631696321363" duration="418000" />
       <workItem from="1631821167325" duration="1259000" />
       <workItem from="1631903993164" duration="4769000" />
-      <workItem from="1631963240075" duration="1973000" />
+      <workItem from="1631963240075" duration="4222000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -738,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631964803815</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Htl Calendar Currency Code Step Changes">
+      <created>1631965262942</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1631965262942</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -834,7 +847,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update Passenger Assertion Completed" />
     <MESSAGE value="Create Payment Session Request Body" />
     <MESSAGE value="Create Payment Session Asserions" />
     <MESSAGE value="Add Payment Request" />
@@ -859,7 +871,8 @@
     <MESSAGE value="Price Iteration Changes" />
     <MESSAGE value="Htl Calendar Changes" />
     <MESSAGE value="Htl Calendar Currency Code Assertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Htl Calendar Currency Code Assertion" />
+    <MESSAGE value="Htl Calendar Currency Code Step Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Htl Calendar Currency Code Step Changes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

@@ -97,4 +97,6 @@ public class GenericCreateCartSteps2 {
 
         genericCreateCartAction2.updatePassengerPaxCombinationGenAssertion();
     }
+
+
 }

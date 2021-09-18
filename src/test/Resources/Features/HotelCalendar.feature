@@ -1,6 +1,6 @@
 Feature: Verify the Hotel Pricing Details
 
-  @Htl @all @htlcal
+  @Htl @all @htlcal @calc
   Scenario Outline: Verifying price for Hotel Calendar Request
     When I click create user HotelID as "<HotelID>" ToDate as "<StartDateCount>" FromDate as "<EndDateCount>" City as "<CityName>" Currency as "<Currency>"
     When I click create calendar body
