@@ -112,11 +112,17 @@ Feature: Verify the V2 Hotel Flow
     When I click send Request for Retrieve Request
     Then I should get a successful response as status code 200 for Retrieve Request
 
-
+#UAT
     Examples:
       | FutureDateCount | NightCount | HotelCode | City | PromoCode | Currency | cardType |
       | 50              | 3          | EAN179227 | LON  | CTPromo   | GBP      | VISA     |
 
+#QA
+#    Examples:
+#      | FutureDateCount | NightCount | HotelCode | City | PromoCode | Currency | cardType |
+#      | 50              | 3          | EAN179227 | LON  | CTPromo   | GBP      | VISA     |
 
+
+#STG
 #      | FutureDateCount    | NightCount | HotelCode | City |PromoCode|
 #      | 60                 | 3          | EAN311048 | DXB  | CTPromo |
