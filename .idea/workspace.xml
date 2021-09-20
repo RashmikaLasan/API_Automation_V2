@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="GEN Calendar Currency Parameter Added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelBookingFlow.feature" afterDir="false" />
-    </list>
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="HTL Search HTL Code changes for QA" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -318,13 +315,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -454,7 +453,7 @@
       <workItem from="1631821167325" duration="1259000" />
       <workItem from="1631903993164" duration="4769000" />
       <workItem from="1631963240075" duration="5035000" />
-      <workItem from="1632026995167" duration="842000" />
+      <workItem from="1632026995167" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
       <created>1626122471605</created>
@@ -750,7 +749,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631967944549</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="HTL Search HTL Code changes for QA">
+      <created>1632031122641</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1632031122641</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -846,7 +852,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Create Payment Session Asserions" />
     <MESSAGE value="Add Payment Request" />
     <MESSAGE value="Confirm Cart Request" />
     <MESSAGE value="Hotel Code Changes" />
@@ -871,7 +876,8 @@
     <MESSAGE value="Htl Calendar Currency Code Assertion" />
     <MESSAGE value="Htl Calendar Currency Code Step Changes" />
     <MESSAGE value="GEN Calendar Currency Parameter Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="GEN Calendar Currency Parameter Added" />
+    <MESSAGE value="HTL Search HTL Code changes for QA" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTL Search HTL Code changes for QA" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
