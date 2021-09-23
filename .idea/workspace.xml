@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Generic Booking Confirmation Done">
-      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Tag Name Change in Calendar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Tritium/TritiumSearchAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Tritium/TritiumSearchAssertionSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,13 +338,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -814,7 +816,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632416760223</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Tag Name Change in Calendar">
+      <created>1632417116225</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1632417116225</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -910,7 +919,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Confirm Cart Assertions" />
     <MESSAGE value="Confirm Cart Done" />
     <MESSAGE value="Retrieve Flow Done" />
     <MESSAGE value="Generic Search Steps" />
@@ -935,7 +943,8 @@
     <MESSAGE value="Dust" />
     <MESSAGE value="Generic Search in Currency and Brand" />
     <MESSAGE value="Generic Booking Confirmation Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic Booking Confirmation Done" />
+    <MESSAGE value="Tag Name Change in Calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag Name Change in Calendar" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
