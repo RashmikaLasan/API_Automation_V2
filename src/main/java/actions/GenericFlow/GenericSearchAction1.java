@@ -34,18 +34,18 @@ public class GenericSearchAction1 {
 
 
     //Hotel Search Parameters create
-    public void genericSearchRequestCreate(int futureDateCount, String productCode, String city) {
+    public void genericSearchRequestCreate(int futureDateCount, String productCode, String city, String brand, String currency, String division) {
 
         checkinDate = TimeHandler.TravelDateOne(futureDateCount);
 
-        logger.info(BaseEnvironmet + SearchURLParaGen + "?cmp=CT&channel=U&brand=CT&div=CTDIV_LON&cur=GBP&bkgType=STD&cliGrp=Direct&cliId=-1&cliType=DIRECT_CLIENT&srcCountry=GB&userId=8778&username=codegen&tax=true&quote=false&tbxResults=false&h2hResult=true&expand=all&adult=2~31~1990-01-01~1&supplier=" + productCode + "&city=" + city + "&startDate=" + checkinDate);
+        logger.info(BaseEnvironmet + SearchURLParaGen + "?cmp=CT&channel=U&brand=" + brand + "&div=" + division + "&cur=" + currency + "&bkgType=STD&cliGrp=Direct&cliId=-1&cliType=DIRECT_CLIENT&srcCountry=GB&userId=8778&username=codegen&tax=true&quote=false&tbxResults=false&h2hResult=true&expand=all&adult=2~31~1990-01-01~1&supplier=" + productCode + "&city=" + city + "&startDate=" + checkinDate);
 
         genericRequestSpecification = given().
                 queryParam("cmp", "CT").
                 queryParam("channel", "U").
-                queryParam("brand", "CT").
-                queryParam("div", "CTDIV_LON").
-                queryParam("cur", "GBP").
+                queryParam("brand", brand).
+                queryParam("div", division).
+                queryParam("cur", currency).
                 queryParam("bkgType", "STD").
                 queryParam("cliGrp", "Direct").
                 queryParam("cliId", -1).

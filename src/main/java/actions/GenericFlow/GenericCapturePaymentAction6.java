@@ -29,17 +29,17 @@ public class GenericCapturePaymentAction6 {
         JsonObject CapturePaymentPayload = new JsonObject();
         CapturePaymentPayload.addProperty("batchReceiptInfo", receipt);
         CapturePaymentPayload.addProperty("bookingType", "STD");
-        CapturePaymentPayload.addProperty("brand", "CT");
-        CapturePaymentPayload.addProperty("cardExpMonth", "11");
-        CapturePaymentPayload.addProperty("cardExpYear", 2035);
-        CapturePaymentPayload.addProperty("cardHolderName", "Lasan");
+        CapturePaymentPayload.addProperty("brand", brand);
+        CapturePaymentPayload.addProperty("cardExpMonth", "12");
+        CapturePaymentPayload.addProperty("cardExpYear", 2036);
+        CapturePaymentPayload.addProperty("cardHolderName", "Rashmika");
         CapturePaymentPayload.addProperty("cardNumber", "4242");
         CapturePaymentPayload.addProperty("cardType", cardType);
-        CapturePaymentPayload.addProperty("company", brand);
+        CapturePaymentPayload.addProperty("company", "CT");
         CapturePaymentPayload.addProperty("currency", currency);
         CapturePaymentPayload.addProperty("distributionChannel", "U");
-        CapturePaymentPayload.addProperty("division", "CTDIV_LON");
-        CapturePaymentPayload.addProperty("email", "test@test.test");
+        CapturePaymentPayload.addProperty("division", "CT_LON");
+        CapturePaymentPayload.addProperty("email", "lasan@test.test");
         CapturePaymentPayload.addProperty("isWeb", true);
         CapturePaymentPayload.addProperty("noOfDaysToDeparture", 10);
         CapturePaymentPayload.addProperty("paymentReference", genericPaymentReference);
@@ -54,6 +54,7 @@ public class GenericCapturePaymentAction6 {
         genCapturePaymentBody = new JsonObject();
         genCapturePaymentBody.add("keyControls", genericKeyControls);
         genCapturePaymentBody.add("payload", CapturePaymentPayload);
+        logger.info("Generic Create Capture Payment Body is: " + genCapturePaymentBody);
 
     }
 

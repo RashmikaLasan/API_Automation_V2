@@ -11,10 +11,10 @@ public class GenericSearchStep1 {
 
     GenericSearchAction1 genericSearchAction1 = new GenericSearchAction1();
 
-    @Given("I Enter the checkIn date as \"([^\"]*)\" Product Code as \"([^\"]*)\" City as \"([^\"]*)\" for two Adults")
-    public void iEnterTheCheckInDateAsProductCodeAsCityAsForTwoAdults(int futureDateCount, String productCode, String city) {
+    @Given("I Enter the checkIn date as \"([^\"]*)\" Product Code as \"([^\"]*)\" City as \"([^\"]*)\" Brand as \"([^\"]*)\" Currency as \"([^\"]*)\" Division as \"([^\"]*)\" for two Adults")
+    public void iEnterTheCheckInDateAsProductCodeAsCityAsBrandAsCurrencyAsDivisionAsForTwoAdults(int futureDateCount, String productCode, String city, String brand, String currency, String division) {
 
-        genericSearchAction1.genericSearchRequestCreate(futureDateCount, productCode, city);
+        genericSearchAction1.genericSearchRequestCreate(futureDateCount, productCode, city, brand, currency, division);
     }
 
     @When("I click send request for Generic Search Request")
@@ -100,5 +100,6 @@ public class GenericSearchStep1 {
 
         genericSearchAction1.storeGenericPaxCombination();
     }
+
 
 }
