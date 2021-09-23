@@ -89,6 +89,15 @@ Feature: Verify the V2 Generic Flow
     Then I click send request for Generic Add Payment Request
     Then I should get a successful response as status code 200 for Generic Add Payment Request
 
+
+    #7.Confirm Cart
+    Given I want to Generic Confirm Booking by creating the Confirm Cart Body
+    Then I click send Generic request for Confirm Cart
+    Then I should get a successful response as status code 200 for Generic Confirm Cart Request
+
+    Then Store the Generic Booking ID in Confirm Cart Response
+    And Store the Generic Booking Reference in Confirm Cart Response
+
     Examples:
       | FutureDateCount | ProductCode | City | Currency | Brand | cardType | batchReceiptInfo                      | Division |
       | 90              | VT108266P12 | DXB  | GBP      | CT_OL | VISA     | pm_card_amex_threeDSecureNotSupported | CT_LON   |

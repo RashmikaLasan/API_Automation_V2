@@ -114,7 +114,7 @@ public class GenericAddPaymentActions7 {
                 when().
                 post(BaseEnvironmet + PromoPara1 + genCartId + AddPaymentPara);
 
-        addGenericPaymentResponse.prettyPrint().toString();
+//        addGenericPaymentResponse.prettyPrint().toString();
         logger.info("Add Payment Request URL is: " + BaseEnvironmet + PromoPara1 + genCartId + AddPaymentPara);
     }
 

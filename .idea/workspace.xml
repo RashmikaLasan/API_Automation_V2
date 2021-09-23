@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Generic Search in Currency and Brand" />
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Generic Search in Currency and Brand">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericConfirmCartActions8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericConfirmCartSteps8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericAddPaymentActions7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericAddPaymentActions7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/ConfirmCartSteps7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/ConfirmCartSteps7.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -797,7 +805,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632411154660</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Generic Search in Currency and Brand">
+      <created>1632414015535</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1632414015535</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">

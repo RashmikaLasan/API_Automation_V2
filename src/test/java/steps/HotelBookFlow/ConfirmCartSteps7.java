@@ -33,4 +33,5 @@ public class ConfirmCartSteps7 {
         confirmCartActions7.storeBookingReference();
     }
 
+
 }
