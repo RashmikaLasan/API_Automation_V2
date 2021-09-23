@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Tag Name Change in Calendar">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Trit Change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Tritium/TritiumSearchAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Tritium/TritiumSearchAssertionSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,15 +337,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -479,13 +476,8 @@
       <workItem from="1632026995167" duration="1070000" />
       <workItem from="1632111048356" duration="2098000" />
       <workItem from="1632407277182" duration="5919000" />
-    </task>
-    <task id="LOCAL-00001" summary="V2 Hotel Flow - Search">
-      <created>1626122471605</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1626122471605</updated>
+      <workItem from="1632426618732" duration="500000" />
+      <workItem from="1632427352552" duration="964000" />
     </task>
     <task id="LOCAL-00002" summary="V2 Hotel Flow - Search Flow New Comments and Feature File chnages">
       <created>1626384038676</created>
@@ -823,7 +815,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632417116225</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Trit Change">
+      <created>1632426869053</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1632426869054</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -919,7 +918,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Confirm Cart Done" />
     <MESSAGE value="Retrieve Flow Done" />
     <MESSAGE value="Generic Search Steps" />
     <MESSAGE value="Generic Search Steps All Added" />
@@ -944,7 +942,8 @@
     <MESSAGE value="Generic Search in Currency and Brand" />
     <MESSAGE value="Generic Booking Confirmation Done" />
     <MESSAGE value="Tag Name Change in Calendar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag Name Change in Calendar" />
+    <MESSAGE value="Trit Change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trit Change" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
