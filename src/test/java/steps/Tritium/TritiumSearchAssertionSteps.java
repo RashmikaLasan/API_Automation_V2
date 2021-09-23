@@ -21,4 +21,12 @@ public class TritiumSearchAssertionSteps {
         tritiumAssertionAction.VerifyHotelCode(hotelID);
 
     }
+    
+    
+     @And("^HotelID \"([^\"]*)\" shoduld be matched in response$")
+    public void hotelidShoduldBeMatchedInResponse(String hotelID)  {
+
+        tritiumAssertionAction.VerifydHotelCode(hotelID);
+
+    }
 }
