@@ -68,7 +68,7 @@ public class GenericCapturePaymentAction6 {
                 put(BaseEnvironmet + PaymentSessionURL + "/" + genericPaymentReference);
 
         logger.info("URL for Capture Payment Request is: " + BaseEnvironmet + PaymentSessionURL + "/" + genericPaymentReference);
-        captureGenericPaymentResponse.prettyPrint().toString();
+//        captureGenericPaymentResponse.prettyPrint().toString();
     }
 
     //Capture Payment Request Status Code Validation

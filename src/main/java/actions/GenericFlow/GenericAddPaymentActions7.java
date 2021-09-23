@@ -8,6 +8,7 @@ import utilities.Log;
 
 import static actions.GenericFlow.GenericCreateCartAction2.genCartId;
 import static actions.GenericFlow.GenericCreatePaymentSessionActions5.genericPaymentReference;
+import static actions.GenericFlow.GenericSearchAction1.genericKeyControls;
 import static actions.GenericFlow.GenericSearchAction1.genericTotalPrice;
 import static actions.HotelFlow.CreateCartActions2.cartId;
 import static actions.HotelFlow.CreatePaymentSessionActions4.paymentReference;
@@ -98,10 +99,10 @@ public class GenericAddPaymentActions7 {
 
         //Aggregate Full Body
         addPaymentBody = new JsonObject();
-        addPaymentBody.add("keyControls", keyControls);
+        addPaymentBody.add("keyControls", genericKeyControls);
         addPaymentBody.add("payload", payloadArray);
 
-        logger.info("addPaymentBody is " + addPaymentBody);
+//        logger.info("Add Payment Body GEN is " + addPaymentBody);
     }
 
     //Send the Request
@@ -111,9 +112,16 @@ public class GenericAddPaymentActions7 {
                 header("Content-Type", "application/json").
                 body(addPaymentBody.toString()).
                 when().
-                post(BaseEnvironmet + PromoPara1 + cartId + AddPaymentPara);
+                post(BaseEnvironmet + PromoPara1 + genCartId + AddPaymentPara);
 
-//        addGenericPaymentResponse.prettyPrint().toString();
+        addGenericPaymentResponse.prettyPrint().toString();
         logger.info("Add Payment Request URL is: " + BaseEnvironmet + PromoPara1 + genCartId + AddPaymentPara);
+    }
+
+    //Generic Add Payment Request Status Code Validation
+    public void genAddPaymentRequestStatusCodeValidation(int statusCode) {
+
+        addGenericPaymentResponse.then().statusCode(statusCode);
+        logger.info("Status Code 200 and its Success for Generic Add Payment Request");
     }
 }
