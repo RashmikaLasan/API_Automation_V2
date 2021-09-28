@@ -25,5 +25,6 @@ public class GenericRetrieveSteps8 {
     @Then("I should get a successful response as status code (\\d+) for Generic Retrieve Request")
     public void iShouldGetASuccessfulResponseAsStatusCodeForGenericRetrieveRequest(int statusCode) {
 
+        genericRetrieveActions8.retrieveStatusCode(statusCode);
     }
 }

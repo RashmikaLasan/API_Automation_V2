@@ -7,6 +7,7 @@ import utilities.Log;
 
 import static actions.GenericFlow.GenericConfirmCartActions8.genBookingId;
 import static actions.GenericFlow.GenericConfirmCartActions8.genBookingReference;
+import static actions.HotelFlow.RetrieveActions.retrieveResponse;
 import static constants.EndPoints.BaseEnvironmet;
 import static constants.EndPoints.PromoPara1;
 import static io.restassured.RestAssured.given;
@@ -33,7 +34,14 @@ public class GenericRetrieveActions8 {
 
         retrieveGenResponse = retrieveGenRequestSpecification.
                 when().get(BaseEnvironmet + PromoPara1 + genBookingId);
-        logger.info(retrieveGenResponse.prettyPrint());
+//        logger.info(retrieveGenResponse.prettyPrint());
 
+    }
+
+    //Retrieve Status Code Validation
+    public void retrieveStatusCode(int statusCode) {
+
+        retrieveGenResponse.then().statusCode(statusCode);
+        logger.info("Status Code 200 and its Success for Generic Retrieve Response");
     }
 }
