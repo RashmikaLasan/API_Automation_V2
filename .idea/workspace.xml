@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Jar file change">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Garbage">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericRetrieveActions8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericRetrieveSteps8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/RetrieveActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelFlow/RetrieveActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/AddPaymentSteps6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/AddPaymentSteps6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,13 +348,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -484,14 +493,8 @@
       <workItem from="1632427352552" duration="1865000" />
       <workItem from="1632499477486" duration="1474000" />
       <workItem from="1632552021138" duration="1719000" />
-      <workItem from="1632576459873" duration="259000" />
-    </task>
-    <task id="LOCAL-00003" summary="Comments Added">
-      <created>1626513720283</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1626513720283</updated>
+      <workItem from="1632576459873" duration="927000" />
+      <workItem from="1632849865817" duration="2234000" />
     </task>
     <task id="LOCAL-00004" summary="Create Cart Steps">
       <created>1626727810904</created>
@@ -829,7 +832,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632428696777</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Garbage">
+      <created>1632576800990</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1632576800991</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -925,7 +935,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Generic Search Steps" />
     <MESSAGE value="Generic Search Steps All Added" />
     <MESSAGE value="Generic Create Cart Steps" />
     <MESSAGE value="Generic Create Cart Steps Done" />
@@ -950,7 +959,8 @@
     <MESSAGE value="Tag Name Change in Calendar" />
     <MESSAGE value="Trit Change" />
     <MESSAGE value="Jar file change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jar file change" />
+    <MESSAGE value="Garbage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Garbage" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

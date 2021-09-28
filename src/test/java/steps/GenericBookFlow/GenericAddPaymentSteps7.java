@@ -45,5 +45,4 @@ public class GenericAddPaymentSteps7 {
         genericAddPaymentActions7.genAddPaymentRequestStatusCodeValidation(statusCode);
     }
 
-
 }

@@ -4,7 +4,6 @@ import utilities.Log;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Logger;
-
 import static actions.HotelFlow.ConfirmCartActions7.bookingId;
 import static actions.HotelFlow.ConfirmCartActions7.bookingReference;
 import static constants.EndPoints.BaseEnvironmet;

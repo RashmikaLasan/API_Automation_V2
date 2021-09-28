@@ -1,0 +1,1134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 109,
+        "name": "Verifying V2 HTL Flow without the PromoCode",
+        "description": "",
+        "id": "verify-the-v2-generic-flow;verifying-v2-htl-flow-without-the-promocode;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1501968500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#1.Generic Search"
+              }
+            ],
+            "line": 6,
+            "name": "I Enter the checkIn date as \"90\" Product Code as \"VT108266P12\" City as \"DXB\" Brand as \"CT_OL\" Currency as \"GBP\" Division as \"CT_LON\" for two Adults",
+            "match": {
+              "arguments": [
+                {
+                  "val": "90",
+                  "offset": 29
+                },
+                {
+                  "val": "VT108266P12",
+                  "offset": 50
+                },
+                {
+                  "val": "DXB",
+                  "offset": 72
+                },
+                {
+                  "val": "CT_OL",
+                  "offset": 87
+                },
+                {
+                  "val": "GBP",
+                  "offset": 107
+                },
+                {
+                  "val": "CT_LON",
+                  "offset": 125
+                }
+              ],
+              "location": "GenericSearchStep1.iEnterTheCheckInDateAsProductCodeAsCityAsBrandAsCurrencyAsDivisionAsForTwoAdults(int,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              7
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24027652300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click send request for Generic Search Request",
+            "match": {
+              "location": "GenericSearchStep1.iClickSendRequestForGenericSearchRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 436461300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get a successful response as status code 200 for Generic Search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "GenericSearchStep1.iShouldGetASuccessfulResponseAsStatusCodeForGenericSearch(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 751874400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Store the Generic Key Controls",
+            "match": {
+              "location": "GenericSearchStep1.storeTheGenericKeyControls()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90095800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Store Generic Payload",
+            "match": {
+              "location": "GenericSearchStep1.storeGenericPayload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54506300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Store the Product Name",
+            "match": {
+              "location": "GenericSearchStep1.storeTheProductName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20603300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Store the Product Code",
+            "match": {
+              "location": "GenericSearchStep1.storeTheProductCode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17886400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Store the Generic Service Start Date",
+            "match": {
+              "location": "GenericSearchStep1.storeTheGenericServiceStartDate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72681100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Store the Duration of Tour",
+            "match": {
+              "location": "GenericSearchStep1.storeTheDurationOfTour()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24835600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Store the Generic Service End Date",
+            "match": {
+              "location": "GenericSearchStep1.storeTheGenericServiceEndDate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20111200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Store the Generic Choice Key",
+            "match": {
+              "location": "GenericSearchStep1.storeTheGenericChoiceKey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15309400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Store the Price of the Generic Search",
+            "match": {
+              "location": "GenericSearchStep1.storeThePriceOfTheGenericSearch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18505700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Store the Category Code",
+            "match": {
+              "location": "GenericSearchStep1.storeTheCategoryCode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13361000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Store the Category Name",
+            "match": {
+              "location": "GenericSearchStep1.storeTheCategoryName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46579700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Store the Generic Pax Combination",
+            "match": {
+              "location": "GenericSearchStep1.storeTheGenericPaxCombination()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26686100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 23,
+                "value": "#2.Add To Cart"
+              }
+            ],
+            "line": 24,
+            "name": "I want to Create Generic Cart",
+            "match": {
+              "location": "GenericCreateCartSteps2.iWantToCreateGenericCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12367411900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click send request for Generic Create Cart Request",
+            "match": {
+              "location": "GenericCreateCartSteps2.iClickSendRequestForGenericCreateCartRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2332000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should get a successful response as status code 200 for Generic Create Cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "GenericCreateCartSteps2.iShouldGetASuccessfulResponseAsStatusCodeForGenericCreateCart(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32206200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Store the Generic Cart ID",
+            "match": {
+              "location": "GenericCreateCartSteps2.storeTheGenericCartID()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20017800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Store the Generic TravellersKey of Passenger One",
+            "match": {
+              "location": "GenericCreateCartSteps2.storeTheGenericTravellersKeyOfPassengerOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14768200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Store the Generic TravellersKey of Passenger Two",
+            "match": {
+              "location": "GenericCreateCartSteps2.storeTheGenericTravellersKeyOfPassengerTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69520300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "check the Product Name is correct in Generic Create Cart Response",
+            "match": {
+              "location": "GenericCreateCartSteps2.checkTheProductNameIsCorrectInGenericCreateCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24483800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "check the Product Code is correct in Generic Create Cart Response",
+            "match": {
+              "location": "GenericCreateCartSteps2.checkTheProductCodeIsCorrectInGenericCreateCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19443500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "check the Generic Service Start Date is correct in Generic Create Cart Response",
+            "match": {
+              "location": "GenericCreateCartSteps2.checkTheGenericServiceStartDateIsCorrectInGenericCreateCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29827900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "check the Generic Service End Date is correct in Generic Create Cart Response",
+            "match": {
+              "location": "GenericCreateCartSteps2.checkTheGenericServiceEndDateIsCorrectInGenericCreateCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21899500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 35,
+                "value": "#    Then check the Choice Key is correct in Create Cart Response"
+              }
+            ],
+            "line": 36,
+            "name": "check the Price of the Product is correct in Generic Create Cart Response",
+            "match": {
+              "location": "GenericCreateCartSteps2.checkThePriceOfTheProductIsCorrectInGenericCreateCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25436100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "check the Category Code is correct in Create Cart Response",
+            "match": {
+              "location": "GenericCreateCartSteps2.checkTheCategoryCodeIsCorrectInCreateCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22950800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "check the Category Name is correct in Create Cart Response",
+            "match": {
+              "location": "GenericCreateCartSteps2.checkTheCategoryNameIsCorrectInCreateCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55258800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "check the Pax Combination is correct in Generic Create Cart Response",
+            "match": {
+              "location": "GenericCreateCartSteps2.checkThePaxCombinationIsCorrectInGenericCreateCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9276800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 42,
+                "value": "#4.Update Passenger"
+              }
+            ],
+            "line": 43,
+            "name": "I want to Create Update Passenger Body I Create Gen Contact Details",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenContactDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 749900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I want to Create Update Passenger Body I Create Gen Address Details",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenAddressDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 815800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I want to Create Update Passenger Body I Create Gen Profile Details",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenProfileDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 487600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I want to Create Update Passenger Body I Create Gen Reference Details",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenReferenceDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I want to Create Update Passenger Body I Create Gen Payload Details of Passenger One",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenPayloadDetailsOfPassengerOne()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I want to Create Update Passenger Body I Create Gen Payload Details of Passenger One",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenPayloadDetailsOfPassengerOne()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I want to Create Update Passenger Body I Create Gen Payload Details of all the Passengers",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenPayloadDetailsOfAllThePassengers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11763900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I Combined the Gen Update Passenger details body",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iCombinedTheGenUpdatePassengerDetailsBody()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1426900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I create Gen Update Passenger Body to Update Passenger Details",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iCreateGenUpdatePassengerBodyToUpdatePassengerDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10373702400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click send request for Gen Update Passenger Request",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.iClickSendRequestForGenUpdatePassengerRequest()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 644300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I should get a successful response as status code 200 Gen Update Passenger",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "GenericPassengerUpdateSteps4.iShouldGetASuccessfulResponseAsStatusCodeGenUpdatePassenger(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19077200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "check the Cart ID is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkTheCartIDIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17693100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "check the Product Name is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkTheProductNameIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21434200,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "check the Product Code is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkTheProductCodeIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34500800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "check the Generic Service Start Date is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkTheGenericServiceStartDateIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17028300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "check the Generic Service End Date is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkTheGenericServiceEndDateIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16838500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 60,
+                "value": "#    Then check the Choice Key is correct in Generic Update Passenger Response"
+              }
+            ],
+            "line": 61,
+            "name": "check the Price of the Product is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkThePriceOfTheProductIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19537600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "check the Category Code is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkTheCategoryCodeIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16076000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "check the Category Name is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkTheCategoryNameIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52634500,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "check the Pax Combination is correct in Generic Update Passenger Response",
+            "match": {
+              "location": "GenericPassengerUpdateSteps4.checkThePaxCombinationIsCorrectInGenericUpdatePassengerResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37960000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 67,
+                "value": "#5.Create Payment Session"
+              }
+            ],
+            "line": 68,
+            "name": "I want to create Generic Payment Session with Payment Currency as \"GBP\" Brand as \"CT_OL\" Batch Receipt as \"pm_card_amex_threeDSecureNotSupported\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GBP",
+                  "offset": 67
+                },
+                {
+                  "val": "CT_OL",
+                  "offset": 82
+                },
+                {
+                  "val": "pm_card_amex_threeDSecureNotSupported",
+                  "offset": 107
+                }
+              ],
+              "location": "GenericCreatePaymentSessionSteps5.iWantToCreateGenericPaymentSessionWithPaymentCurrencyAsBrandAsBatchReceiptAs(String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5241488200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click send request for Generic Create Payment Session Request",
+            "match": {
+              "location": "GenericCreatePaymentSessionSteps5.iClickSendRequestForGenericCreatePaymentSessionRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 602800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I should get a successful response as status code 200 for Generic Create Payment Session",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "GenericCreatePaymentSessionSteps5.iShouldGetASuccessfulResponseAsStatusCodeForGenericCreatePaymentSession(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10185600,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Store the Payment Reference in Generic Create Payment Session response",
+            "match": {
+              "location": "GenericCreatePaymentSessionSteps5.storeThePaymentReferenceInGenericCreatePaymentSessionResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9055700,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "check the payment Amount is correct in Generic Create Payment Session response",
+            "match": {
+              "location": "GenericCreatePaymentSessionSteps5.checkThePaymentAmountIsCorrectInGenericCreatePaymentSessionResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9402500,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "check the Transaction Identifier is equal to the Cart ID in Generic Create Payment Session response",
+            "match": {
+              "location": "GenericCreatePaymentSessionSteps5.checkTheTransactionIdentifierIsEqualToTheCartIDInGenericCreatePaymentSessionResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9400600,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "check the Payment Currency is \"GBP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GBP",
+                  "offset": 31
+                }
+              ],
+              "location": "GenericCreatePaymentSessionSteps5.checkThePaymentCurrencyIs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8313900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 78,
+                "value": "#6.Capture Payment"
+              }
+            ],
+            "line": 79,
+            "name": "I want to send the Generic Capture Payment Request where Card Type as \"VISA\" and Currency as \"GBP\" Batch Receipt as \"pm_card_amex_threeDSecureNotSupported\" Brand as \"CT_OL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VISA",
+                  "offset": 71
+                },
+                {
+                  "val": "GBP",
+                  "offset": 94
+                },
+                {
+                  "val": "pm_card_amex_threeDSecureNotSupported",
+                  "offset": 117
+                },
+                {
+                  "val": "CT_OL",
+                  "offset": 166
+                }
+              ],
+              "location": "GenericCapturePaymentSteps6.iWantToSendTheGenericCapturePaymentRequestWhereCardTypeAsAndCurrencyAsBatchReceiptAsBrandAs(String,String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12779948500,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I click send request for Generic Capture Payment Request",
+            "match": {
+              "location": "GenericCapturePaymentSteps6.iClickSendRequestForGenericCapturePaymentRequest()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 691600,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I should get a successful response as status code 200 for Generic Capture Payment Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "GenericCapturePaymentSteps6.iShouldGetASuccessfulResponseAsStatusCodeForGenericCapturePaymentRequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5876400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 84,
+                "value": "#7.Add Payment"
+              }
+            ],
+            "line": 85,
+            "name": "I want to create Unique ID in Generic Add Payment Body",
+            "match": {
+              "location": "GenericAddPaymentSteps7.iWantToCreateUniqueIDInGenericAddPaymentBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104400,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "I want to create Payment Details in Generic Add Payment Body where Card Type as \"VISA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VISA",
+                  "offset": 81
+                }
+              ],
+              "location": "GenericAddPaymentSteps7.iWantToCreatePaymentDetailsInGenericAddPaymentBodyWhereCardTypeAs(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96700,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I want to create Payment Info in Generic Add Payment Body where Currency as \"GBP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GBP",
+                  "offset": 77
+                }
+              ],
+              "location": "GenericAddPaymentSteps7.iWantToCreatePaymentInfoInGenericAddPaymentBodyWhereCurrencyAs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67500,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I want to Merge Full Body of Generic Add Payment Body",
+            "match": {
+              "location": "GenericAddPaymentSteps7.iWantToMergeFullBodyOfGenericAddPaymentBody()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5924998100,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I click send request for Generic Add Payment Request",
+            "match": {
+              "location": "GenericAddPaymentSteps7.iClickSendRequestForGenericAddPaymentRequest()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1126700,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I should get a successful response as status code 200 for Generic Add Payment Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "GenericAddPaymentSteps7.iShouldGetASuccessfulResponseAsStatusCodeForGenericAddPaymentRequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9133800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 93,
+                "value": "#7.Confirm Cart"
+              }
+            ],
+            "line": 94,
+            "name": "I want to Generic Confirm Booking by creating the Confirm Cart Body",
+            "match": {
+              "location": "GenericConfirmCartSteps8.iWantToGenericConfirmBookingByCreatingTheConfirmCartBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18729116000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I click send Generic request for Confirm Cart",
+            "match": {
+              "location": "GenericConfirmCartSteps8.iClickSendGenericRequestForConfirmCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2789500,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I should get a successful response as status code 200 for Generic Confirm Cart Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "GenericConfirmCartSteps8.iShouldGetASuccessfulResponseAsStatusCodeForGenericConfirmCartRequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23937200,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "Store the Generic Booking ID in Confirm Cart Response",
+            "match": {
+              "location": "GenericConfirmCartSteps8.storeTheGenericBookingIDInConfirmCartResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11233300,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Store the Generic Booking Reference in Confirm Cart Response",
+            "match": {
+              "location": "GenericConfirmCartSteps8.storeTheGenericBookingReferenceInConfirmCartResponse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8562800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 102,
+                "value": "#Booking Retrieve"
+              }
+            ],
+            "line": 103,
+            "name": "I want to create the Generic Get Request as userId as \"877\" UserName as \"codegen\" ClientID as \"-1\" Expand as \"all\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "877",
+                  "offset": 55
+                },
+                {
+                  "val": "codegen",
+                  "offset": 73
+                },
+                {
+                  "val": "-1",
+                  "offset": 95
+                },
+                {
+                  "val": "all",
+                  "offset": 110
+                }
+              ],
+              "location": "GenericRetrieveSteps8.iWantToCreateTheGenericGetRequestAsUserIdAsUserNameAsClientIDAsExpandAs(String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10519529600,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I click send Request for Generic Retrieve Request",
+            "match": {
+              "location": "GenericRetrieveSteps8.iClickSendRequestForGenericRetrieveRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143300,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I should get a successful response as status code 200 for Generic Retrieve Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 50
+                }
+              ],
+              "location": "GenericRetrieveSteps8.iShouldGetASuccessfulResponseAsStatusCodeForGenericRetrieveRequest(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@gennopromo"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the V2 Generic Flow",
+    "description": "",
+    "id": "verify-the-v2-generic-flow",
+    "keyword": "Feature",
+    "uri": "GenericBookingFlow.feature"
+  }
+]
