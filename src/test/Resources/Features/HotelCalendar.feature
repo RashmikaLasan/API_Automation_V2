@@ -1,4 +1,4 @@
-Feature: Verify the Hotel Pricing Details
+Feature: Verify the Hotel Pricing Calendar Details
 
   @Htl @all @htlcal @calc
   Scenario Outline: Verifying price for Hotel Calendar Request

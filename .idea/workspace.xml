@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Garbage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericRetrieveActions8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericRetrieveActions8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericCalendar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericRetrieveSteps8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericRetrieveSteps8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,19 +345,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -490,14 +478,8 @@
       <workItem from="1632499477486" duration="1474000" />
       <workItem from="1632552021138" duration="1719000" />
       <workItem from="1632576459873" duration="927000" />
-      <workItem from="1632849865817" duration="2589000" />
-    </task>
-    <task id="LOCAL-00005" summary="Create Cart Assertions">
-      <created>1626813591457</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1626813591457</updated>
+      <workItem from="1632849865817" duration="3413000" />
+      <workItem from="1632907339241" duration="190000" />
     </task>
     <task id="LOCAL-00006" summary="Step Deifinition of Creaet Cart">
       <created>1626978032752</created>
@@ -835,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632852383784</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Status Code Validation in Gen Retrieve">
+      <created>1632852700149</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1632852700149</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -931,7 +920,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Generic Create Cart Steps" />
     <MESSAGE value="Generic Create Cart Steps Done" />
     <MESSAGE value="Generic Passenger Update Feature File" />
     <MESSAGE value="Generic Passenger Update Fully Done" />
@@ -956,7 +944,8 @@
     <MESSAGE value="Jar file change" />
     <MESSAGE value="Garbage" />
     <MESSAGE value="GEN Booking Retrieve FLow" />
-    <option name="LAST_COMMIT_MESSAGE" value="GEN Booking Retrieve FLow" />
+    <MESSAGE value="Status Code Validation in Gen Retrieve" />
+    <option name="LAST_COMMIT_MESSAGE" value="Status Code Validation in Gen Retrieve" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

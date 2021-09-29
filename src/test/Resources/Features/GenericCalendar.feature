@@ -1,4 +1,4 @@
-Feature: Verify the Pricing Calendar Details
+Feature: Verify the Generic Pricing Calendar Details
 
 
   @cba @all @gencala @calc

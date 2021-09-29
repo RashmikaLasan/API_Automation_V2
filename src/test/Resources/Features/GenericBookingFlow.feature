@@ -1,4 +1,4 @@
-Feature: Verify the V2 Generic Flow
+Feature: Verify the V2 Generic Booking Flow
 
   @gennopromo
   Scenario Outline: Verifying V2 HTL Flow without the PromoCode
