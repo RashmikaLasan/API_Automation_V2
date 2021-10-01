@@ -3,6 +3,9 @@ package actions.HotelCalendar;
 import gherkin.deps.com.google.gson.Gson;
 import gherkin.deps.com.google.gson.JsonArray;
 import gherkin.deps.com.google.gson.JsonElement;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import org.json.JSONArray;
 import utilities.Log;
 import utilities.TimeHandler;
 import gherkin.deps.com.google.gson.JsonObject;
@@ -14,9 +17,12 @@ import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
 import static constants.EndPoints.BaseEnvironmet;
 import static constants.EndPoints.HTLCalendar;
 import static io.restassured.RestAssured.given;
@@ -143,6 +149,8 @@ public class HotelCalendarActions {
 
         File file = new File("C:\\Users\\Lasan\\Downloads\\Cal_Codes.xls");
 
+//        File file = new File("C:\\Users\\Lasan\\Desktop\\Viator_CNX_Policy\\Book1.csv");
+
         //Create an object of FileInputStream class to read excel file
         FileInputStream inputStream = new FileInputStream(file);
 
@@ -193,6 +201,56 @@ public class HotelCalendarActions {
             System.out.println(((RequestSpecificationImpl) requestSpecification).getBody());
 
             htlCalResponse.prettyPrint();
+        }
+    }
+
+
+    //Create Generic Product for Excel File
+    public void genViatorExcelBody(String productCode) throws IOException, InterruptedException {
+
+        File file = new File("C:\\Users\\Lasan\\Desktop\\Viator_CNX_Policy\\Book1.xls");
+
+        //Create an object of FileInputStream class to read excel file
+        FileInputStream inputStream = new FileInputStream(file);
+
+        //Creating workbook instance that refers to .xls file
+        HSSFWorkbook wb = new HSSFWorkbook(inputStream);
+
+        //Creating a Sheet object using the sheet Name
+        HSSFSheet sheet = wb.getSheet("Book1");
+
+        for (int i = 1; i < 50; i++) {
+
+            TimeUnit.SECONDS.sleep(1);
+            //Create a row object to retrieve row at index 1
+            HSSFRow row2 = sheet.getRow(i);
+
+            //Create a cell object to retrieve cell at index 5
+            HSSFCell cell = row2.getCell(0);
+
+            //Get the address in a variable
+            productCode = cell.getStringCellValue();
+
+            Response genViatorResponse = given()
+                    .header("exp-api-key", "06f71ae2-ed80-43fc-9c1c-ecd4b3681585")
+                    .contentType(ContentType.JSON)
+                    .when()
+                    .get("http://prelive.viatorapi.viator.com/service/product?currencyCode=GBP&sortOrder=REVIEW_RATING_A&code=" + productCode + "&showUnavailability=false&excludeTourGradeAvailability=true");
+
+
+            int len = genViatorResponse.jsonPath().getList("data.merchantTermsAndConditions.cancellationFromTourDate").size();
+
+            for (int k = 0; k < len; k++) {
+
+
+                String code = genViatorResponse.jsonPath().getString("data.code");
+                String DATE_RANGE_MIN = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].dayRangeMin");
+                String DATE_RANGE_MAX = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].dayRangeMax");
+                String CNX_VALUE = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].percentageRefundable");
+                logger.info("2," + code + "," + DATE_RANGE_MIN + "," + DATE_RANGE_MAX + "," + CNX_VALUE + "," + "PERCENTAGE" + "," + code + ":" + k);
+
+            }
+
         }
     }
 

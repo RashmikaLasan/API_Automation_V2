@@ -63,4 +63,17 @@ public class HotelCalendarSteps {
 
         hotelCalendarActions.htlCalendarCurrencyCodeAssertion(currency);
     }
+
+    @When("I click create user productCode as \"([^\"]*)\"")
+    public void iClickCreateUserProductCodeAs(String productCode) throws IOException, InterruptedException {
+
+        hotelCalendarActions.genViatorExcelBody(productCode);
+
+
+    }
+
+    @Then("I should get a successful response with status code (\\d+) for Viator Response")
+    public void iShouldGetASuccessfulResponseWithStatusCodeForViatorResponse(int statusCode) {
+
+    }
 }
