@@ -208,7 +208,7 @@ public class HotelCalendarActions {
     //Create Generic Product for Excel File
     public void genViatorExcelBody(String productCode) throws IOException, InterruptedException {
 
-        File file = new File("C:\\Users\\Lasan\\Desktop\\Viator_CNX_Policy\\Book1.xls");
+        File file = new File("C:\\Users\\Lasan\\Desktop\\Viator_CNX_Policy\\57_60.xls");
 
         //Create an object of FileInputStream class to read excel file
         FileInputStream inputStream = new FileInputStream(file);
@@ -219,9 +219,9 @@ public class HotelCalendarActions {
         //Creating a Sheet object using the sheet Name
         HSSFSheet sheet = wb.getSheet("Book1");
 
-        for (int i = 1; i < 50; i++) {
+        for (int i = 1; i < 2837; i++) {
 
-            TimeUnit.SECONDS.sleep(1);
+            TimeUnit.MILLISECONDS.sleep(250);
             //Create a row object to retrieve row at index 1
             HSSFRow row2 = sheet.getRow(i);
 
@@ -232,24 +232,27 @@ public class HotelCalendarActions {
             productCode = cell.getStringCellValue();
 
             Response genViatorResponse = given()
-                    .header("exp-api-key", "06f71ae2-ed80-43fc-9c1c-ecd4b3681585")
+                    .header("exp-api-key", "9572045f-0b56-42d1-8fdb-67263a73ff61")
                     .contentType(ContentType.JSON)
                     .when()
-                    .get("http://prelive.viatorapi.viator.com/service/product?currencyCode=GBP&sortOrder=REVIEW_RATING_A&code=" + productCode + "&showUnavailability=false&excludeTourGradeAvailability=true");
+                    .get("http://viatorapi.viator.com/service/product?currencyCode=GBP&sortOrder=REVIEW_RATING_A&code=" + productCode + "&showUnavailability=false&excludeTourGradeAvailability=true");
 
+            try {
+                int len = genViatorResponse.jsonPath().getList("data.merchantTermsAndConditions.cancellationFromTourDate").size();
 
-            int len = genViatorResponse.jsonPath().getList("data.merchantTermsAndConditions.cancellationFromTourDate").size();
+                for (int k = 0; k < len; k++) {
 
-            for (int k = 0; k < len; k++) {
+                    String code = genViatorResponse.jsonPath().getString("data.code");
+                    String DATE_RANGE_MIN = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].dayRangeMin");
+                    String DATE_RANGE_MAX = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].dayRangeMax");
+                    String CNX_VALUE = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].percentageRefundable");
+                    logger.info("2," + code + "," + DATE_RANGE_MIN + "," + DATE_RANGE_MAX + "," + CNX_VALUE + "," + "PERCENTAGE" + "," + code + ":" + k);
 
-
-                String code = genViatorResponse.jsonPath().getString("data.code");
-                String DATE_RANGE_MIN = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].dayRangeMin");
-                String DATE_RANGE_MAX = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].dayRangeMax");
-                String CNX_VALUE = genViatorResponse.jsonPath().getString("data.merchantTermsAndConditions.cancellationFromTourDate[" + k + "].percentageRefundable");
-                logger.info("2," + code + "," + DATE_RANGE_MIN + "," + DATE_RANGE_MAX + "," + CNX_VALUE + "," + "PERCENTAGE" + "," + code + ":" + k);
+                }
+            } catch (Exception e) {
 
             }
+
 
         }
     }

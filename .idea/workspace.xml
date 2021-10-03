@@ -8,11 +8,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/HotelBookingAssertionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelBookFlow/HotelBookingAssertionSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/HotelCalendar/HotelCalendarSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericRetrieveActions8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericRetrieveActions8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/GenericCalendar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/HotelBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/HotelCalendar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/HotelBookingAssertionSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/HotelBookingAssertionSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +70,14 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/constants/EndPoints.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericCalendar.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericAddPaymentActions7.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericAddPaymentActions7.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/constants/EndPoints.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/Resources/Features/HotelCalendar.feature" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/steps/Tritium/TritiumSearchAssertionSteps.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -496,14 +503,10 @@
       <workItem from="1632907339241" duration="190000" />
       <workItem from="1632907718101" duration="755000" />
       <workItem from="1633105746823" duration="195000" />
-      <workItem from="1633106073407" duration="9129000" />
-    </task>
-    <task id="LOCAL-00007" summary="Assertion Completed">
-      <created>1627074000862</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1627074000863</updated>
+      <workItem from="1633106073407" duration="11452000" />
+      <workItem from="1633141650685" duration="21633000" />
+      <workItem from="1633205659969" duration="1450000" />
+      <workItem from="1633234153232" duration="1126000" />
     </task>
     <task id="LOCAL-00008" summary="Crate CArt Full Flow Done">
       <created>1627139564620</created>
@@ -841,7 +844,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632907844185</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Viator CNX_Policy Job">
+      <created>1633116449870</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1633116449881</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -937,7 +947,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Generic Passenger Update Feature File" />
     <MESSAGE value="Generic Passenger Update Fully Done" />
     <MESSAGE value="Capture Payment Fully Done" />
     <MESSAGE value="Add Payments Steps" />
@@ -962,7 +971,8 @@
     <MESSAGE value="GEN Booking Retrieve FLow" />
     <MESSAGE value="Status Code Validation in Gen Retrieve" />
     <MESSAGE value="Hotel Calendar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotel Calendar" />
+    <MESSAGE value="Viator CNX_Policy Job" />
+    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX_Policy Job" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -971,7 +981,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java</url>
-          <line>141</line>
+          <line>142</line>
           <properties class="actions.HotelCalendar.HotelCalendarActions" method="HotelCalendarExcelBody">
             <option name="EMULATED" value="true" />
           </properties>

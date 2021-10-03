@@ -1,0 +1,66 @@
+{
+  "name": "Runs Cucumber Feature",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg0",
+      "value": "Verify the Hotel Pricing Calendar Details"
+    }
+  ],
+  "start": 1633150286760,
+  "stop": 1633151726531,
+  "uuid": "1fa11800-3b6b-4fd8-88ae-dcf530a2900f",
+  "historyId": "3df4edf8c855d36ac0e71c160fd3956f",
+  "fullName": "cucumber.api.testng.AbstractTestNGCucumberTests.feature",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Runner.RunCuke"
+    },
+    {
+      "name": "testClass",
+      "value": "Runner.RunCuke"
+    },
+    {
+      "name": "testMethod",
+      "value": "feature"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All Test Suite"
+    },
+    {
+      "name": "suite",
+      "value": "E:/LearningMe/CT_STG_FE_V2_Flow"
+    },
+    {
+      "name": "subSuite",
+      "value": "Runner.RunCuke"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QEOREBU"
+    },
+    {
+      "name": "thread",
+      "value": "13456@DESKTOP-QEOREBU.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

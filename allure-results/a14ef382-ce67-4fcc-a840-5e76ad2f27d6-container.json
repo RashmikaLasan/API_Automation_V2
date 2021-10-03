@@ -1,0 +1,47 @@
+{
+  "uuid": "a14ef382-ce67-4fcc-a840-5e76ad2f27d6",
+  "name": "Runner.RunCuke",
+  "children": [
+    "a9c50d99-8728-431b-8b5f-a74f76c1bda9"
+  ],
+  "befores": [
+    {
+      "name": "setUpClass",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633191338624,
+      "stop": 1633191339649
+    },
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633191339650,
+      "stop": 1633191339899
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDownClass",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633191827056,
+      "stop": 1633191827108
+    }
+  ],
+  "links": [],
+  "start": 1633191338599,
+  "stop": 1633191827121
+}

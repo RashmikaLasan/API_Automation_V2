@@ -1,4 +1,4 @@
-Feature: Verify the V2 Hotel Flow
+Feature: Verify the V2 Hotel Booking Flow
 
   @htlpromo
   Scenario Outline: Verifying V2 HTL Flow without the PromoCode

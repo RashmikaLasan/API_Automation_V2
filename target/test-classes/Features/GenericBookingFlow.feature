@@ -1,4 +1,4 @@
-Feature: Verify the V2 Generic Flow
+Feature: Verify the V2 Generic Booking Flow
 
   @gennopromo
   Scenario Outline: Verifying V2 HTL Flow without the PromoCode
@@ -102,7 +102,7 @@ Feature: Verify the V2 Generic Flow
     #Booking Retrieve
     Given I want to create the Generic Get Request as userId as "877" UserName as "codegen" ClientID as "-1" Expand as "all"
     When I click send Request for Generic Retrieve Request
-    Then I should get a successful response as status code 201 for Generic Retrieve Request
+    Then I should get a successful response as status code 200 for Generic Retrieve Request
 
     Examples:
       | FutureDateCount | ProductCode | City | Currency | Brand | cardType | batchReceiptInfo                      | Division |

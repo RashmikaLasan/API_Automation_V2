@@ -1,4 +1,4 @@
-Feature: Verify the Hotel Pricing Details
+Feature: Verify the Hotel Pricing Calendar Details
 
   @Htl @all @htlcal @calc
   Scenario Outline: Verifying price for Hotel Calendar Request
@@ -31,3 +31,15 @@ Feature: Verify the Hotel Pricing Details
     Examples:
       | StartDateCount | EndDateCount |
       | 5              | 100          |
+
+    #------------------------------------------------End------------------------------------------------------------
+
+  @Htl @all @viatorcalexcel
+  Scenario Outline: Verifying price for Gen Cancellation Policy Request by feeding the data from Excel Sheet
+    When I click create user productCode as "<productCode>"
+#    Then I should get a successful response with status code 200 for Viator Response
+
+
+    Examples:
+      | productCode | EndDateCount |
+      | 5           | 100          |
