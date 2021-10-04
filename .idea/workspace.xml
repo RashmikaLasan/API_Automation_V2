@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Viator CNX">
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCalculateCNXChargeActions9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCalculateCnxChargeSteps9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericAddPaymentActions7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericAddPaymentActions7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCapturePaymentAction6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCapturePaymentAction6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericConfirmCartActions8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericConfirmCartActions8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericRetrieveActions8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericRetrieveActions8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Viator CNX Request1">
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCalculateCNXChargeActions9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCalculateCNXChargeActions9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -504,21 +495,7 @@
       <workItem from="1633141650685" duration="21633000" />
       <workItem from="1633205659969" duration="1450000" />
       <workItem from="1633234153232" duration="3841000" />
-      <workItem from="1633369147446" duration="2313000" />
-    </task>
-    <task id="LOCAL-00009" summary="Update Passenger Request Body">
-      <created>1627150742033</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1627150742033</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Update Passenger Request Steps Changed">
-      <created>1627159769814</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1627159769814</updated>
+      <workItem from="1633369147446" duration="2747000" />
     </task>
     <task id="LOCAL-00011" summary="Update Passenger Assertion Completed">
       <created>1627208991585</created>
@@ -849,7 +826,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633238224621</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Viator CNX Request">
+      <created>1633371521217</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1633371521217</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Viator CNX Request1">
+      <created>1633371666697</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1633371666697</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -945,8 +936,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Capture Payment Fully Done" />
-    <MESSAGE value="Add Payments Steps" />
     <MESSAGE value="Jenkins Setup" />
     <MESSAGE value="HTL Calendar QA" />
     <MESSAGE value="Gen Calendar" />
@@ -970,7 +959,9 @@
     <MESSAGE value="Hotel Calendar" />
     <MESSAGE value="Viator CNX_Policy Job" />
     <MESSAGE value="Viator CNX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX" />
+    <MESSAGE value="Viator CNX Request" />
+    <MESSAGE value="Viator CNX Request1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX Request1" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
