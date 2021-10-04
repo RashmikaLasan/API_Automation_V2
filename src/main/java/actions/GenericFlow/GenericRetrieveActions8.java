@@ -16,17 +16,17 @@ public class GenericRetrieveActions8 {
     public static RequestSpecification retrieveGenRequestSpecification;
     final Logger logger = Log.getLogData(Log.class.getName());
 
-//    Generic Retrieve Request Create
-public void genRetrieveRequestCreate(String userId, String userName, String clientID, String expand) {
+    //    Generic Retrieve Request Create
+    public void genRetrieveRequestCreate(String userId, String userName, String clientID, String expand) {
 
-    retrieveGenRequestSpecification = given().
-            queryParam("userId", userId).
-            queryParam("username", userName).
-            queryParam("cliId", clientID).
-            queryParam("expand", expand).
-            header("bkng-tkn", genBookingReference);
+        retrieveGenRequestSpecification = given().
+                queryParam("userId", userId).
+                queryParam("username", userName).
+                queryParam("cliId", clientID).
+                queryParam("expand", expand).
+                header("bkng-tkn", genBookingReference);
 
-}
+    }
 
     //Send Generic Retrieve Request
     public void sendGenRetrieveResponse() {

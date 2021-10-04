@@ -4,10 +4,8 @@ import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import utilities.Log;
-
 import static actions.GenericFlow.GenericCreateCartAction2.genCartId;
 import static actions.GenericFlow.GenericSearchAction1.genericKeyControls;
-import static actions.HotelFlow.ConfirmCartActions7.confirmCartResponse;
 import static constants.EndPoints.*;
 import static constants.EndPoints.ConfirmPara;
 import static io.restassured.RestAssured.given;

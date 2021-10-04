@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Garbage">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Viator CNX">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCalculateCNXChargeActions9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCalculateCnxChargeSteps9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericAddPaymentActions7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericAddPaymentActions7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCapturePaymentAction6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCapturePaymentAction6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericConfirmCartActions8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericConfirmCartActions8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericRetrieveActions8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericRetrieveActions8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericRetrieveActions8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericRetrieveActions8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/GenericCalendar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/HotelBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelCalendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/HotelCalendar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/HotelBookingAssertionSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/HotelBookingAssertionSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,13 +350,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -506,14 +503,8 @@
       <workItem from="1633106073407" duration="11452000" />
       <workItem from="1633141650685" duration="21633000" />
       <workItem from="1633205659969" duration="1450000" />
-      <workItem from="1633234153232" duration="1126000" />
-    </task>
-    <task id="LOCAL-00008" summary="Crate CArt Full Flow Done">
-      <created>1627139564620</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1627139564620</updated>
+      <workItem from="1633234153232" duration="3841000" />
+      <workItem from="1633369147446" duration="2313000" />
     </task>
     <task id="LOCAL-00009" summary="Update Passenger Request Body">
       <created>1627150742033</created>
@@ -851,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633116449881</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Viator CNX">
+      <created>1633238224620</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1633238224621</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -947,7 +945,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Generic Passenger Update Fully Done" />
     <MESSAGE value="Capture Payment Fully Done" />
     <MESSAGE value="Add Payments Steps" />
     <MESSAGE value="Jenkins Setup" />
@@ -972,7 +969,8 @@
     <MESSAGE value="Status Code Validation in Gen Retrieve" />
     <MESSAGE value="Hotel Calendar" />
     <MESSAGE value="Viator CNX_Policy Job" />
-    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX_Policy Job" />
+    <MESSAGE value="Viator CNX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -981,7 +979,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/actions/HotelCalendar/HotelCalendarActions.java</url>
-          <line>142</line>
+          <line>138</line>
           <properties class="actions.HotelCalendar.HotelCalendarActions" method="HotelCalendarExcelBody">
             <option name="EMULATED" value="true" />
           </properties>

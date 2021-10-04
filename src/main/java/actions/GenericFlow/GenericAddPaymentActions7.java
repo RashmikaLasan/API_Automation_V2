@@ -5,15 +5,10 @@ import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import utilities.Log;
-
 import static actions.GenericFlow.GenericCreateCartAction2.genCartId;
 import static actions.GenericFlow.GenericCreatePaymentSessionActions5.genericPaymentReference;
 import static actions.GenericFlow.GenericSearchAction1.genericKeyControls;
 import static actions.GenericFlow.GenericSearchAction1.genericTotalPrice;
-import static actions.HotelFlow.CreateCartActions2.cartId;
-import static actions.HotelFlow.CreatePaymentSessionActions4.paymentReference;
-import static actions.HotelFlow.SearchActions1.keyControls;
-import static actions.HotelFlow.SearchActions1.totalPrice;
 import static constants.EndPoints.*;
 import static io.restassured.RestAssured.given;
 

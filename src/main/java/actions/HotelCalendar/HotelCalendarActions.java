@@ -4,8 +4,6 @@ import gherkin.deps.com.google.gson.Gson;
 import gherkin.deps.com.google.gson.JsonArray;
 import gherkin.deps.com.google.gson.JsonElement;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import org.json.JSONArray;
 import utilities.Log;
 import utilities.TimeHandler;
 import gherkin.deps.com.google.gson.JsonObject;
@@ -17,12 +15,10 @@ import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import static constants.EndPoints.BaseEnvironmet;
 import static constants.EndPoints.HTLCalendar;
 import static io.restassured.RestAssured.given;
