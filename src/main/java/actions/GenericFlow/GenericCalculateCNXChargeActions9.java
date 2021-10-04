@@ -2,7 +2,6 @@ package actions.GenericFlow;
 
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-
 import static actions.GenericFlow.GenericConfirmCartActions8.genBookingId;
 import static constants.EndPoints.*;
 import static io.restassured.RestAssured.given;
@@ -19,7 +18,6 @@ public class GenericCalculateCNXChargeActions9 {
                 queryParam("reason", "2").
                 queryParam("cause", "499").
                 queryParam("excludeInsurance", "false");
-
 
     }
 
