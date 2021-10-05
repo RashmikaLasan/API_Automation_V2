@@ -4,56 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Viator CNX Request3">
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Viator CNX Charge">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCancelActions10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCancelSteps10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCalculateCNXChargeActions9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCalculateCNXChargeActions9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCalculateCnxChargeSteps9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCalculateCnxChargeSteps9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/01102021_105408.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/01102021_105650.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/01102021_105724.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/01102021_105844.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/01102021_110119.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/01102021_115001.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_010125.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_010351.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_010910.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_011212.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_011353.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_012549.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_022834.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_022943.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_061230.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_080440.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_080747.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_080927.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_084947.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_085102.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_085258.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_085406.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_094539.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_102126.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_105148.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_120203.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_120249.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_120513.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_123732.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_123805.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/02102021_123841.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/28092021_113235.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/28092021_113819.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericAddPaymentActions7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericAddPaymentActions7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericCapturePaymentAction6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericCapturePaymentAction6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericConfirmCartActions8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericConfirmCartActions8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -542,14 +503,7 @@
       <workItem from="1633205659969" duration="1450000" />
       <workItem from="1633234153232" duration="3841000" />
       <workItem from="1633369147446" duration="3252000" />
-      <workItem from="1633453398179" duration="2028000" />
-    </task>
-    <task id="LOCAL-00012" summary="Create Payment Session Request Body">
-      <created>1627240789382</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1627240789382</updated>
+      <workItem from="1633453398179" duration="7840000" />
     </task>
     <task id="LOCAL-00013" summary="Create Payment Session Asserions">
       <created>1627316223708</created>
@@ -887,7 +841,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633371942950</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Viator CNX Charge">
+      <created>1633456862795</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1633456862796</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -983,7 +944,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="HTL Calendar QA" />
     <MESSAGE value="Gen Calendar" />
     <MESSAGE value="Gen Calendar Changes" />
     <MESSAGE value="Price Iteration" />
@@ -1008,7 +968,8 @@
     <MESSAGE value="Viator CNX Request" />
     <MESSAGE value="Viator CNX Request1" />
     <MESSAGE value="Viator CNX Request3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX Request3" />
+    <MESSAGE value="Viator CNX Charge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX Charge" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

@@ -471,8 +471,34 @@ formatter.step({
   "name": "display the Cancellation charge of the booking",
   "keyword": "And "
 });
+formatter.step({
+  "comments": [
+    {
+      "line": 114,
+      "value": "#Cancel the Booking"
+    }
+  ],
+  "line": 115,
+  "name": "I create the Cancellation Request confirm as \"true\" reason as 2 cause as 499 userID as 8778 bkgSource as \"TC\" tbxOnly as \"false\" cnxEmptyBkg as \"true\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 116,
+  "name": "I send the Generic Cancellation Request",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 117,
+  "name": "I should get a successful response with status code 200 for Booking Cancellation",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 118,
+  "name": "display the message of response of Cancellation Response",
+  "keyword": "And "
+});
 formatter.examples({
-  "line": 113,
+  "line": 120,
   "name": "",
   "description": "",
   "id": "verify-the-v2-generic-booking-flow;verifying-v2-htl-flow-without-the-promocode;",
@@ -488,7 +514,7 @@ formatter.examples({
         "batchReceiptInfo",
         "Division"
       ],
-      "line": 114,
+      "line": 121,
       "id": "verify-the-v2-generic-booking-flow;verifying-v2-htl-flow-without-the-promocode;;1"
     },
     {
@@ -502,14 +528,14 @@ formatter.examples({
         "pm_card_amex_threeDSecureNotSupported",
         "CT_LON"
       ],
-      "line": 115,
+      "line": 122,
       "id": "verify-the-v2-generic-booking-flow;verifying-v2-htl-flow-without-the-promocode;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 115,
+  "line": 122,
   "name": "Verifying V2 HTL Flow without the PromoCode",
   "description": "",
   "id": "verify-the-v2-generic-booking-flow;verifying-v2-htl-flow-without-the-promocode;;2",
@@ -1001,6 +1027,32 @@ formatter.step({
   "name": "display the Cancellation charge of the booking",
   "keyword": "And "
 });
+formatter.step({
+  "comments": [
+    {
+      "line": 114,
+      "value": "#Cancel the Booking"
+    }
+  ],
+  "line": 115,
+  "name": "I create the Cancellation Request confirm as \"true\" reason as 2 cause as 499 userID as 8778 bkgSource as \"TC\" tbxOnly as \"false\" cnxEmptyBkg as \"true\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 116,
+  "name": "I send the Generic Cancellation Request",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 117,
+  "name": "I should get a successful response with status code 200 for Booking Cancellation",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 118,
+  "name": "display the message of response of Cancellation Response",
+  "keyword": "And "
+});
 formatter.match({
   "arguments": [
     {
@@ -1031,14 +1083,14 @@ formatter.match({
   "location": "GenericSearchStep1.iEnterTheCheckInDateAsProductCodeAsCityAsBrandAsCurrencyAsDivisionAsForTwoAdults(int,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 872460800,
+  "duration": 831013700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.iClickSendRequestForGenericSearchRequest()"
 });
 formatter.result({
-  "duration": 19038419800,
+  "duration": 18093073300,
   "status": "passed"
 });
 formatter.match({
@@ -1051,105 +1103,105 @@ formatter.match({
   "location": "GenericSearchStep1.iShouldGetASuccessfulResponseAsStatusCodeForGenericSearch(int)"
 });
 formatter.result({
-  "duration": 41710700,
+  "duration": 43870600,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheGenericKeyControls()"
 });
 formatter.result({
-  "duration": 565434700,
+  "duration": 527682100,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeGenericPayload()"
 });
 formatter.result({
-  "duration": 61364800,
+  "duration": 55864600,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheProductName()"
 });
 formatter.result({
-  "duration": 30492100,
+  "duration": 32603600,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheProductCode()"
 });
 formatter.result({
-  "duration": 34281400,
+  "duration": 25104200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheGenericServiceStartDate()"
 });
 formatter.result({
-  "duration": 24911200,
+  "duration": 24979600,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheDurationOfTour()"
 });
 formatter.result({
-  "duration": 25748700,
+  "duration": 32623700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheGenericServiceEndDate()"
 });
 formatter.result({
-  "duration": 30702500,
+  "duration": 19544200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheGenericChoiceKey()"
 });
 formatter.result({
-  "duration": 36213100,
+  "duration": 20932400,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeThePriceOfTheGenericSearch()"
 });
 formatter.result({
-  "duration": 24991800,
+  "duration": 23144700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheCategoryCode()"
 });
 formatter.result({
-  "duration": 23564100,
+  "duration": 25466700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheCategoryName()"
 });
 formatter.result({
-  "duration": 17919800,
+  "duration": 22048900,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericSearchStep1.storeTheGenericPaxCombination()"
 });
 formatter.result({
-  "duration": 49243800,
+  "duration": 51412700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.iWantToCreateGenericCart()"
 });
 formatter.result({
-  "duration": 8414800,
+  "duration": 8749800,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.iClickSendRequestForGenericCreateCartRequest()"
 });
 formatter.result({
-  "duration": 7978136000,
+  "duration": 8750179500,
   "status": "passed"
 });
 formatter.match({
@@ -1162,154 +1214,154 @@ formatter.match({
   "location": "GenericCreateCartSteps2.iShouldGetASuccessfulResponseAsStatusCodeForGenericCreateCart(int)"
 });
 formatter.result({
-  "duration": 3160800,
+  "duration": 956800,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.storeTheGenericCartID()"
 });
 formatter.result({
-  "duration": 31568600,
+  "duration": 23779500,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.storeTheGenericTravellersKeyOfPassengerOne()"
 });
 formatter.result({
-  "duration": 22775000,
+  "duration": 20451500,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.storeTheGenericTravellersKeyOfPassengerTwo()"
 });
 formatter.result({
-  "duration": 18411000,
+  "duration": 14919800,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.checkTheProductNameIsCorrectInGenericCreateCartResponse()"
 });
 formatter.result({
-  "duration": 94260500,
+  "duration": 70740300,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.checkTheProductCodeIsCorrectInGenericCreateCartResponse()"
 });
 formatter.result({
-  "duration": 18581300,
+  "duration": 19232800,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.checkTheGenericServiceStartDateIsCorrectInGenericCreateCartResponse()"
 });
 formatter.result({
-  "duration": 27103400,
+  "duration": 17885400,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.checkTheGenericServiceEndDateIsCorrectInGenericCreateCartResponse()"
 });
 formatter.result({
-  "duration": 27745400,
+  "duration": 20078200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.checkThePriceOfTheProductIsCorrectInGenericCreateCartResponse()"
 });
 formatter.result({
-  "duration": 24981200,
+  "duration": 21277900,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.checkTheCategoryCodeIsCorrectInCreateCartResponse()"
 });
 formatter.result({
-  "duration": 21759000,
+  "duration": 24865200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.checkTheCategoryNameIsCorrectInCreateCartResponse()"
 });
 formatter.result({
-  "duration": 20049100,
+  "duration": 21570500,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreateCartSteps2.checkThePaxCombinationIsCorrectInGenericCreateCartResponse()"
 });
 formatter.result({
-  "duration": 50492900,
+  "duration": 54418200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenContactDetails()"
 });
 formatter.result({
-  "duration": 23455000,
+  "duration": 10299300,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenAddressDetails()"
 });
 formatter.result({
-  "duration": 589700,
+  "duration": 1250500,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenProfileDetails()"
 });
 formatter.result({
-  "duration": 750500,
+  "duration": 644200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenReferenceDetails()"
 });
 formatter.result({
-  "duration": 692900,
+  "duration": 628100,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenPayloadDetailsOfPassengerOne()"
 });
 formatter.result({
-  "duration": 133400,
+  "duration": 106600,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenPayloadDetailsOfPassengerOne()"
 });
 formatter.result({
-  "duration": 94500,
+  "duration": 88400,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iWantToCreateUpdatePassengerBodyICreateGenPayloadDetailsOfAllThePassengers()"
 });
 formatter.result({
-  "duration": 206600,
+  "duration": 114700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iCombinedTheGenUpdatePassengerDetailsBody()"
 });
 formatter.result({
-  "duration": 1216900,
+  "duration": 1345200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iCreateGenUpdatePassengerBodyToUpdatePassengerDetails()"
 });
 formatter.result({
-  "duration": 672300,
+  "duration": 760700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.iClickSendRequestForGenUpdatePassengerRequest()"
 });
 formatter.result({
-  "duration": 5132262300,
+  "duration": 5544715000,
   "status": "passed"
 });
 formatter.match({
@@ -1322,70 +1374,70 @@ formatter.match({
   "location": "GenericPassengerUpdateSteps4.iShouldGetASuccessfulResponseAsStatusCodeGenUpdatePassenger(int)"
 });
 formatter.result({
-  "duration": 819500,
+  "duration": 2847900,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkTheCartIDIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 24912600,
+  "duration": 24290500,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkTheProductNameIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 26616000,
+  "duration": 15209700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkTheProductCodeIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 17516100,
+  "duration": 17173700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkTheGenericServiceStartDateIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 35792800,
+  "duration": 17187000,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkTheGenericServiceEndDateIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 15834200,
+  "duration": 29933100,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkThePriceOfTheProductIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 27303500,
+  "duration": 16473100,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkTheCategoryCodeIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 19687000,
+  "duration": 17305700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkTheCategoryNameIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 25994600,
+  "duration": 14822300,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericPassengerUpdateSteps4.checkThePaxCombinationIsCorrectInGenericUpdatePassengerResponse()"
 });
 formatter.result({
-  "duration": 128797400,
+  "duration": 43671800,
   "status": "passed"
 });
 formatter.match({
@@ -1406,14 +1458,14 @@ formatter.match({
   "location": "GenericCreatePaymentSessionSteps5.iWantToCreateGenericPaymentSessionWithPaymentCurrencyAsBrandAsBatchReceiptAs(String,String,String)"
 });
 formatter.result({
-  "duration": 17665900,
+  "duration": 15982000,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreatePaymentSessionSteps5.iClickSendRequestForGenericCreatePaymentSessionRequest()"
 });
 formatter.result({
-  "duration": 5400015800,
+  "duration": 5185268000,
   "status": "passed"
 });
 formatter.match({
@@ -1426,28 +1478,28 @@ formatter.match({
   "location": "GenericCreatePaymentSessionSteps5.iShouldGetASuccessfulResponseAsStatusCodeForGenericCreatePaymentSession(int)"
 });
 formatter.result({
-  "duration": 840800,
+  "duration": 3274700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreatePaymentSessionSteps5.storeThePaymentReferenceInGenericCreatePaymentSessionResponse()"
 });
 formatter.result({
-  "duration": 8915900,
+  "duration": 19324900,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreatePaymentSessionSteps5.checkThePaymentAmountIsCorrectInGenericCreatePaymentSessionResponse()"
 });
 formatter.result({
-  "duration": 12634800,
+  "duration": 11891700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCreatePaymentSessionSteps5.checkTheTransactionIdentifierIsEqualToTheCartIDInGenericCreatePaymentSessionResponse()"
 });
 formatter.result({
-  "duration": 10574200,
+  "duration": 9912000,
   "status": "passed"
 });
 formatter.match({
@@ -1460,7 +1512,7 @@ formatter.match({
   "location": "GenericCreatePaymentSessionSteps5.checkThePaymentCurrencyIs(String)"
 });
 formatter.result({
-  "duration": 10388000,
+  "duration": 8866700,
   "status": "passed"
 });
 formatter.match({
@@ -1485,14 +1537,14 @@ formatter.match({
   "location": "GenericCapturePaymentSteps6.iWantToSendTheGenericCapturePaymentRequestWhereCardTypeAsAndCurrencyAsBatchReceiptAsBrandAs(String,String,String,String)"
 });
 formatter.result({
-  "duration": 6597600,
+  "duration": 7927400,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCapturePaymentSteps6.iClickSendRequestForGenericCapturePaymentRequest()"
 });
 formatter.result({
-  "duration": 17238238300,
+  "duration": 17345205700,
   "status": "passed"
 });
 formatter.match({
@@ -1505,14 +1557,14 @@ formatter.match({
   "location": "GenericCapturePaymentSteps6.iShouldGetASuccessfulResponseAsStatusCodeForGenericCapturePaymentRequest(int)"
 });
 formatter.result({
-  "duration": 2460600,
+  "duration": 986300,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericAddPaymentSteps7.iWantToCreateUniqueIDInGenericAddPaymentBody()"
 });
 formatter.result({
-  "duration": 12046700,
+  "duration": 8121900,
   "status": "passed"
 });
 formatter.match({
@@ -1525,7 +1577,7 @@ formatter.match({
   "location": "GenericAddPaymentSteps7.iWantToCreatePaymentDetailsInGenericAddPaymentBodyWhereCardTypeAs(String)"
 });
 formatter.result({
-  "duration": 203600,
+  "duration": 163400,
   "status": "passed"
 });
 formatter.match({
@@ -1538,21 +1590,21 @@ formatter.match({
   "location": "GenericAddPaymentSteps7.iWantToCreatePaymentInfoInGenericAddPaymentBodyWhereCurrencyAs(String)"
 });
 formatter.result({
-  "duration": 453800,
+  "duration": 175800,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericAddPaymentSteps7.iWantToMergeFullBodyOfGenericAddPaymentBody()"
 });
 formatter.result({
-  "duration": 145200,
+  "duration": 95200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericAddPaymentSteps7.iClickSendRequestForGenericAddPaymentRequest()"
 });
 formatter.result({
-  "duration": 5068283500,
+  "duration": 5054912300,
   "status": "passed"
 });
 formatter.match({
@@ -1565,21 +1617,21 @@ formatter.match({
   "location": "GenericAddPaymentSteps7.iShouldGetASuccessfulResponseAsStatusCodeForGenericAddPaymentRequest(int)"
 });
 formatter.result({
-  "duration": 1124600,
+  "duration": 564200,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericConfirmCartSteps8.iWantToGenericConfirmBookingByCreatingTheConfirmCartBody()"
 });
 formatter.result({
-  "duration": 11874000,
+  "duration": 7938900,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericConfirmCartSteps8.iClickSendGenericRequestForConfirmCart()"
 });
 formatter.result({
-  "duration": 17492105100,
+  "duration": 14431916200,
   "status": "passed"
 });
 formatter.match({
@@ -1592,21 +1644,21 @@ formatter.match({
   "location": "GenericConfirmCartSteps8.iShouldGetASuccessfulResponseAsStatusCodeForGenericConfirmCartRequest(int)"
 });
 formatter.result({
-  "duration": 5670400,
+  "duration": 983700,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericConfirmCartSteps8.storeTheGenericBookingIDInConfirmCartResponse()"
 });
 formatter.result({
-  "duration": 59651600,
+  "duration": 16112600,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericConfirmCartSteps8.storeTheGenericBookingReferenceInConfirmCartResponse()"
 });
 formatter.result({
-  "duration": 46077200,
+  "duration": 22791600,
   "status": "passed"
 });
 formatter.match({
@@ -1631,14 +1683,14 @@ formatter.match({
   "location": "GenericRetrieveSteps8.iWantToCreateTheGenericGetRequestAsUserIdAsUserNameAsClientIDAsExpandAs(String,String,String,String)"
 });
 formatter.result({
-  "duration": 37825800,
+  "duration": 6113000,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericRetrieveSteps8.iClickSendRequestForGenericRetrieveRequest()"
 });
 formatter.result({
-  "duration": 10178904700,
+  "duration": 10235055800,
   "status": "passed"
 });
 formatter.match({
@@ -1651,21 +1703,21 @@ formatter.match({
   "location": "GenericRetrieveSteps8.iShouldGetASuccessfulResponseAsStatusCodeForGenericRetrieveRequest(int)"
 });
 formatter.result({
-  "duration": 1039400,
+  "duration": 873000,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCalculateCnxChargeSteps9.iWantToCheckTheCancellationChargeOfTheBooking()"
 });
 formatter.result({
-  "duration": 16016800,
+  "duration": 9675000,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCalculateCnxChargeSteps9.iClickSendGenericRequestForCalculateCancellationCharge()"
 });
 formatter.result({
-  "duration": 12107001100,
+  "duration": 11457269400,
   "status": "passed"
 });
 formatter.match({
@@ -1678,14 +1730,78 @@ formatter.match({
   "location": "GenericCalculateCnxChargeSteps9.iShouldGetASuccessfulResponseWithStatusCodeForCancellationChargeCalculation(int)"
 });
 formatter.result({
-  "duration": 632300,
+  "duration": 2098600,
   "status": "passed"
 });
 formatter.match({
   "location": "GenericCalculateCnxChargeSteps9.displayTheCancellationChargeOfTheBooking()"
 });
 formatter.result({
-  "duration": 13219400,
+  "duration": 21047100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "true",
+      "offset": 46
+    },
+    {
+      "val": "2",
+      "offset": 62
+    },
+    {
+      "val": "499",
+      "offset": 73
+    },
+    {
+      "val": "8778",
+      "offset": 87
+    },
+    {
+      "val": "TC",
+      "offset": 106
+    },
+    {
+      "val": "false",
+      "offset": 122
+    },
+    {
+      "val": "true",
+      "offset": 145
+    }
+  ],
+  "location": "GenericCancelSteps10.iCreateTheCancellationRequestConfirmAsReasonAsCauseAsUserIDAsBkgSourceAsTbxOnlyAsCnxEmptyBkgAs(String,int,int,int,String,String,String)"
+});
+formatter.result({
+  "duration": 19704800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GenericCancelSteps10.iSendTheGenericCancellationRequest()"
+});
+formatter.result({
+  "duration": 19304563100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "200",
+      "offset": 52
+    }
+  ],
+  "location": "GenericCancelSteps10.iShouldGetASuccessfulResponseWithStatusCodeForBookingCancellation(int)"
+});
+formatter.result({
+  "duration": 3167300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GenericCancelSteps10.displayTheMessageOfResponseOfCancellationResponse()"
+});
+formatter.result({
+  "duration": 14804400,
   "status": "passed"
 });
 });

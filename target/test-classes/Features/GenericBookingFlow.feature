@@ -110,6 +110,13 @@ Feature: Verify the V2 Generic Booking Flow
     Then I should get a successful response with status code 200 for Cancellation Charge Calculation
     And display the Cancellation charge of the booking
 
+
+    #Cancel the Booking
+    Then I create the Cancellation Request confirm as "true" reason as 2 cause as 499 userID as 8778 bkgSource as "TC" tbxOnly as "false" cnxEmptyBkg as "true"
+    When I send the Generic Cancellation Request
+    Then I should get a successful response with status code 200 for Booking Cancellation
+    And display the message of response of Cancellation Response
+
     Examples:
       | FutureDateCount | ProductCode | City | Currency | Brand | cardType | batchReceiptInfo                      | Division |
       | 90              | VT108266P12 | DXB  | GBP      | CT_OL | VISA     | pm_card_amex_threeDSecureNotSupported | CT_LON   |
