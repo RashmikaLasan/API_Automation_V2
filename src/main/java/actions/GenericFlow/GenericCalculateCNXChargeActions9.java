@@ -4,7 +4,6 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Logger;
 import utilities.Log;
-
 import static actions.GenericFlow.GenericConfirmCartActions8.genBookingId;
 import static constants.EndPoints.*;
 import static io.restassured.RestAssured.given;
@@ -30,7 +29,7 @@ public class GenericCalculateCNXChargeActions9 {
     public void sendGenCalculateCnxCharge() {
 
         genCalculateCnxChargeResponse = genCnxChargeRequest.when().get(BaseEnvironmet + CancellationPara1 + genBookingId + CancellationPara2);
-        genCalculateCnxChargeResponse.prettyPrint();
+        //genCalculateCnxChargeResponse.prettyPrint();
 
     }
 
@@ -39,6 +38,14 @@ public class GenericCalculateCNXChargeActions9 {
 
         genCalculateCnxChargeResponse.then().statusCode(statusCode);
         logger.info("Status Code 200 and its Success for Generic Calculate CNX charge Response");
+
+    }
+
+    //Generic Gen Calculate CNX charge Value
+    public void genCnxChargeValue() {
+
+        String genCnxValue = genCalculateCnxChargeResponse.jsonPath().getString("data[0].totalCharge");
+        logger.info("Generic  CNX charge value is : " + genCnxValue);
 
     }
 

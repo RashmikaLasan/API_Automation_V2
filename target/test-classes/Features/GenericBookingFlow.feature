@@ -104,6 +104,12 @@ Feature: Verify the V2 Generic Booking Flow
     When I click send Request for Generic Retrieve Request
     Then I should get a successful response as status code 200 for Generic Retrieve Request
 
+     #Calculate the Cancellation Charge
+    When I want to check the Cancellation Charge of the Booking
+    Then I click send Generic request for Calculate Cancellation Charge
+    Then I should get a successful response with status code 200 for Cancellation Charge Calculation
+    And display the Cancellation charge of the booking
+
     Examples:
       | FutureDateCount | ProductCode | City | Currency | Brand | cardType | batchReceiptInfo                      | Division |
       | 90              | VT108266P12 | DXB  | GBP      | CT_OL | VISA     | pm_card_amex_threeDSecureNotSupported | CT_LON   |
