@@ -4,17 +4,68 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Viator CNX Charge">
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCancelActions10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericCancelSteps10.java" afterDir="false" />
+    <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Viator CNX Flow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExecutionLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCalculateCNXChargeActions9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/GenericFlow/GenericCalculateCNXChargeActions9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericBookFlow/GenericAddPaymentSteps7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/positive/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericCalendar/GenericCalendarActions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericAddPaymentActions7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericCapturePaymentAction6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericConfirmCartActions8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericCreateCartAction2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericCreatePaymentSessionActions5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericRetrieveActions8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericSearchAction1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericUpdatePassengerAction4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarAssertionAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/AddPaymentActions6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/CapturePaymentActions5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/ConfirmCartActions7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/CreateCartActions2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/CreatePaymentSessionActions4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/HotelBookingAssertionActions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/RetrieveActions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/SearchActions1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/UpdatePassengerAction3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Tritium/TritiumAssertionAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Tritium/TritiumRequestAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/EndPoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/TimeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericCalendar.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelBookingFlow.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelCalendar.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/TritiumSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericAddPaymentSteps7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericCapturePaymentSteps6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericConfirmCartSteps8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericCreateCartSteps2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericCreatePaymentSessionSteps5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericPassengerUpdateSteps4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericRetrieveSteps8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericSearchStep1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericCalendar/GenericCalendarSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/AddPaymentSteps6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/CapturePaymentSteps5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/ConfirmCartSteps7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/CreateCartSteps2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/CreatePaymentSessionSteps4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/HotelBookingAssertionSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/PassengerUpdate3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/RetrieveSteps8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/SearchSteps1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarAssertionSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Tritium/TritiumSearchAssertionSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Tritium/TritiumSearchSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,13 +401,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -503,14 +556,7 @@
       <workItem from="1633205659969" duration="1450000" />
       <workItem from="1633234153232" duration="3841000" />
       <workItem from="1633369147446" duration="3252000" />
-      <workItem from="1633453398179" duration="7840000" />
-    </task>
-    <task id="LOCAL-00013" summary="Create Payment Session Asserions">
-      <created>1627316223708</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1627316223708</updated>
+      <workItem from="1633453398179" duration="8290000" />
     </task>
     <task id="LOCAL-00014" summary="Add Payment Request">
       <created>1627333298861</created>
@@ -848,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633456862796</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Viator CNX Flow">
+      <created>1633463175570</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1633463175570</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -944,7 +997,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Gen Calendar" />
     <MESSAGE value="Gen Calendar Changes" />
     <MESSAGE value="Price Iteration" />
     <MESSAGE value="Price Iteration Changes" />
@@ -969,7 +1021,8 @@
     <MESSAGE value="Viator CNX Request1" />
     <MESSAGE value="Viator CNX Request3" />
     <MESSAGE value="Viator CNX Charge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX Charge" />
+    <MESSAGE value="Viator CNX Flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Viator CNX Flow" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
