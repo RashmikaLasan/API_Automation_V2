@@ -6,66 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c64aa10d-d892-4110-83f6-cb61f8ee66f6" name="Default" comment="Viator CNX Flow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Features/GenericBookingFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericCalendar/GenericCalendarActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericAddPaymentActions7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericCapturePaymentAction6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericConfirmCartActions8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericCreateCartAction2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericCreatePaymentSessionActions5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericRetrieveActions8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericSearchAction1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/GenericFlow/GenericUpdatePassengerAction4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelCalendar/HotelCalendarAssertionAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/AddPaymentActions6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/CapturePaymentActions5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/ConfirmCartActions7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/CreateCartActions2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/CreatePaymentSessionActions4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/HotelBookingAssertionActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/RetrieveActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/SearchActions1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/HotelFlow/UpdatePassengerAction3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/Tritium/TritiumAssertionAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actions/Tritium/TritiumRequestAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/constants/EndPoints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/TimeHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.html/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/positive/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericBookingFlow.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/GenericCalendar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelBookingFlow.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/HotelCalendar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/TritiumSearch.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner/RunCuke.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericAddPaymentSteps7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericCapturePaymentSteps6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericConfirmCartSteps8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericCreateCartSteps2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericCreatePaymentSessionSteps5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericPassengerUpdateSteps4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericRetrieveSteps8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericBookFlow/GenericSearchStep1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GenericCalendar/GenericCalendarSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/AddPaymentSteps6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/CapturePaymentSteps5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/ConfirmCartSteps7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/CreateCartSteps2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/CreatePaymentSessionSteps4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/HotelBookingAssertionSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/PassengerUpdate3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/RetrieveSteps8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelBookFlow/SearchSteps1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarAssertionSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/HotelCalendar/HotelCalendarSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Tritium/TritiumSearchAssertionSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Tritium/TritiumSearchSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/RunCuke.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,15 +342,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -557,13 +496,9 @@
       <workItem from="1633234153232" duration="3841000" />
       <workItem from="1633369147446" duration="3252000" />
       <workItem from="1633453398179" duration="8290000" />
-    </task>
-    <task id="LOCAL-00014" summary="Add Payment Request">
-      <created>1627333298861</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1627333298861</updated>
+      <workItem from="1633804084167" duration="678000" />
+      <workItem from="1633876725647" duration="589000" />
+      <workItem from="1634061500078" duration="678000" />
     </task>
     <task id="LOCAL-00015" summary="Confirm Cart Request">
       <created>1627405585901</created>
@@ -901,7 +836,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633463175570</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Viator CNX Flow">
+      <created>1633804163706</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1633804163706</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TestHistory">
